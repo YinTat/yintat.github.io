@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CSE 599: Interplay between Convex Optimization and Geometry"
-permalink: /teaching/cse599-winter18
+permalink: /teaching/cse599-winter18/
 author_profile: false
 ---
 
