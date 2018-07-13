@@ -1,3 +1,7 @@
+This readme is meant for Yin Tat to read.
+This website is modified from https://github.com/academicpages/academicpages.github.io.
+Feel free to fork/download/modify this as your own website.
+
 # Install (https://jekyllrb.com/docs/windows/)
 + sudo apt-get update -y && sudo apt-get upgrade -y
 + sudo apt-add-repository ppa:brightbox/ruby-ng
@@ -18,3 +22,4 @@
 # TODO
 + update the background image
 + add explanation to the background image
++ check and update my final
