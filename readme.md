@@ -1,8 +1,8 @@
-This readme is meant for Yin Tat to read.
-
 This website is modified from https://github.com/academicpages/academicpages.github.io.
 
 Feel free to fork/download/modify this as your own website.
+
+The following part is for Yin Tat only.
 
 # Install (https://jekyllrb.com/docs/windows/)
 + sudo apt-get update -y && sudo apt-get upgrade -y
