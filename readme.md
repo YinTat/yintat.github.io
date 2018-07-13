@@ -22,6 +22,7 @@ Feel free to fork/download/modify this as your own website.
 + bundle exec jekyll serve
 
 # TODO
++ move it to yintat.com
 + update the background image
 + add explanation to the background image
-+ check and update my final
++ check and update my info
