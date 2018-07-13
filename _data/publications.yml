@@ -1,0 +1,667 @@
+- id: DBLP:journals/corr/LeeV18
+  authors: Santosh S. Vempala
+  url: https://arxiv.org/abs/1807.03465
+  venue: arXiv
+  type: survey
+  year: 2018
+  title: |
+    The Kannan-Lovász-Simonovits Conjecture
+  bib: |
+    @article{DBLP:journals/corr/LeeV18,
+      author    = {Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {The Kannan-Lov{\'{a}}sz-Simonovits Conjecture},
+      journal   = {CoRR},
+      volume    = {abs/1807.03465},
+      year      = {2018},
+      url       = {http://arxiv.org/abs/1807.03465},
+      archivePrefix = {arXiv},
+      eprint    = {1807.03465}
+    }
+- id: DBLP:conf/stoc/BubeckCLLM18
+  authors: Sebastien Bubeck, Michael B. Cohen, James R. Lee, and Aleksander Madry
+  url: https://arxiv.org/abs/1711.01085
+  venue: STOC 2018
+  year: 2018
+  type: selected
+  highlight: First $o(k)$-competitive algorithm for k server on HST.
+  title: |
+    k-server via multiscale entropic regularization
+  bib: |
+    @inproceedings{DBLP:conf/stoc/BubeckCLLM18,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Michael B. Cohen and
+                   Yin Tat Lee and
+                   James R. Lee and
+                   Aleksander Madry},
+      title     = {k-server via multiscale entropic regularization},
+      booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2018, Los Angeles, CA, USA, June 25-29, 2018},
+      pages     = {3--16},
+      year      = {2018},
+      url       = {http://doi.acm.org/10.1145/3188745.3188798},
+      doi       = {10.1145/3188745.3188798}
+    }
+- id: DBLP:conf/stoc/KwokLLR18
+  authors: Tsz Chiu Kwok, Lap Chi Lau, and Akshay Ramachandran
+  url: https://arxiv.org/abs/1710.02587
+  venue: STOC 2018
+  year: 2018
+  highlight: Resolving the Paulsen problem, a major open problem in frame theory.
+  title: |
+    The Paulsen problem, continuous operator scaling, and smoothed analysis
+  bib: |
+    @inproceedings{DBLP:conf/stoc/KwokLLR18,
+      author    = {Tsz Chiu Kwok and
+                   Lap Chi Lau and
+                   Yin Tat Lee and
+                   Akshay Ramachandran},
+      title     = {The Paulsen problem, continuous operator scaling, and smoothed analysis},
+      booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2018, Los Angeles, CA, USA, June 25-29, 2018},
+      pages     = {182--189},
+      year      = {2018},
+      url       = {http://doi.acm.org/10.1145/3188745.3188794},
+      doi       = {10.1145/3188745.3188794}
+    }
+- id: DBLP:conf/stoc/GargLSS18
+  authors: Ankit Garg, Zhao Song, and Nikhil Srivastava
+  url: https://arxiv.org/abs/1704.03864
+  venue: STOC 2018
+  year: 2018
+  title: |
+    A matrix expander Chernoff bound
+  bib: |
+    @inproceedings{DBLP:conf/stoc/GargLSS18,
+      author    = {Ankit Garg and
+                   Yin Tat Lee and
+                   Zhao Song and
+                   Nikhil Srivastava},
+      title     = {A matrix expander Chernoff bound},
+      booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2018, Los Angeles, CA, USA, June 25-29, 2018},
+      pages     = {1102--1114},
+      year      = {2018},
+      url       = {http://doi.acm.org/10.1145/3188745.3188890},
+      doi       = {10.1145/3188745.3188890}
+    }
+- id: DBLP:conf/stoc/LeeV18
+  authors: Santosh S. Vempala
+  url: https://arxiv.org/abs/1710.06261
+  venue: STOC 2018
+  year: 2018
+  type: selected
+  highlight: First(?) efficient method for sampling in polytopes.
+  title: |
+    Convergence rate of Riemannian Hamiltonian Monte Carlo and faster polytope volume computation
+  bib: |
+    @inproceedings{DBLP:conf/stoc/LeeV18,
+      author    = {Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {Convergence rate of Riemannian Hamiltonian Monte Carlo and faster
+                   polytope volume computation},
+      booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2018, Los Angeles, CA, USA, June 25-29, 2018},
+      pages     = {1115--1121},
+      year      = {2018},
+      url       = {http://doi.acm.org/10.1145/3188745.3188774},
+      doi       = {10.1145/3188745.3188774}
+    }
+- id: DBLP:conf/stoc/LeeV18a
+  authors: Santosh S. Vempala
+  url: https://arxiv.org/abs/1712.01791
+  venue: STOC 2018
+  year: 2018
+  highlight: A tight estimate of the log-Sobolev constant for isotropic logconcave distributions.
+  title: |
+    Stochastic localization + Stieltjes barrier = tight bound for log-Sobolev
+  bib: |
+    @inproceedings{DBLP:conf/stoc/LeeV18a,
+      author    = {Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {Stochastic localization + Stieltjes barrier = tight bound for log-Sobolev},
+      booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2018, Los Angeles, CA, USA, June 25-29, 2018},
+      pages     = {1122--1129},
+      year      = {2018},
+      url       = {http://doi.acm.org/10.1145/3188745.3188866},
+      doi       = {10.1145/3188745.3188866}
+    }
+- id: DBLP:conf/stoc/BubeckCLL18
+  authors: Sebastien Bubeck, Michael B. Cohen, and Yuanzhi Li
+  url: https://arxiv.org/abs/1711.01328
+  venue: STOC 2018
+  year: 2018
+  highlight: First input-sparsity time algorithm for $l_p$ regression for $1 < p < \infty$. 
+  title: |
+    An homotopy method for lp regression provably beyond self-concordance and in input-sparsity time
+  bib: |
+    @inproceedings{DBLP:conf/stoc/BubeckCLL18,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Michael B. Cohen and
+                   Yin Tat Lee and
+                   Yuanzhi Li},
+      title     = {An homotopy method for lp regression provably beyond
+                   self-concordance and in input-sparsity time},
+      booktitle = {Proceedings of the 50th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2018, Los Angeles, CA, USA, June 25-29, 2018},
+      pages     = {1130--1137},
+      year      = {2018},
+      url       = {http://doi.acm.org/10.1145/3188745.3188776},
+      doi       = {10.1145/3188745.3188776}
+    }
+- id: DBLP:conf/focs/LeeV17
+  authors: Santosh S. Vempala
+  url: https://arxiv.org/abs/1612.01507
+  venue: FOCS 2017
+  year: 2017
+  type: selected
+  highlight: Proving that any 1-Lipschitz function on isotropic logconcave distribution concentrated to its median with $n^{1/4}$ error.
+  title: |
+    Eldan's Stochastic Localization and the {KLS} Hyperplane Conjecture: An Improved Lower Bound for Expansion
+  bib: |
+    @inproceedings{DBLP:conf/focs/LeeV17,
+      author    = {Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {Eldan's Stochastic Localization and the {KLS} Hyperplane Conjecture:
+                   An Improved Lower Bound for Expansion},
+      booktitle = {58th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2017, Berkeley, CA, USA, October 15-17, 2017},
+      pages     = {998--1007},
+      year      = {2017},
+      url       = {https://doi.org/10.1109/FOCS.2017.96},
+      doi       = {10.1109/FOCS.2017.96}
+    }
+- id: DBLP:conf/icml/ScamanBBLM17
+  authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
+  url: https://arxiv.org/abs/1702.08704
+  venue: ICML 2017
+  year: 2017
+  title: |
+    Optimal Algorithms for Smooth and Strongly Convex Distributed Optimization in Networks
+  bib: |
+    @inproceedings{DBLP:conf/icml/ScamanBBLM17,
+      author    = {Kevin Scaman and
+                   Francis R. Bach and
+                   S{\'{e}}bastien Bubeck and
+                   Yin Tat Lee and
+                   Laurent Massouli{\'{e}}},
+      title     = {Optimal Algorithms for Smooth and Strongly Convex Distributed Optimization
+                   in Networks},
+      booktitle = {Proceedings of the 34th International Conference on Machine Learning,
+                   {ICML} 2017, Sydney, NSW, Australia, 6-11 August 2017},
+      pages     = {3027--3036},
+      year      = {2017},
+      url       = {http://proceedings.mlr.press/v70/scaman17a.html}
+    }
+- id: DBLP:conf/stoc/BubeckLE17
+  authors: Sebastien Bubeck and Ronen Eldan
+  url: https://arxiv.org/abs/1607.03084
+  venue: STOC 2017
+  year: 2017
+  type: selected
+  highlight: First polynomial-time method with $\mathrm{poly}(n) \sqrt{T}$-regret for bandit convex optimization.
+  title: |
+    Kernel-based methods for bandit convex optimization
+  bib: |
+    @inproceedings{DBLP:conf/stoc/BubeckLE17,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Yin Tat Lee and
+                   Ronen Eldan},
+      title     = {Kernel-based methods for bandit convex optimization},
+      booktitle = {Proceedings of the 49th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2017, Montreal, QC, Canada, June 19-23, 2017},
+      pages     = {72--85},
+      year      = {2017},
+      url       = {http://doi.acm.org/10.1145/3055399.3055403},
+      doi       = {10.1145/3055399.3055403}
+    }
+- id: DBLP:conf/stoc/Lee017
+  authors: He Sun
+  url: https://arxiv.org/abs/1702.08415
+  venue: STOC 2017
+  year: 2017
+  highlight: First nearly-linear-time method for linear-sized spectral sparsification.
+  title: |
+    An SDP-based algorithm for linear-sized spectral sparsification
+  bib: |
+    @inproceedings{DBLP:conf/stoc/Lee017,
+      author    = {Yin Tat Lee and
+                   He Sun},
+      title     = {An SDP-based algorithm for linear-sized spectral sparsification},
+      booktitle = {Proceedings of the 49th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2017, Montreal, QC, Canada, June 19-23, 2017},
+      pages     = {678--687},
+      year      = {2017},
+      url       = {http://doi.acm.org/10.1145/3055399.3055477},
+      doi       = {10.1145/3055399.3055477}
+    }
+- id: DBLP:conf/stoc/LeeV17
+  authors: Santosh S. Vempala
+  url: https://arxiv.org/abs/1606.04696
+  venue: STOC 2017
+  year: 2017
+  highlight: First subquadratic-iterations method for sampling in polytopes.
+  title: |
+    Geodesic walks in polytopes
+  bib: |
+    @inproceedings{DBLP:conf/stoc/LeeV17,
+      author    = {Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {Geodesic walks in polytopes},
+      booktitle = {Proceedings of the 49th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2017, Montreal, QC, Canada, June 19-23, 2017},
+      pages     = {927--940},
+      year      = {2017},
+      url       = {http://doi.acm.org/10.1145/3055399.3055416},
+      doi       = {10.1145/3055399.3055416}
+    }
+- id: DBLP:conf/stoc/ChakrabartyLSW17
+  authors: Deeparnab Chakrabarty, Aaron Sidford, and Sam Chiu-wai Wong
+  url: https://arxiv.org/abs/1610.09800
+  venue: STOC 2017
+  year: 2017
+  title: |
+    Subquadratic submodular function minimization
+  bib: |
+    @inproceedings{DBLP:conf/stoc/ChakrabartyLSW17,
+      author    = {Deeparnab Chakrabarty and
+                   Yin Tat Lee and
+                   Aaron Sidford and
+                   Sam Chiu{-}wai Wong},
+      title     = {Subquadratic submodular function minimization},
+      booktitle = {Proceedings of the 49th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2017, Montreal, QC, Canada, June 19-23, 2017},
+      pages     = {1220--1231},
+      year      = {2017},
+      url       = {http://doi.acm.org/10.1145/3055399.3055419},
+      doi       = {10.1145/3055399.3055419}
+    }
+- id: thesis
+  url: https://yintat.com/pdf/thesis.pdf
+  year: 2016
+  type: survey
+  highlight: PhD thesis. Advised by Professor Jonathan A. Kelner. <br> Sprowls award from MIT and A. W. Tucker Prize.
+  title: |
+    Faster Algorithms for Convex and Combinatorial Optimization
+  bib: |
+    @phdthesis{YinTatThesis,
+      author    = {Yin Tat Lee},
+      title     = {Faster Algorithms for Convex and Combinatorial Optimization},
+      year      = {2016},
+      school    = {Massachusetts Institute of Technology}
+    }
+- id: DBLP:conf/icml/BubeckL16
+  authors: Sebastien Bubeck
+  url: https://arxiv.org/abs/1602.04847
+  venue: ICML 2016
+  year: 2016
+  title: |
+    Black-box Optimization with a Politician
+  bib: |
+    @inproceedings{DBLP:conf/icml/BubeckL16,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Yin Tat Lee},
+      title     = {Black-box Optimization with a Politician},
+      booktitle = {Proceedings of the 33nd International Conference on Machine Learning,
+                   {ICML} 2016, New York City, NY, USA, June 19-24, 2016},
+      pages     = {1624--1631},
+      year      = {2016},
+      url       = {http://jmlr.org/proceedings/data/v48/bubeck16.html}
+    }
+- id: DBLP:conf/soda/Allen-ZhuLO16
+  authors: Zeyuan Allen Zhu and Lorenzo Orecchia
+  url: https://arxiv.org/abs/1507.02259
+  venue: SODA 2016
+  year: 2016
+  title: |
+    Using Optimization to Obtain a Width-Independent, Parallel, Simpler, and Faster Positive SDP Solver
+  bib: |
+    @inproceedings{DBLP:conf/soda/Allen-ZhuLO16,
+      author    = {Zeyuan {Allen Zhu} and
+                   Yin Tat Lee and
+                   Lorenzo Orecchia},
+      title     = {Using Optimization to Obtain a Width-Independent, Parallel, Simpler,
+                   and Faster Positive {SDP} Solver},
+      booktitle = {Proceedings of the Twenty-Seventh Annual {ACM-SIAM} Symposium on Discrete
+                   Algorithms, {SODA} 2016, Arlington, VA, USA, January 10-12, 2016},
+      pages     = {1824--1831},
+      year      = {2016},
+      url       = {https://doi.org/10.1137/1.9781611974331.ch127},
+      doi       = {10.1137/1.9781611974331.ch127}
+    }
+- id: DBLP:conf/soda/KwokLL16
+  authors: Tsz Chiu Kwok and Lap Chi Lau
+  url: https://arxiv.org/abs/1504.00686
+  venue: SODA 2016
+  year: 2016
+  title: |
+    Improved Cheeger's Inequality and Analysis of Local Graph Partitioning using Vertex Expansion and Expansion Profile
+  bib: |
+    @inproceedings{DBLP:conf/soda/KwokLL16,
+      author    = {Tsz Chiu Kwok and
+                   Lap Chi Lau and
+                   Yin Tat Lee},
+      title     = {Improved Cheeger's Inequality and Analysis of Local Graph Partitioning
+                   using Vertex Expansion and Expansion Profile},
+      booktitle = {Proceedings of the Twenty-Seventh Annual {ACM-SIAM} Symposium on Discrete
+                   Algorithms, {SODA} 2016, Arlington, VA, USA, January 10-12, 2016},
+      pages     = {1848--1861},
+      year      = {2016},
+      url       = {https://doi.org/10.1137/1.9781611974331.ch129},
+      doi       = {10.1137/1.9781611974331.ch129}
+    }
+- id: DBLP:conf/stoc/CohenLMPS16
+  authors: Michael B. Cohen, Gary L. Miller, Jakub Pachocki, and Aaron Sidford
+  url: https://arxiv.org/abs/1606.05225
+  venue: STOC 2016
+  year: 2016
+  title: |
+    Geometric median in nearly linear time
+  bib: |
+    @inproceedings{DBLP:conf/stoc/CohenLMPS16,
+      author    = {Michael B. Cohen and
+                   Yin Tat Lee and
+                   Gary L. Miller and
+                   Jakub Pachocki and
+                   Aaron Sidford},
+      title     = {Geometric median in nearly linear time},
+      booktitle = {Proceedings of the 48th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2016, Cambridge, MA, USA, June 18-21, 2016},
+      pages     = {9--21},
+      year      = {2016},
+      url       = {http://doi.acm.org/10.1145/2897518.2897647},
+      doi       = {10.1145/2897518.2897647}
+    }
+- id: DBLP:conf/stoc/KyngLPSS16
+  authors: Rasmus Kyng, Richard Peng, Sushant Sachdeva, and Daniel A. Spielman
+  url: https://arxiv.org/abs/1512.01892
+  venue: STOC 2016
+  year: 2016
+  highlight: A variant Multigrid and Cholesky Decomposition that runs in nearly linear time for any SDD matrices. Greatly <a href="https://arxiv.org/abs/1605.02353">simplified</a>.
+  title: |
+    Sparsified Cholesky and multigrid solvers for connection laplacians
+  bib: |
+    @inproceedings{DBLP:conf/stoc/KyngLPSS16,
+      author    = {Rasmus Kyng and
+                   Yin Tat Lee and
+                   Richard Peng and
+                   Sushant Sachdeva and
+                   Daniel A. Spielman},
+      title     = {Sparsified Cholesky and multigrid solvers for connection laplacians},
+      booktitle = {Proceedings of the 48th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2016, Cambridge, MA, USA, June 18-21, 2016},
+      pages     = {842--850},
+      year      = {2016},
+      url       = {http://doi.acm.org/10.1145/2897518.2897640},
+      doi       = {10.1145/2897518.2897640}
+    }
+- id: DBLP:journals/jscic/LeeLL16
+  authors: Ka Chun Lam and Lok Ming Lui
+  url: https://arxiv.org/abs/1402.6908
+  venue: J. Sci. Comput.
+  year: 2016
+  title: |
+    Landmark-Matching Transformation with Large Deformation Via n-dimensional Quasi-conformal Maps
+  bib: |
+    @article{DBLP:journals/jscic/LeeLL16,
+      author    = {Yin Tat Lee and
+                   Ka Chun Lam and
+                   Lok Ming Lui},
+      title     = {Landmark-Matching Transformation with Large Deformation Via n-dimensional
+                   Quasi-conformal Maps},
+      journal   = {J. Sci. Comput.},
+      volume    = {67},
+      number    = {3},
+      pages     = {926--954},
+      year      = {2016},
+      url       = {https://doi.org/10.1007/s10915-015-0113-5},
+      doi       = {10.1007/s10915-015-0113-5}
+    }
+- id: DBLP:journals/corr/BubeckLS15
+  authors: Sebastien Bubeck and Mohit Singh
+  url: https://arxiv.org/abs/1503.01752
+  venue: arXiv
+  year: 2015
+  highlight: A variant of Ellipsoid method that works really well.
+  title: |
+    A geometric alternative to Nesterov's accelerated gradient descent
+  bib: |
+    @article{DBLP:journals/corr/BubeckLS15,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Yin Tat Lee and
+                   Mohit Singh},
+      title     = {A geometric alternative to Nesterov's accelerated gradient descent},
+      journal   = {CoRR},
+      volume    = {abs/1506.08187},
+      year      = {2015},
+      url       = {http://arxiv.org/abs/1506.08187},
+      archivePrefix = {arXiv},
+      eprint    = {1506.08187}
+    }
+- id: DBLP:conf/focs/LeeS15
+  authors: Aaron Sidford
+  url: https://arxiv.org/abs/1503.01752
+  venue: FOCS 2015
+  year: 2015
+  highlight: Each iteration of interior point method takes $O(\mathrm{nnz}(A)+\mathrm{rank}(A)^2)$.
+  title: |
+    Efficient Inverse Maintenance and Faster Algorithms for Linear Programming
+  bib: |
+    @inproceedings{DBLP:conf/focs/LeeS15,
+      author    = {Yin Tat Lee and
+                   Aaron Sidford},
+      title     = {Efficient Inverse Maintenance and Faster Algorithms for Linear Programming},
+      booktitle = {{IEEE} 56th Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2015, Berkeley, CA, USA, 17-20 October, 2015},
+      pages     = {230--249},
+      year      = {2015},
+      url       = {https://doi.org/10.1109/FOCS.2015.23},
+      doi       = {10.1109/FOCS.2015.23}
+    }
+- id: DBLP:conf/focs/LeeS15a
+  authors: He Sun
+  url: https://arxiv.org/abs/1508.03261
+  venue: FOCS 2015
+  year: 2015
+  highlight: Improved to <a href="#DBLPconfstocLee017">nearly-linear-time</a>.
+  title: |
+    Constructing Linear-Sized Spectral Sparsification in Almost-Linear Time
+  bib: |
+    @inproceedings{DBLP:conf/focs/LeeS15a,
+      author    = {Yin Tat Lee and
+                   He Sun},
+      title     = {Constructing Linear-Sized Spectral Sparsification in Almost-Linear
+                   Time},
+      booktitle = {{IEEE} 56th Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2015, Berkeley, CA, USA, 17-20 October, 2015},
+      pages     = {250--269},
+      year      = {2015},
+      url       = {https://doi.org/10.1109/FOCS.2015.24},
+      doi       = {10.1109/FOCS.2015.24}
+    }
+- id: DBLP:conf/focs/LeeSW15
+  authors: Aaron Sidford and Sam Chiu-wai Wong
+  url: https://arxiv.org/abs/1508.04874
+  venue: FOCS 2015
+  year: 2015
+  type: best
+  order: 3
+  highlight: First nearly-cubic-time method for convex problems with first-order information. <br> Best student paper in FOCS 2015.
+  title: |
+    A Faster Cutting Plane Method and its Implications for Combinatorial and Convex Optimization
+  bib: |
+    @inproceedings{DBLP:conf/focs/LeeSW15,
+      author    = {Yin Tat Lee and
+                   Aaron Sidford and
+                   Sam Chiu{-}wai Wong},
+      title     = {A Faster Cutting Plane Method and its Implications for Combinatorial
+                   and Convex Optimization},
+      booktitle = {{IEEE} 56th Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2015, Berkeley, CA, USA, 17-20 October, 2015},
+      pages     = {1049--1065},
+      year      = {2015},
+      url       = {https://doi.org/10.1109/FOCS.2015.68},
+      doi       = {10.1109/FOCS.2015.68}
+    }
+- id: DBLP:conf/innovations/CohenLMMPS15
+  authors: Michael B. Cohen, Cameron Musco, Christopher Musco, Richard Peng, and Aaron Sidford
+  url: https://arxiv.org/abs/1408.5099
+  venue: ITCS 2015
+  year: 2015
+  highlight: Solving a system of a tall matrix is as easy as a square matrix.
+  title: |
+    Uniform Sampling for Matrix Approximation
+  bib: |
+    @inproceedings{DBLP:conf/innovations/CohenLMMPS15,
+      author    = {Michael B. Cohen and
+                   Yin Tat Lee and
+                   Cameron Musco and
+                   Christopher Musco and
+                   Richard Peng and
+                   Aaron Sidford},
+      title     = {Uniform Sampling for Matrix Approximation},
+      booktitle = {Proceedings of the 2015 Conference on Innovations in Theoretical Computer
+                   Science, {ITCS} 2015, Rehovot, Israel, January 11-13, 2015},
+      pages     = {181--190},
+      year      = {2015},
+      url       = {http://doi.acm.org/10.1145/2688073.2688113},
+      doi       = {10.1145/2688073.2688113}
+    }
+- id: DBLP:conf/focs/LeeS14
+  authors: Aaron Sidford
+  url: https://arxiv.org/pdf/1312.6713.pdf
+  venue: FOCS 2014
+  year: 2014
+  highlight: First theoretic improvement on the running time of linear programming since 1986. <br> Best paper and best student paper in FOCS 2014. <br> Selected as a notable article in computing in 2014 by Computing Reviews.
+  type: best
+  order: 1
+  title: |
+    Path Finding Methods for Linear Programming: Solving Linear Programs in $\tilde{O}(\sqrt{\mathrm{rank}})$ Iterations and Faster Algorithms for Maximum Flow
+  bib: |
+    @inproceedings{DBLP:conf/focs/LeeS14,
+      author    = {Yin Tat Lee and
+                   Aaron Sidford},
+      title     = {Path Finding Methods for Linear Programming: Solving Linear Programs
+                   in {\~{O}}(sqrt(rank)) Iterations and Faster Algorithms for Maximum Flow},
+      booktitle = {55th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2014, Philadelphia, PA, USA, October 18-21, 2014},
+      pages     = {424--433},
+      year      = {2014},
+      url       = {https://doi.org/10.1109/FOCS.2014.52},
+      doi       = {10.1109/FOCS.2014.52}
+    }
+- id: DBLP:conf/focs/KapralovLMMS14
+  authors: Michael Kapralov, Cameron Musco, Christopher Musco, and Aaron Sidford
+  url: https://arxiv.org/abs/1407.1289
+  venue: FOCS 2014, SIAM J. Comput.
+  year: 2014
+  title: |
+    Single Pass Spectral Sparsification in Dynamic Streams
+  bib: |
+    @inproceedings{DBLP:conf/focs/KapralovLMMS14,
+      author    = {Michael Kapralov and
+                   Yin Tat Lee and
+                   Cameron Musco and
+                   Christopher Musco and
+                   Aaron Sidford},
+      title     = {Single Pass Spectral Sparsification in Dynamic Streams},
+      booktitle = {55th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2014, Philadelphia, PA, USA, October 18-21, 2014},
+      pages     = {561--570},
+      year      = {2014},
+      url       = {https://doi.org/10.1109/FOCS.2014.66},
+      doi       = {10.1109/FOCS.2014.66}
+    }
+- id: DBLP:conf/soda/KelnerLOS14
+  authors: Jonathan A. Kelner, Lorenzo Orecchia, and Aaron Sidford
+  url: https://arxiv.org/abs/1304.2338
+  venue: SODA 2014
+  year: 2014
+  type: best
+  order: 2
+  highlight: First almost-linear-time method for undirected maxflow. <br> Best paper in SODA 2014.
+  title: |
+    An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and its Multicommodity Generalizations
+  bib: |
+    @inproceedings{DBLP:conf/soda/KelnerLOS14,
+      author    = {Jonathan A. Kelner and
+                   Yin Tat Lee and
+                   Lorenzo Orecchia and
+                   Aaron Sidford},
+      title     = {An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected
+                   Graphs, and its Multicommodity Generalizations},
+      booktitle = {Proceedings of the Twenty-Fifth Annual {ACM-SIAM} Symposium on Discrete
+                   Algorithms, {SODA} 2014, Portland, Oregon, USA, January 5-7, 2014},
+      pages     = {217--226},
+      year      = {2014},
+      url       = {https://doi.org/10.1137/1.9781611973402.16},
+      doi       = {10.1137/1.9781611973402.16}
+    }
+- id: DBLP:conf/focs/LeeS13
+  authors: Aaron Sidford
+  url: https://arxiv.org/abs/1305.1922
+  venue: FOCS 2013
+  year: 2013
+  highlight: First efficient version of accelerated coordinate descent methods. Generalized to many <a href="https://arxiv.org/abs/1312.5799">settings</a>.
+  title: |
+    Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems
+  bib: |
+    @inproceedings{DBLP:conf/focs/LeeS13,
+      author    = {Yin Tat Lee and
+                   Aaron Sidford},
+      title     = {Efficient Accelerated Coordinate Descent Methods and Faster Algorithms
+                   for Solving Linear Systems},
+      booktitle = {54th Annual {IEEE} Symposium on Foundations of Computer Science, {FOCS}
+                   2013, 26-29 October, 2013, Berkeley, CA, {USA}},
+      pages     = {147--156},
+      year      = {2013},
+      url       = {https://doi.org/10.1109/FOCS.2013.24},
+      doi       = {10.1109/FOCS.2013.24}
+    }
+- id: DBLP:conf/stoc/KwokLLGT13
+  authors: Tsz Chiu Kwok, Lap Chi Lau, Shayan Oveis Gharan, and Luca Trevisan
+  url: https://arxiv.org/abs/1301.5584
+  venue: STOC 2013, SIAM J. Comput.
+  year: 2013
+  type: selected
+  highlight: Proving that Cheeger’s inequality is tight for graphs with spectral gaps.
+  title: |
+    Improved Cheeger's inequality: analysis of spectral partitioning algorithms
+  bib: |
+    @inproceedings{DBLP:conf/stoc/KwokLLGT13,
+      author    = {Tsz Chiu Kwok and
+                   Lap Chi Lau and
+                   Yin Tat Lee and
+                   Shayan Oveis Gharan and
+                   Luca Trevisan},
+      title     = {Improved Cheeger's inequality: analysis of spectral partitioning algorithms
+                   through higher order spectral gap},
+      booktitle = {Symposium on Theory of Computing Conference, STOC'13, Palo Alto, CA,
+                   USA, June 1-4, 2013},
+      pages     = {11--20},
+      year      = {2013},
+      url       = {http://doi.acm.org/10.1145/2488608.2488611},
+      doi       = {10.1145/2488608.2488611}
+    }
+- id: DBLP:conf/stoc/LeeRS13
+  authors: Satish Rao, Nikhil Srivastava
+  url: http://yintat.com/pdf/LeeRS13.pdf
+  venue: STOC 2013
+  year: 2013
+  highlight: Improved to <a href="#DBLPconfsodaKelnerLOS14">nearly-linear-time</a>.
+  title: |
+    A new approach to computing maximum flows using electrical flows
+  bib: |
+    @inproceedings{DBLP:conf/stoc/LeeRS13,
+      author    = {Yin Tat Lee and
+                   Satish Rao and
+                   Nikhil Srivastava},
+      title     = {A new approach to computing maximum flows using electrical flows},
+      booktitle = {Symposium on Theory of Computing Conference, STOC'13, Palo Alto, CA,
+                   USA, June 1-4, 2013},
+      pages     = {755--764},
+      year      = {2013},
+      url       = {http://doi.acm.org/10.1145/2488608.2488704},
+      doi       = {10.1145/2488608.2488704}
+    }

@@ -1,0 +1,19 @@
+---
+layout: single
+title: "Teaching"
+permalink: /teaching.html
+author_profile: true
+---
+
+{% include base_path %}
+<h1>Teaching</h1>
+
+{% for data_col in site.data.teaching %}
+{% for entry in data_col.data %}
+{% if entry.unique %}
+<h3><a href="{{ entry.url }}">{{ entry.name }}</a></h3>
+<h4>{{entry.time}} </h4>
+{{ entry.description }}
+{% endif %}
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,137 @@
+---
+title: "CV Latex Version"
+permalink: /cv_latex.html
+author_profile: false
+layout: 
+---
+% <pre>
+\documentclass[11pt,fullpage]{article}
+\usepackage{hyperref,geometry,listliketab,longtable,natbib,bibentry,sectsty}
+\geometry{body={6.5in, 9.5in}, left=1.0in, top=1.0in, bottom=1.0in}
+\nobibliography*
+\bibliographystyle{apalike}
+\pagestyle{myheadings}
+\markright{Yin Tat Lee}
+\thispagestyle{empty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+\setlength\parindent{0em}
+
+\begin{filecontents}{lee.bib}
+{% for entry in site.data.publications %}
+{{ entry.bib }}
+{% endfor %}
+\end{filecontents}
+
+\begin{document}
+\centerline{\Large \bf Yin Tat Lee}
+\vspace{0.25in}
+
+\begin{minipage}{0.72\linewidth}
+  \begin{tabular}{ll}
+    Address: & Paul G. Allen School of Computer Science \& Engineering \\
+& University of Washington, 185 Stevens Way, CS 101 \\
+& Seattle, WA. 98195
+  \end{tabular}
+\end{minipage}
+\begin{minipage}{0.28\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (646) 388-2737 \\
+    Email: & \href{mailto:yintat@uw.com}{yintat@uw.com} \\
+    Web: & \href{http://www.yintat.com/}{www.yintat.com} \\
+  \end{tabular}
+\end{minipage}
+
+\section*{Appointments}
+\begin{tabular}{ll}
+{% for data_col in site.data.appointments %}
+{% for entry in data_col.data %}
+	{% if forloop.first %}{{ data_col.year }}{% endif %} & {{ entry.name | replace: "&", "\\&"}} \\
+{% endfor %}
+{% endfor %}
+\end{tabular}
+
+
+\section*{Education}
+\begin{tabular}{ll}
+{% for data_col in site.data.educations %}
+{% for entry in data_col.data %}
+	{% if forloop.first %}{{ data_col.year }}{% endif %} & {{ entry.name | replace: "&", "\\&"}} \\
+{% endfor %}
+{% endfor %}
+\end{tabular}
+
+\setlength{\extrarowheight}{5pt}
+\setlength{\LTpre}{0pt}
+
+\section*{Awards}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+{% for data_col in site.data.awards %}
+{% for entry in data_col.data %}
+	{% if forloop.first %}{{ data_col.year }}{% endif %} & {{ entry.name | replace: "&", "\\&"}} \\
+{% endfor %}
+{% endfor %}
+\end{longtable}
+
+\section*{Selected Publications}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+{% assign last_year = 0 %}
+{% for entry in site.data.publications %}
+	{% if entry.type == 'selected' or entry.type == 'best' %}{% else %}{% continue %}{% endif %}
+	{% if entry.year != last_year %}
+		{{ entry.year }}
+		{% assign last_year = entry.year %}
+	{% endif %} & \bibentry{{ entry.id | prepend:'{' }}} \\
+{% endfor %}
+\end{longtable}
+
+
+\section*{Other Publications}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+{% assign last_year = 0 %}
+{% for entry in site.data.publications %}
+	{% if entry.type == 'selected' or entry.type == 'best' %}{% continue %}{% endif %}
+	{% if entry.year != last_year %}
+		{{ entry.year }}
+		{% assign last_year = entry.year %}
+	{% endif %} & \bibentry{{ entry.id | prepend:'{' }}} \\
+{% endfor %}
+\end{longtable}
+
+
+\section*{Service}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+{% for data_col in site.data.service %}
+{% for entry in data_col.data %}
+	{% if forloop.first %}{{ data_col.year }}{% endif %} & {{ entry.name | replace: "&", "\\&"}} \\
+{% endfor %}
+{% endfor %}
+\end{longtable}
+
+
+\section*{Teaching}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+{% for data_col in site.data.teaching %}
+{% for entry in data_col.data %}
+	{% if forloop.first %}{{ data_col.year }}{% endif %} & {{ entry.name | replace: "&", "\\&"}} \\
+{% endfor %}
+{% endfor %}
+\end{longtable}
+
+
+
+\section*{Invited Talks}
+\begin{itemize}
+{% for data_col in site.data.talks %}
+\item {{ data_col.title }}
+\begin{itemize}
+{% for entry in data_col.data %}
+\item {{ entry.name }}
+{% endfor %}
+\end{itemize}
+{% endfor %}
+\end{itemize}
+
+\nobibliography{lee}
+\end{document}
+% </pre>

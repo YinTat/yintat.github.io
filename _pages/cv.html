@@ -1,0 +1,123 @@
+---
+layout: single
+title: "CV"
+permalink: /cv.html
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+.years_table {
+	border: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.years_table td {
+	border-bottom: 0px;
+	border-right: 0px;
+}
+
+.years_table tr td:first-child 
+{
+    vertical-align: top;
+	white-space: nowrap;
+	padding-right: 2%;
+}
+
+.years_table td:nth-child(2)
+{
+	border-left: 1px solid #bbb;
+    padding-left: 2%;
+}
+</style>
+
+<div class="hidden-print">
+<h1>CV</h1>
+See latex version <a href="cv_latex.html">here</a>.
+</div>
+
+<table class="years_table">
+<tr><td colspan=2><h2>Appointments</h2></td></tr>
+{% for data_col in site.data.appointments %}
+{% for entry in data_col.data %}
+<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
+{% endfor %}
+{% endfor %}
+
+<tr><td colspan=2><h2>Educations</h2></td></tr>
+{% for data_col in site.data.educations %}
+{% for entry in data_col.data %}
+<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
+{% endfor %}
+{% endfor %}
+
+<tr><td colspan=2><h2>Awards</h2></td></tr>
+{% for data_col in site.data.awards %}
+{% for entry in data_col.data %}
+<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
+{% endfor %}
+{% endfor %}
+
+<tr><td colspan=2><h2>Selected Publications</h2></td></tr>
+{% assign last_year = 0 %}
+{% for entry in site.data.publications %}
+	{% if entry.type == 'selected' or entry.type == 'best' %}{% else %}{% continue %}{% endif %}
+	<tr><td>
+	{% if entry.year != last_year %}
+		{{ entry.year }}
+		{% assign last_year = entry.year %}
+	{% endif %}
+	</td><td><a href="{{ entry.url }}">{{ entry.title }} ({{ entry.venue }})</a></td></tr>
+{% endfor %}
+
+<tr><td colspan=2><h2>Other Publications</h2></td></tr>
+{% assign last_year = 0 %}
+{% for entry in site.data.publications %}
+	{% if entry.type == 'selected' or entry.type == 'best' %}{% continue %}{% endif %}
+	<tr><td>
+	{% if entry.year != last_year %}
+		{{ entry.year }}
+		{% assign last_year = entry.year %}
+	{% endif %}
+	</td><td><a href="{{ entry.url }}">{{ entry.title }} ({{ entry.venue }})</a></td></tr>
+{% endfor %}
+
+
+<tr><td colspan=2><h2>Service</h2></td></tr>
+{% for data_col in site.data.service %}
+{% for entry in data_col.data %}
+<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
+{% endfor %}
+{% endfor %}
+
+<tr><td colspan=2><h2>Teaching</h2></td></tr>
+{% for data_col in site.data.teaching %}
+{% for entry in data_col.data %}
+<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
+{% endfor %}
+{% endfor %}
+
+<tr><td colspan=2><h2>Invited Talks</h2></td></tr>
+<tr><td colspan=2>
+<ul>
+{% for data_col in site.data.talks %}
+<li>{{ data_col.title }}
+<ul>
+{% for entry in data_col.data %}
+<li>{{ entry.name }}</li>
+{% endfor %}
+</ul>
+</li>
+{% endfor %}
+</ul>
+</td></tr>
+
+</table>
