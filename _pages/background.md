@@ -4,7 +4,7 @@ permalink: /background.html
 title: "Equations on the background"
 author_profile: false
 header:
-  image: /images/background.png
+  image: background.png
 ---
 
 {% include base_path %}
