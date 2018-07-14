@@ -1,10 +1,13 @@
 ---
+layout: single
 permalink: /background.html
 title: "Equations on the background"
 author_profile: false
 header:
   image: /images/background.png
 ---
+
+{% include base_path %}
 
 The background of this website consists of some equations. These equations excerpt from some of my favourite papers.
 
