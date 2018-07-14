@@ -9,7 +9,7 @@ header:
 
 {% include base_path %}
 
-The background of this website consists of some equations. These equations excerpt from some of my favourite papers.
+The background of this website consists of some equations, excerpt from some of my favourite papers.
 
 ### $\phi(G) = O(k) \frac{\lambda_2}{\sqrt{\lambda_k}}$
 This is the first theory paper. Cheeger inequality is a fundamental result in spectral graph theory. This inequality is not tight in many graphs appear in practice. In the [paper](https://arxiv.org/abs/1301.5584), we refined inequality, which can be used to provide theoretical justifications of spectral partitioning algorithm.
@@ -34,4 +34,4 @@ A few years ago, I was told that one may win a Fields medal by solving Kannan-Lo
 See the paper [here](https://arxiv.org/abs/1712.01791).
 
 ### $\sum_{u\in T}w_{u}\sum_{i\geq1}(x_{u,i}+\delta)\log(x_{u,i}+\delta)$
-To be honest, I still do not understand [this equation](https://arxiv.org/abs/1711.01085). I hope someone can explain this to me on a general graph. Maybe this is simply a wrong direction.
+To be honest, I still don't understand [this equation](https://arxiv.org/abs/1711.01085). I hope someone can explain this to me on a general graph. Maybe this is simply a wrong direction.
