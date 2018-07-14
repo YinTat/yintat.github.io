@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 \usepackage{pagecolor,lipsum}% http://ctan.org/pkg/{pagecolor,lipsum}
@@ -12,16 +14,18 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -51,6 +55,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -59,7 +64,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -73,132 +81,8 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-
-\backslash
-definecolor{hahacolor}{RGB}{217,217,206}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pagecolor{hahacolor}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula 
-\[
-df(t,\mathbf{X}_{t})=\left\{ \frac{\partial f}{\partial t}+\left(\nabla_{\mathbf{X}}f\right)^{T}\mathbf{\mathbf{\mu}}_{t}+\frac{1}{2}\mathrm{Tr}\left[\mathbf{G}_{t}^{T}\left(H_{\mathbf{X}}f\right)\mathbf{G}_{t}\right]\right\} dt+\left(\nabla_{\mathbf{X}}f\right)^{T}\mathbf{G}_{t}d\mathbf{B}_{t}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula $\ $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula 
-\[
-\left[\begin{array}{cc}
-\mathbf{I} & -\mathbf{Z}_{FF}^{(k)}\mathbf{M}_{FC}\\
-\mathbf{0} & \mathbf{I}
-\end{array}\right]\left[\begin{array}{cc}
-\mathbf{Z}_{FF}^{(k)} & \mathbf{0}\\
-\mathbf{0} & \mathrm{Sc}(\mathbf{M},F)^{-1}
-\end{array}\right]\left[\begin{array}{cc}
-\mathbf{I} & \mathbf{0}\\
--\mathbf{M}_{CF}\mathbf{Z}_{FF}^{(k)} & \mathbf{0}
-\end{array}\right]\approx_{\gamma}\mathbf{M}^{-1}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula $\ $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula $\ $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula 
-\[
-R(X,Y)Z=\nabla_{X}\nabla_{Y}Z-\nabla_{Y}\nabla_{X}Z-\nabla_{[X,Y]}Z
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula $\ $
-\end_inset
-
-
-\begin_inset Formula 
-\[
-P^{\perp}\nabla\ell_{\mu}(y)=\left(\Pi-\frac{y_{st}y_{st}^{T}}{\left\Vert y_{st}\right\Vert _{2}^{2}}\right)\nabla\ell_{\mu}(y)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
-\begin_inset Formula $\ $
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\color white
+\color black
 \begin_inset Formula 
 \[
 \phi(G)=O(k)\frac{\lambda_{2}}{\sqrt{\lambda_{k}}}
@@ -211,14 +95,141 @@ P^{\perp}\nabla\ell_{\mu}(y)=\left(\Pi-\frac{y_{st}y_{st}^{T}}{\left\Vert y_{st}
 
 \begin_layout Standard
 
-\color white
+\color black
 \begin_inset Formula $\ $
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\color black
 \begin_inset Formula 
 \[
-\max_{w_{i}\geq0}\log\det\left(\mathbf{A}^{T}\mathbf{W}\mathbf{A}\right)-\frac{n}{m}\sum_{i=1}^{m}w_{i}\log w_{i}
+\min_{c\in\mathbb{R}^{E}}\|\mathbf{U}^{-1}(f-\mathbf{P}c)\|_{\infty}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula $\ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\max_{w_{i}\geq0}\ln\det(A_{x}^{\top}W^{1-\frac{2}{q}}A_{x})-(1-\frac{2}{q})\sum_{i=1}^{m}w_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula $\ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula 
+\[
+\mathbf{M}\approx_{\gamma}\left[\begin{array}{cc}
+\mathbf{I} & \mathbf{0}\\
+\mathbf{Z}_{FF}^{(k)}\mathbf{M}_{FC} & \mathbf{I}
+\end{array}\right]\left[\begin{array}{cc}
+\mathbf{M}_{FF} & \mathbf{0}\\
+\mathbf{0} & \widetilde{\mathrm{Sc}}(\mathbf{M},F)
+\end{array}\right]\left[\begin{array}{cc}
+\mathbf{I} & \mathbf{M}_{CF}\mathbf{Z}_{FF}^{(k)}\\
+0 & \mathbf{I}
+\end{array}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula $\ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula 
+\begin{align*}
+D_{t}\frac{dx}{dt} & =-\frac{1}{2}g(x)^{-1}\mathrm{Tr}\left[g(x)^{-1}Dg(x)\right],\\
+\frac{dx}{dt}(0) & \sim N(0,g(x)^{-1}).
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula $\ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathbb{P}_{x\sim p}(f(x)\geq\mathbb{E}f(x)+t)\leq e^{-O(t^{2})/(t+\sqrt{n})}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula $\ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\begin_inset Formula $\ $
+\end_inset
+
+
+\color inherit
+
+\begin_inset Formula 
+\[
+\sum_{u\in T}w_{u}\sum_{i\geq1}(x_{u,i}+\delta)\log(x_{u,i}+\delta).
 \]
 
 \end_inset
