@@ -1,15 +1,125 @@
-- title: User Friendly Reductions Between Convex Programs  data:  - name: User-Friendly Tools from Continuous Optimization, June 2017  - name: Bellairs Workshop on Data, Learning and Optimization, April 2017
-- title: Eldan's Stochastic Localization and the KLS Hyperplane Conjecture  data:  - name: Theory Seminar in UT Austin, April 2017  - name: Bellairs Workshop on Data, Learning and Optimization, April 2017
-- title: Kernel-based methods for bandit convex optimization  data:  - name: Bellairs Workshop on Data, Learning and Optimization, April 2017
-- title: Geodesic Walks  data:  - name: The 49th Annual ACM Symposium on the Theory of Computing (STOC), June 2017  - name: Computational Challenges in Machine Learning Workshop in Simons Institute for the Theory of Computing, May 2017  - name: Stanford Theory Seminar, Dec 2016  - name: ARC-ML Colloquium in Gatech, Nov 2016  - name: Trends in Optimization Seminar in University of Washington, Oct 2016
-- title: Recent Progress and Open Problems on Theoretical Convex Optimization  data:  - name: West Coast Optimization Meeting, Oct 2016
-- title: First Nearly Linear Time Algorithm for Linear-Sized Sparsification  data:  - name: the 49th Annual ACM Symposium on the Theory of Computing (STOC), June 2017  - name: BIRS Workshop on Algebraic and Spectral Graph Theory, Aug 2016
-- title: Faster Algorithms for Fundamental Convex problems  data:  - name: CSE Colloquium in University of Washington, Apr 2016  - name: Stanford University, Apr 2016  - name: CS Department Colloquium in Princeton University, Apr 2016  - name: Georgia Institute of Technology, Mar 2016  - name: Carnegie Mellon University, Feb 2016
-- title: First Nearly Cubic Time Algorithm for Cutting Plane Method  data:  - name: Theory of Computation Seminar in Harvard University, Dec 2015  - name: Combinatorics and Probability Seminar in Yale University, Nov 2015  - name: Computer Science/Discrete Mathematics Seminar in Institute for Advanced Study, Nov 2015  - name: The 56th Annual Symposium on Foundations of Computer Science (FOCS), Oct 2015  - name: Rigidity Workshop in the Hausdorff Research Institute for Mathematics, Oct 2015  - name: Microsoft Research Theory Group Seminar in MSR Redmond, Jul 2015
-- title: First Almost Linear Time Algorithm for Linear-Sized Sparsification  data:  - name: Algorithmic Spectral Graph Theory Reunion in Simons Institute for the Theory of Computing, Dec 2015  - name: The 56th Annual Symposium on Foundations of Computer Science (FOCS), Oct 2015  - name: Theory Seminar in MSR Redmond, Aug 2015
-- title: A Geometric Alternative to Nesterov's Accelerated Gradient Descent  data:  - name: SIAM Conference on Optimization (OPT15), May 2015  - name: Workshop on Advances in Optimization in Tokyo, Aug 2016  - name: Google Research in New York, Dec 2015  - name: Theory Lunch in Princeton University, Nov 2015
-- title: Efficient Inverse Maintenance and Faster Algorithms for Linear Programming  data:  - name: The 56th Annual Symposium on Foundations of Computer Science (FOCS), Oct 2015
-- title: A Faster Algorithm for Linear Programming  data:  - name: The fifth International Conference on Continuous Optimization, Aug 2016  - name: Curvature of the Central Path in Linear Programming Workshop in Pacific Institute for the Mathematical Sciences, May 2015  - name: Theory Seminars in Carnegie Mellon University, April 2015  - name: Theory Seminars in Ecole polytechnique federale de Lausanne, Feb 2015  - name: Max Planck Institute of Informatics, Jan 2015  - name: Hong Kong Theory Day in The Chinese University of Hong Kong, Jan 2015  - name: Algorithmic Spectral Graph Theory Workshop in Simons Institute for the Theory of Computing, Dec 2014  - name: ARC Colloquium in Georgia Institute of Technology, Nov 2014  - name: Theory Seminar in Stanford University, Oct 2014  - name: China Theory Week in Tsing Hua University, Sept 2014
-- title: Efficient Accelerated Coordinate Descent Methods  data:  - name: The 54th Annual Symposium on Foundations of Computer Science (FOCS), Oct 2013  - name: SIAM Conference on Optimization (OP14), May 2014
-- title: First Almost Linear Time Algorithm for Approximate Max Flow in Undirected Graphs  data:  - name: The 25th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), Jan 2014
-- title: Smooth Convex Optimization and Its Applications to Graph Algorithms  data:  - name: The 54th Annual Symposium on Foundations of Computer Science (FOCS), Oct 2013  - name: CSE Theory Lunch in Chinese University of Hong Kong, Jan 2013
+- title: Efficient Convex Optimization with Membership Oracles
+  data:
+  - name: Conference on Learning Theory (COLT), July 2018
+
+- title: Beyond Condition Number
+  data:
+  - name: International Symposium on Mathematical Programming (ISMP), July 2018
+
+- title: Hamiltonian Walks
+  data:
+  - name: Symposium on the Theory of Computing (STOC), June 2018
+  - name: CSE-ITCSC Joint Seminar in Chinese University of Hong Kong, June 2018
+  
+- title: Stochastic Localization + Stieltjes Barrier = Tight Bound
+  data:
+  - name: Symposium on the Theory of Computing (STOC), June 2018
+  - name: Theory Lunch in University of Washington, Nov 2017
+  - name: Geometric Functional Analysis And Applications Workshop in MSRI, Nov 2017
+  
+- title: Simple Algorithm for Inverse Maintenance
+  data:
+  - name: Michael Cohen Memorial Symposium, Nov 2017
+
+- title: Homotopy Method for lp Regression 
+  data:
+  - name: International Symposium on Mathematical Programming (ISMP), July 2018
+  - name: Symposium on the Theory of Computing (STOC), June 2018
+  - name: ARC-ML Colloquium in Gatech, Mar 2018
+  - name: Theory Seminar in University of Washington, Oct 2017
+  - name: Simons Workshop on Fast Iterative Methods in Optimization, Oct 2017
+
+- title: User Friendly Reductions Between Convex Programs
+  data:
+  - name: User-Friendly Tools from Continuous Optimization, June 2017
+  - name: Bellairs Workshop on Data, Learning and Optimization, April 2017
+
+- title: Eldan's Stochastic Localization and the KLS Hyperplane Conjecture
+  data:
+  - name: Workshop on Algorithms and Randomness in Gatech, Mar 2018
+  - name: Symposium on Foundations of Computer Science (FOCS), Oct 2017
+  - name: BLISS Seminar in Berkeley, Oct 2017 
+  - name: Theory Seminar in UT Austin, April 2017
+  - name: Bellairs Workshop on Data, Learning and Optimization, April 2017
+
+- title: Kernel-based methods for bandit convex optimization
+  data:
+  - name: Bellairs Workshop on Data, Learning and Optimization, April 2017
+
+- title: Geodesic Walks
+  data:
+  - name: Symposium on the Theory of Computing (STOC), June 2017
+  - name: Computational Challenges in Machine Learning Workshop in Simons Institute for the Theory of Computing, May 2017
+  - name: Stanford Theory Seminar, Dec 2016
+  - name: ARC-ML Colloquium in Gatech, Nov 2016
+  - name: Trends in Optimization Seminar in University of Washington, Oct 2016
+
+- title: Recent Progress and Open Problems on Theoretical Convex Optimization
+  data:
+  - name: West Coast Optimization Meeting, Oct 2016
+
+- title: First Nearly Linear Time Algorithm for Linear-Sized Sparsification
+  data:
+  - name: Symposium on the Theory of Computing (STOC), June 2017
+  - name: BIRS Workshop on Algebraic and Spectral Graph Theory, Aug 2016
+
+- title: Faster Algorithms for Fundamental Convex problems
+  data:
+  - name: CSE Colloquium in University of Washington, Apr 2016
+  - name: Stanford University, Apr 2016
+  - name: CS Department Colloquium in Princeton University, Apr 2016
+  - name: Georgia Institute of Technology, Mar 2016
+  - name: Carnegie Mellon University, Feb 2016
+
+- title: First Nearly Cubic Time Algorithm for Cutting Plane Method
+  data:
+  - name: Theory of Computation Seminar in Harvard University, Dec 2015
+  - name: Combinatorics and Probability Seminar in Yale University, Nov 2015
+  - name: Computer Science/Discrete Mathematics Seminar in Institute for Advanced Study, Nov 2015
+  - name: Symposium on Foundations of Computer Science (FOCS), Oct 2015
+  - name: Rigidity Workshop in the Hausdorff Research Institute for Mathematics, Oct 2015
+  - name: Microsoft Research Theory Group Seminar in MSR Redmond, Jul 2015
+
+- title: First Almost Linear Time Algorithm for Linear-Sized Sparsification
+  data:
+  - name: Algorithmic Spectral Graph Theory Reunion in Simons Institute for the Theory of Computing, Dec 2015
+  - name: Symposium on Foundations of Computer Science (FOCS), Oct 2015
+  - name: Theory Seminar in MSR Redmond, Aug 2015
+
+- title: A Geometric Alternative to Nesterov's Accelerated Gradient Descent
+  data:
+  - name: SIAM Conference on Optimization, May 2015
+  - name: Workshop on Advances in Optimization in Tokyo, Aug 2016
+  - name: Google Research in New York, Dec 2015
+  - name: Theory Lunch in Princeton University, Nov 2015
+
+- title: Efficient Inverse Maintenance and Faster Algorithms for Linear Programming
+  data:
+  - name: Symposium on Foundations of Computer Science (FOCS), Oct 2015
+
+- title: A Faster Algorithm for Linear Programming
+  data:
+  - name: The fifth International Conference on Continuous Optimization, Aug 2016
+  - name: Curvature of the Central Path in Linear Programming Workshop in Pacific Institute for the Mathematical Sciences, May 2015
+  - name: Theory Seminars in Carnegie Mellon University, April 2015
+  - name: Theory Seminars in Ecole polytechnique federale de Lausanne, Feb 2015
+  - name: Max Planck Institute of Informatics, Jan 2015
+  - name: Hong Kong Theory Day in The Chinese University of Hong Kong, Jan 2015
+  - name: Algorithmic Spectral Graph Theory Workshop in Simons Institute for the Theory of Computing, Dec 2014
+  - name: ARC Colloquium in Georgia Institute of Technology, Nov 2014
+  - name: Theory Seminar in Stanford University, Oct 2014
+  - name: China Theory Week in Tsing Hua University, Sept 2014
+
+- title: Efficient Accelerated Coordinate Descent Methods
+  data:
+  - name: Symposium on Foundations of Computer Science (FOCS), Oct 2013
+  - name: SIAM Conference on Optimization, May 2014
+
+- title: First Almost Linear Time Algorithm for Approximate Max Flow in Undirected Graphs
+  data:
+  - name: Symposium on Discrete Algorithms (SODA), Jan 2014
+
+- title: Smooth Convex Optimization and Its Applications to Graph Algorithms
+  data:
+  - name: Symposium on Foundations of Computer Science (FOCS), Oct 2013
+  - name: CSE Theory Lunch in Chinese University of Hong Kong, Jan 2013
