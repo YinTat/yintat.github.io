@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Between Discrete and Continuous"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Yin Tat Lee"
 description              : &description "personal description"
