@@ -12,13 +12,10 @@ header:
 The background of this website consists of some equations. These equations excerpt from some of my favourite papers.
 
 ### $\phi(G) = O(k) \frac{\lambda_2}{\sqrt{\lambda_k}}$
-Cheeger inequality is a fundamental result in spectral graph theory provides a connection between the conductance of a graph and the second eigenvalue of its normalized Laplacian matrix.
-We refined inequality, which can be used to provide theoretical justifications of spectral partitioning algorithm.
-See the paper [here](https://arxiv.org/abs/1301.5584).
+This is the first theory paper. Cheeger inequality is a fundamental result in spectral graph theory. This inequality is not tight in many graphs appear in practice. In the [paper](https://arxiv.org/abs/1301.5584), we refined inequality, which can be used to provide theoretical justifications of spectral partitioning algorithm.
 
 ### $\min_{c\in\mathbb{R}^{E}}\|\mathbf{U}^{-1}(f-\mathbf{P}c)\|_{\infty}$
-I have been fascinated by the wide applicability of the maximum flow problem since undergraduate. In this paper, we showed that one can solve the maximum flow problem on undirected graphs in almost linear time by "correctly" apply Frank Wolfe algorithm on the equation above.
-See the paper [here](https://arxiv.org/abs/1301.5584).
+I have been fascinated by the wide applicability of the maximum flow problem since undergraduate. In the [paper](https://arxiv.org/abs/1301.5584), we showed that one can solve the maximum flow problem on undirected graphs in almost linear time by "correctly" apply Frank Wolfe algorithm on the equation above.
 
 ### $\max_{w_{i}\geq0}\ln\det(A_{x}^{\top}W^{1-\frac{2}{q}}A_{x})-(1-\frac{2}{q})\sum_{i=1}^{m}w_{i}$
 This formula is the log volume of the "maximum" ellipsoid inside a polytope. Suprisingly, this can be used to develop a faster algorithm for general linear programs and the minimum cost flow problem.
@@ -36,6 +33,6 @@ See the paper [here](https://arxiv.org/abs/1710.06261).
 A few years ago, I was told that one may win a Fields medal by solving Kannan-Lovász-Simonovits Conjecture, a problem that has deep connections in algorithmic convex geometry and concentration of measure. This is how I got interested in the problems. Despite I am not able to solve the problem, Santosh and I get the best estimate on the problem and gave a tight estimate for a stronger statement. The equation above is a corollary of that result, which shows any Lipschitz function $f$ concentrated around its mean under isotropic log-concave distribution $p$.
 See the paper [here](https://arxiv.org/abs/1712.01791).
 
-### $\mathbb{P}_{x\sim p}(f(x)\geq\mathbb{E}f(x)+t)\leq e^{-O(t^{2})/(t+\sqrt{n})}$
+### $\sum_{u\in T}w_{u}\sum_{i\geq1}(x_{u,i}+\delta)\log(x_{u,i}+\delta)$
 A few years ago, I was told that one may win a Fields medal by solving Kannan-Lovász-Simonovits Conjecture, a problem that has deep connections in algorithmic convex geometry and concentration of measure. This is how I got interested in the problems. Despite I am not able to solve the problem, Santosh and I get the best estimate on the problem and gave a tight estimate for a stronger statement. The equation above is a corollary of that result, which shows any Lipschitz function $f$ concentrated around its mean under isotropic log-concave distribution $p$.
-See the paper [here](https://arxiv.org/abs/1712.01791).
+See the paper [here](https://arxiv.org/abs/1711.01085).
