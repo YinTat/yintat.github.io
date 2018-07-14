@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "CV"
 permalink: /cv.html
 author_profile: true
@@ -90,6 +89,12 @@ See latex version <a href="cv_latex.html">here</a>.
 	</td><td><a href="{{ entry.url }}">{{ entry.title }} ({{ entry.venue }})</a></td></tr>
 {% endfor %}
 
+<tr><td colspan=2><h2>Teaching</h2></td></tr>
+{% for data_col in site.data.teaching %}
+{% for entry in data_col.data %}
+<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
+{% endfor %}
+{% endfor %}
 
 <tr><td colspan=2><h2>Service</h2></td></tr>
 {% for data_col in site.data.service %}
@@ -98,13 +103,9 @@ See latex version <a href="cv_latex.html">here</a>.
 {% endfor %}
 {% endfor %}
 
-<tr><td colspan=2><h2>Teaching</h2></td></tr>
-{% for data_col in site.data.teaching %}
-{% for entry in data_col.data %}
-<tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
-{% endfor %}
-{% endfor %}
 
+{% comment %}
+<style>li {white-space: nowrap;overflow-wrap: break-word;white-space: normal !important;}</style>
 <tr><td colspan=2><h2>Invited Talks</h2></td></tr>
 <tr><td colspan=2>
 <ul>
@@ -119,5 +120,6 @@ See latex version <a href="cv_latex.html">here</a>.
 {% endfor %}
 </ul>
 </td></tr>
+{% endcomment %}
 
 </table>
