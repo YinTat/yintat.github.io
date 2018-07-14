@@ -34,5 +34,4 @@ A few years ago, I was told that one may win a Fields medal by solving Kannan-Lo
 See the paper [here](https://arxiv.org/abs/1712.01791).
 
 ### $\sum_{u\in T}w_{u}\sum_{i\geq1}(x_{u,i}+\delta)\log(x_{u,i}+\delta)$
-A few years ago, I was told that one may win a Fields medal by solving Kannan-Lovász-Simonovits Conjecture, a problem that has deep connections in algorithmic convex geometry and concentration of measure. This is how I got interested in the problems. Despite I am not able to solve the problem, Santosh and I get the best estimate on the problem and gave a tight estimate for a stronger statement. The equation above is a corollary of that result, which shows any Lipschitz function $f$ concentrated around its mean under isotropic log-concave distribution $p$.
-See the paper [here](https://arxiv.org/abs/1711.01085).
+To be honest, I still do not understand [this equation](https://arxiv.org/abs/1711.01085). I hope someone can explain this to me on a general graph. Maybe this is simply a wrong direction.
