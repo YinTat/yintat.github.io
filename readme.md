@@ -22,7 +22,3 @@ The following part is for Yin Tat only.
 + bundle exec jekyll serve
 
 # TODO
-+ move it to yintat.com
-+ update the background image
-+ add explanation to the background image
-+ check and update my info
