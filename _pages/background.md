@@ -18,11 +18,10 @@ This is the first theory paper. Cheeger inequality is a fundamental result in sp
 I have been fascinated by the wide applicability of the maximum flow problem since undergraduate. In the [paper](https://arxiv.org/abs/1301.5584), we showed that one can solve the maximum flow problem on undirected graphs in almost linear time by "correctly" apply Frank Wolfe algorithm on the equation above.
 
 ### $\max_{w_{i}\geq0}\ln\det(A_{x}^{\top}W^{1-\frac{2}{q}}A_{x})-(1-\frac{2}{q})\sum_{i=1}^{m}w_{i}$
-This formula is the log volume of the "maximum" ellipsoid inside a polytope. Suprisingly, this can be used to develop a faster algorithm for general linear programs and the minimum cost flow problem.
-See the paper [here](https://arxiv.org/abs/1301.5584).
+My usual strategy to solve a problem is by playing around formulas. Aaron and I came up with [this formula](https://arxiv.org/abs/1301.5584) and used that solve linear programs faster. At that time we had no idea of the meaning of such formula. A few years later, we noticed from a paper by Richard and Michael that the maximizer $w$ is exactly the $\ell_p$ Lewis weight of the matrix $A_x$ which is defined in Banach space theory many decades ago!
 
-### $\mathbf{M}\approx_{\gamma}\left[\begin{array}{cc} \mathbf{I} & \mathbf{0}\\\mathbf{Z}_{FF}^{(k)}
-\mathbf{M}_{FC} & \mathbf{I}\end{array}\right]\left[\begin{array}{cc}\mathbf{M}_{FF} & \mathbf{0}\\\mathbf{0} & \widetilde{\mathrm{Sc}}(\mathbf{M},F)\end{array}\right]\left[\begin{array}{cc}\mathbf{I} & \mathbf{M}_{CF}\mathbf{Z}_{FF}^{(k)}\\0 & \mathbf{I}\end{array}\right]$
+<h3> $\mathbf{M}\approx_{\gamma}\left[\begin{array}{cc} \mathbf{I} & \mathbf{0}\\\mathbf{Z}_
+  {FF}^{(k)}\mathbf{M}_{FC} & \mathbf{I}\end{array}\right]\left[\begin{array}{cc}\mathbf{M}_{FF} & \mathbf{0}\\\mathbf{0} & \widetilde{\mathrm{Sc}}(\mathbf{M},F)\end{array}\right]\left[\begin{array}{cc}\mathbf{I} & \mathbf{M}_{CF}\mathbf{Z}_{FF}^{(k)}\\0 & \mathbf{I}\end{array}\right]$</h3>
 The problem of solving symmetric diagonally dominant matrix has been studied for many centuries. In 2003, Spielman and Teng showed how to solve such matrix in nearly linear time. Ever since we have been asking what makes these matrices easy to solve. Turns out, one explanation is that the class of such matrices is closed under Schur complement and can be represented by a sum of PSD matrices with small support. Using this, we show how to solve such matrix in linear time with nearly linear time preprocessing.
 See the paper [here](https://arxiv.org/abs/1512.01892).
 
