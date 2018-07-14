@@ -24,7 +24,7 @@
   venue: STOC 2018
   year: 2018
   type: selected
-  highlight: First $o(k)$-competitive algorithm for k server on HST.
+  highlight: First $o(k)$-competitive algorithm for k server on HST. <a href="https://arxiv.org/abs/1711.01789">Improved</a>
   title: |
     k-server via multiscale entropic regularization
   bib: |
@@ -156,7 +156,7 @@
   venue: FOCS 2017
   year: 2017
   type: selected
-  highlight: Proving that any 1-Lipschitz function on isotropic logconcave distribution concentrated to its median with $n^{1/4}$ error.
+  highlight: Any 1-Lipschitz function concentrates to its mean on isotropic logconcave distribution with $n^{1/4}$ error. <a href="#DBLPconfstocLeeV18a">Improved</a>
   title: |
     Eldan's Stochastic Localization and the {KLS} Hyperplane Conjecture: An Improved Lower Bound for Expansion
   bib: |
@@ -338,18 +338,19 @@
   title: |
     Improved Cheeger's Inequality and Analysis of Local Graph Partitioning using Vertex Expansion and Expansion Profile
   bib: |
-    @inproceedings{DBLP:conf/soda/KwokLL16,
+    @article{DBLP:journals/siamcomp/KwokLL17,
       author    = {Tsz Chiu Kwok and
                    Lap Chi Lau and
                    Yin Tat Lee},
       title     = {Improved Cheeger's Inequality and Analysis of Local Graph Partitioning
                    using Vertex Expansion and Expansion Profile},
-      booktitle = {Proceedings of the Twenty-Seventh Annual {ACM-SIAM} Symposium on Discrete
-                   Algorithms, {SODA} 2016, Arlington, VA, USA, January 10-12, 2016},
-      pages     = {1848--1861},
-      year      = {2016},
-      url       = {https://doi.org/10.1137/1.9781611974331.ch129},
-      doi       = {10.1137/1.9781611974331.ch129}
+      journal   = {{SIAM} J. Comput.},
+      volume    = {46},
+      number    = {3},
+      pages     = {890--910},
+      year      = {2017},
+      url       = {https://doi.org/10.1137/16M1079816},
+      doi       = {10.1137/16M1079816}
     }
 - id: DBLP:conf/stoc/CohenLMPS16
   authors: Michael B. Cohen, Gary L. Miller, Jakub Pachocki, and Aaron Sidford
@@ -378,7 +379,7 @@
   url: https://arxiv.org/abs/1512.01892
   venue: STOC 2016
   year: 2016
-  highlight: A variant Multigrid and Cholesky Decomposition that runs in nearly linear time for any SDD matrices. Greatly <a href="https://arxiv.org/abs/1605.02353">simplified</a>.
+  highlight: A variant Multigrid and Cholesky Decomposition that runs in nearly linear time for any SDD matrices. <a href="https://arxiv.org/abs/1605.02353">Simplified</a> for sequential case.
   title: |
     Sparsified Cholesky and multigrid solvers for connection laplacians
   bib: |
@@ -559,19 +560,23 @@
   title: |
     Single Pass Spectral Sparsification in Dynamic Streams
   bib: |
-    @inproceedings{DBLP:conf/focs/KapralovLMMS14,
+    @article{DBLP:journals/siamcomp/KapralovLMMS17,
       author    = {Michael Kapralov and
                    Yin Tat Lee and
                    Cameron Musco and
                    Christopher Musco and
                    Aaron Sidford},
       title     = {Single Pass Spectral Sparsification in Dynamic Streams},
-      booktitle = {55th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
-                   2014, Philadelphia, PA, USA, October 18-21, 2014},
-      pages     = {561--570},
-      year      = {2014},
-      url       = {https://doi.org/10.1109/FOCS.2014.66},
-      doi       = {10.1109/FOCS.2014.66}
+      journal   = {{SIAM} J. Comput.},
+      volume    = {46},
+      number    = {1},
+      pages     = {456--477},
+      year      = {2017},
+      url       = {https://doi.org/10.1137/141002281},
+      doi       = {10.1137/141002281},
+      timestamp = {Sat, 27 May 2017 14:22:59 +0200},
+      biburl    = {https://dblp.org/rec/bib/journals/siamcomp/KapralovLMMS17},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
     }
 - id: DBLP:conf/soda/KelnerLOS14
   authors: Jonathan A. Kelner, Lorenzo Orecchia, and Aaron Sidford
@@ -580,7 +585,7 @@
   year: 2014
   type: best
   order: 2
-  highlight: First almost-linear-time method for undirected maxflow. <br> Best paper in SODA 2014.
+  highlight: First almost-linear-time method for undirected maxflow. <br> Best paper in SODA 2014. <a href="https://dl.acm.org/citation.cfm?id=3055501">Improved</a>.
   title: |
     An Almost-Linear-Time Algorithm for Approximate Max Flow in Undirected Graphs, and its Multicommodity Generalizations
   bib: |
@@ -603,7 +608,7 @@
   url: https://arxiv.org/abs/1305.1922
   venue: FOCS 2013
   year: 2013
-  highlight: First efficient version of accelerated coordinate descent methods. Generalized to many <a href="https://arxiv.org/abs/1312.5799">settings</a>.
+  highlight: First efficient version of accelerated coordinate descent methods. <a href="https://arxiv.org/abs/1512.09103">Improved</a>.
   title: |
     Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems
   bib: |
