@@ -33,3 +33,9 @@ Sampling from the uniform distribution of a given convex set is a fundamental pr
 See the paper [here](https://arxiv.org/abs/1710.06261).
 
 ### $\mathbb{P}_{x\sim p}(f(x)\geq\mathbb{E}f(x)+t)\leq e^{-O(t^{2})/(t+\sqrt{n})}$
+A few years ago, I was told that one may win a Fields medal by solving Kannan-Lovász-Simonovits Conjecture, a problem that has deep connections in algorithmic convex geometry and concentration of measure. This is how I got interested in the problems. Despite I am not able to solve the problem, Santosh and I get the best estimate on the problem and gave a tight estimate for a stronger statement. The equation above is a corollary of that result, which shows any Lipschitz function $f$ concentrated around its mean under isotropic log-concave distribution $p$.
+See the paper [here](https://arxiv.org/abs/1712.01791).
+
+### $\mathbb{P}_{x\sim p}(f(x)\geq\mathbb{E}f(x)+t)\leq e^{-O(t^{2})/(t+\sqrt{n})}$
+A few years ago, I was told that one may win a Fields medal by solving Kannan-Lovász-Simonovits Conjecture, a problem that has deep connections in algorithmic convex geometry and concentration of measure. This is how I got interested in the problems. Despite I am not able to solve the problem, Santosh and I get the best estimate on the problem and gave a tight estimate for a stronger statement. The equation above is a corollary of that result, which shows any Lipschitz function $f$ concentrated around its mean under isotropic log-concave distribution $p$.
+See the paper [here](https://arxiv.org/abs/1712.01791).
