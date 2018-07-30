@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-<img style="float: left;padding-right:3%" src="images/profile.jpg" width="35%">
+<!--<img style="float: left;padding-right:3%" src="images/profile.jpg" width="35%">-->
 He is an assistant professor in the [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/) at the University of Washington.
 
 His research interests are primarily in algorithms and they span a wide range of topics such as convex optimization, convex geometry, spectral graph theory, and online algorithms. His primary research goal is to find algorithms for solving a general class of convex optimization problems.
