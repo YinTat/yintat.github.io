@@ -1,6 +1,6 @@
 - id: DBLP:journals/corr/LeeV18
   authors: Santosh S. Vempala
-  url: https://arxiv.org/abs/1807.03465
+  url: https://arxiv.org/pdf/1807.03465.pdf
   venue: arXiv
   type: survey
   year: 2018
@@ -20,11 +20,11 @@
     }
 - id: DBLP:conf/stoc/BubeckCLLM18
   authors: Sebastien Bubeck, Michael B. Cohen, James R. Lee, and Aleksander Madry
-  url: https://arxiv.org/abs/1711.01085
+  url: https://arxiv.org/pdf/1711.01085.pdf
   venue: STOC 2018
   year: 2018
   type: selected
-  highlight: First $o(k)$-competitive algorithm for k server on HST. <a href="https://arxiv.org/abs/1711.01789">Improved</a>
+  highlight: First $o(k)$-competitive algorithm for k server on HST. <a href="https://arxiv.org/pdf/1711.01789.pdf">Improved</a>
   title: |
     k-server via multiscale entropic regularization
   bib: |
@@ -44,7 +44,7 @@
     }
 - id: DBLP:conf/stoc/KwokLLR18
   authors: Tsz Chiu Kwok, Lap Chi Lau, and Akshay Ramachandran
-  url: https://arxiv.org/abs/1710.02587
+  url: https://arxiv.org/pdf/1710.02587.pdf
   venue: STOC 2018
   year: 2018
   highlight: Resolving the Paulsen problem, a major open problem in frame theory.
@@ -66,7 +66,7 @@
     }
 - id: DBLP:conf/stoc/GargLSS18
   authors: Ankit Garg, Zhao Song, and Nikhil Srivastava
-  url: https://arxiv.org/abs/1704.03864
+  url: https://arxiv.org/pdf/1704.03864.pdf
   venue: STOC 2018
   year: 2018
   title: |
@@ -87,7 +87,7 @@
     }
 - id: DBLP:conf/stoc/LeeV18
   authors: Santosh S. Vempala
-  url: https://arxiv.org/abs/1710.06261
+  url: https://arxiv.org/pdf/1710.06261.pdf
   venue: STOC 2018
   year: 2018
   type: selected
@@ -109,7 +109,7 @@
     }
 - id: DBLP:conf/stoc/LeeV18a
   authors: Santosh S. Vempala
-  url: https://arxiv.org/abs/1712.01791
+  url: https://arxiv.org/pdf/1712.01791.pdf
   venue: STOC 2018
   year: 2018
   highlight: A tight estimate of the log-Sobolev constant for isotropic logconcave distributions.
@@ -129,7 +129,7 @@
     }
 - id: DBLP:conf/stoc/BubeckCLL18
   authors: Sebastien Bubeck, Michael B. Cohen, and Yuanzhi Li
-  url: https://arxiv.org/abs/1711.01328
+  url: https://arxiv.org/pdf/1711.01328.pdf
   venue: STOC 2018
   year: 2018
   highlight: First input-sparsity time algorithm for $l_p$ regression for $1 < p < \infty$. 
@@ -152,7 +152,7 @@
     }
 - id: DBLP:conf/focs/LeeV17
   authors: Santosh S. Vempala
-  url: https://arxiv.org/abs/1612.01507
+  url: https://arxiv.org/pdf/1612.01507.pdf
   venue: FOCS 2017
   year: 2017
   type: selected
@@ -174,7 +174,7 @@
     }
 - id: DBLP:conf/icml/ScamanBBLM17
   authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
-  url: https://arxiv.org/abs/1702.08704
+  url: https://arxiv.org/pdf/1702.08704.pdf
   venue: ICML 2017
   year: 2017
   title: |
@@ -196,7 +196,7 @@
     }
 - id: DBLP:conf/stoc/BubeckLE17
   authors: Sebastien Bubeck and Ronen Eldan
-  url: https://arxiv.org/abs/1607.03084
+  url: https://arxiv.org/pdf/1607.03084.pdf
   venue: STOC 2017
   year: 2017
   type: selected
@@ -218,7 +218,7 @@
     }
 - id: DBLP:conf/stoc/Lee017
   authors: He Sun
-  url: https://arxiv.org/abs/1702.08415
+  url: https://arxiv.org/pdf/1702.08415.pdf
   venue: STOC 2017
   year: 2017
   highlight: First nearly-linear-time method for linear-sized spectral sparsification.
@@ -238,7 +238,7 @@
     }
 - id: DBLP:conf/stoc/LeeV17
   authors: Santosh S. Vempala
-  url: https://arxiv.org/abs/1606.04696
+  url: https://arxiv.org/pdf/1606.04696.pdf
   venue: STOC 2017
   year: 2017
   highlight: First subquadratic-iterations method for sampling in polytopes.
@@ -258,7 +258,7 @@
     }
 - id: DBLP:conf/stoc/ChakrabartyLSW17
   authors: Deeparnab Chakrabarty, Aaron Sidford, and Sam Chiu-wai Wong
-  url: https://arxiv.org/abs/1610.09800
+  url: https://arxiv.org/pdf/1610.09800.pdf
   venue: STOC 2017
   year: 2017
   title: |
@@ -293,7 +293,7 @@
     }
 - id: DBLP:conf/icml/BubeckL16
   authors: Sebastien Bubeck
-  url: https://arxiv.org/abs/1602.04847
+  url: https://arxiv.org/pdf/1602.04847.pdf
   venue: ICML 2016
   year: 2016
   title: |
@@ -311,7 +311,7 @@
     }
 - id: DBLP:conf/soda/Allen-ZhuLO16
   authors: Zeyuan Allen Zhu and Lorenzo Orecchia
-  url: https://arxiv.org/abs/1507.02259
+  url: https://arxiv.org/pdf/1507.02259.pdf
   venue: SODA 2016
   year: 2016
   title: |
@@ -332,7 +332,7 @@
     }
 - id: DBLP:conf/soda/KwokLL16
   authors: Tsz Chiu Kwok and Lap Chi Lau
-  url: https://arxiv.org/abs/1504.00686
+  url: https://arxiv.org/pdf/1504.00686.pdf
   venue: SODA 2016
   year: 2016
   title: |
@@ -354,7 +354,7 @@
     }
 - id: DBLP:conf/stoc/CohenLMPS16
   authors: Michael B. Cohen, Gary L. Miller, Jakub Pachocki, and Aaron Sidford
-  url: https://arxiv.org/abs/1606.05225
+  url: https://arxiv.org/pdf/1606.05225.pdf
   venue: STOC 2016
   year: 2016
   title: |
@@ -376,10 +376,10 @@
     }
 - id: DBLP:conf/stoc/KyngLPSS16
   authors: Rasmus Kyng, Richard Peng, Sushant Sachdeva, and Daniel A. Spielman
-  url: https://arxiv.org/abs/1512.01892
+  url: https://arxiv.org/pdf/1512.01892.pdf
   venue: STOC 2016
   year: 2016
-  highlight: A variant Multigrid and Cholesky Decomposition that runs in nearly linear time for any SDD matrices. <a href="https://arxiv.org/abs/1605.02353">Simplified</a> for sequential case.
+  highlight: A variant Multigrid and Cholesky Decomposition that runs in nearly linear time for any SDD matrices. <a href="https://arxiv.org/pdf/1605.02353.pdf">Simplified</a> for sequential case.
   title: |
     Sparsified Cholesky and multigrid solvers for connection laplacians
   bib: |
@@ -399,7 +399,7 @@
     }
 - id: DBLP:journals/jscic/LeeLL16
   authors: Ka Chun Lam and Lok Ming Lui
-  url: https://arxiv.org/abs/1402.6908
+  url: https://arxiv.org/pdf/1402.6908.pdf
   venue: J. Sci. Comput.
   year: 2016
   title: |
@@ -421,7 +421,7 @@
     }
 - id: DBLP:journals/corr/BubeckLS15
   authors: Sebastien Bubeck and Mohit Singh
-  url: https://arxiv.org/abs/1503.01752
+  url: https://arxiv.org/pdf/1503.01752.pdf
   venue: arXiv
   year: 2015
   highlight: A variant of Ellipsoid method that works really well.
@@ -442,7 +442,7 @@
     }
 - id: DBLP:conf/focs/LeeS15
   authors: Aaron Sidford
-  url: https://arxiv.org/abs/1503.01752
+  url: https://arxiv.org/pdf/1503.01752.pdf
   venue: FOCS 2015
   year: 2015
   highlight: Each iteration of interior point method takes $O(\mathrm{nnz}(A)+\mathrm{rank}(A)^2)$.
@@ -462,7 +462,7 @@
     }
 - id: DBLP:conf/focs/LeeS15a
   authors: He Sun
-  url: https://arxiv.org/abs/1508.03261
+  url: https://arxiv.org/pdf/1508.03261.pdf
   venue: FOCS 2015
   year: 2015
   highlight: Improved to <a href="#DBLPconfstocLee017">nearly-linear-time</a>.
@@ -483,7 +483,7 @@
     }
 - id: DBLP:conf/focs/LeeSW15
   authors: Aaron Sidford and Sam Chiu-wai Wong
-  url: https://arxiv.org/abs/1508.04874
+  url: https://arxiv.org/pdf/1508.04874.pdf
   venue: FOCS 2015
   year: 2015
   type: best
@@ -507,7 +507,7 @@
     }
 - id: DBLP:conf/innovations/CohenLMMPS15
   authors: Michael B. Cohen, Cameron Musco, Christopher Musco, Richard Peng, and Aaron Sidford
-  url: https://arxiv.org/abs/1408.5099
+  url: https://arxiv.org/pdf/1408.5099.pdf
   venue: ITCS 2015
   year: 2015
   highlight: Solving a system of a tall matrix is as easy as a square matrix.
@@ -554,7 +554,7 @@
     }
 - id: DBLP:conf/focs/KapralovLMMS14
   authors: Michael Kapralov, Cameron Musco, Christopher Musco, and Aaron Sidford
-  url: https://arxiv.org/abs/1407.1289
+  url: https://arxiv.org/pdf/1407.1289.pdf
   venue: FOCS 2014, SIAM J. Comput.
   year: 2014
   title: |
@@ -580,7 +580,7 @@
     }
 - id: DBLP:conf/soda/KelnerLOS14
   authors: Jonathan A. Kelner, Lorenzo Orecchia, and Aaron Sidford
-  url: https://arxiv.org/abs/1304.2338
+  url: https://arxiv.org/pdf/1304.2338.pdf
   venue: SODA 2014
   year: 2014
   type: best
@@ -605,10 +605,10 @@
     }
 - id: DBLP:conf/focs/LeeS13
   authors: Aaron Sidford
-  url: https://arxiv.org/abs/1305.1922
+  url: https://arxiv.org/pdf/1305.1922.pdf
   venue: FOCS 2013
   year: 2013
-  highlight: First efficient version of accelerated coordinate descent methods. <a href="https://arxiv.org/abs/1512.09103">Improved</a>.
+  highlight: First efficient version of accelerated coordinate descent methods. <a href="https://arxiv.org/pdf/1512.09103.pdf">Improved</a>.
   title: |
     Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems
   bib: |
@@ -626,7 +626,7 @@
     }
 - id: DBLP:conf/stoc/KwokLLGT13
   authors: Tsz Chiu Kwok, Lap Chi Lau, Shayan Oveis Gharan, and Luca Trevisan
-  url: https://arxiv.org/abs/1301.5584
+  url: https://arxiv.org/pdf/1301.5584.pdf
   venue: STOC 2013, SIAM J. Comput.
   year: 2013
   type: selected
