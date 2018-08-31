@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Between Discrete and Continuous"
-title_separator          : "-"
+title                    : ""
+title_separator          : ""
 name                     : &name "Yin Tat Lee"
 description              : &description "personal description"
 url                      : http://yintat.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
