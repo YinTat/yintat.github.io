@@ -3,11 +3,11 @@
   url: https://arxiv.org/pdf/1809.03011.pdf
   venue: arXiv
   year: 2018
-  highlight: <a=href="http://yintat.com/pdf/LeeY18.pdf">Here is the computer assisted proof</a>.
+  highlight: <a href="http://yintat.com/pdf/LeeY18.pdf">Here is the computer assisted proof</a>.
   title: |
     Universal Barrier is n-Self-Concordant
   bib: |
-    @article{DBLP:journals/corr/LeeV18,
+    @article{DBLP:journals/corr/LeeY18,
       author    = {Yin Tat Lee and
                    Man-Chung Yue},
       title     = {Universal Barrier is n-Self-Concordant},
