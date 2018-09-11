@@ -16,7 +16,7 @@ He has received a variety of awards for his work, including Best Paper Award at 
 
 This is written in third person so that anyone (including me) can copy it as a talk bio.
 
-Current funding: [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609) and [NSF TRIPODS](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551)
+Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [CCF-1740551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551) and [DMS-1839116](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839116).
 
 Email: yintat@<span style="display: none;">ignoreme-</span>uw.edu<br>
 Office: CSE 562
