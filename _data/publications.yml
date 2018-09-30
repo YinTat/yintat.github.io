@@ -580,7 +580,7 @@
   title: |
     Single Pass Spectral Sparsification in Dynamic Streams
   bib: |
-    @article{DBLP:journals/siamcomp/KapralovLMMS17,
+    @article{DBLP:journals/siamcomp/KLMMS17,
       author    = {Michael Kapralov and
                    Yin Tat Lee and
                    Cameron Musco and
