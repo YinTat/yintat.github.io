@@ -441,7 +441,7 @@
     }
 - id: DBLP:journals/corr/BubeckLS15
   authors: Sebastien Bubeck and Mohit Singh
-  url: https://arxiv.org/pdf/1503.01752.pdf
+  url: https://arxiv.org/pdf/1503.08187.pdf
   venue: arXiv
   year: 2015
   highlight: A variant of Ellipsoid method that works really well.
