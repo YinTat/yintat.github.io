@@ -51,7 +51,7 @@ See latex version <a href="https://www.overleaf.com/docs?snip_uri={{ base_path }
 {% endfor %}
 {% endfor %}
 
-<tr><td colspan=2><h2>Educations</h2></td></tr>
+<tr><td colspan=2><h2>Education</h2></td></tr>
 {% for data_col in site.data.educations %}
 {% for entry in data_col.data %}
 <tr><td>{% if forloop.first %}{{ data_col.year }}{% endif %}</td><td>{{ entry.name }}</td></tr>
