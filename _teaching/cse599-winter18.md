@@ -32,7 +32,7 @@ In this course, we cover several frameworks for convex optimization, including, 
 
 ### Algorithms for Linear Systems
 + Feb 07: Overview & Leverage Score. [Note](10.pdf)
-+ Feb 09: There is a mistake in this lecture. I will fix it by submitting a paper.
++ Feb 09: There is a mistake in this lecture. I will fix it by submitting a paper. [Here](https://arxiv.org/abs/1810.07896) is this fix. I hope it is correct.
 + Feb 14: Cholesky Decomposition: How does MATLAB solve Ax=b for sparse symmetric A? [Slide](12_1.pdf), [Note](12_2.pdf), [Survey](12_3.pdf)
 + Feb 16: Sparse Cholesky Decomposition. [Note](13.pdf)
 
