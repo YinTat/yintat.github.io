@@ -9,10 +9,10 @@ header:
 
 {% include base_path %}
 
-The background of this website consists of some equations, excerpt from some of my favourite papers.
+The background of this website consists of some equations, excerpt from some of my papers.
 
 ### $\phi(G) = O(k) \frac{\lambda_2}{\sqrt{\lambda_k}}$
-This is the first theory paper. Cheeger inequality is a fundamental result in spectral graph theory. This inequality is not tight in many graphs appear in practice. In the [paper](https://arxiv.org/abs/1301.5584), we refined the inequality and used it to provide theoretical justifications of spectral partitioning algorithm.
+This is the my theory paper. Cheeger inequality is a fundamental result in spectral graph theory, but it is not tight in many graphs appear in practice. In the [paper](https://arxiv.org/abs/1301.5584), we refined the inequality and used it to provide theoretical justifications of spectral partitioning algorithm.
 
 ### $\min_{c\in\mathbb{R}^{E}}\|\mathbf{U}^{-1}(f-\mathbf{P}c)\|_{\infty}$
 I have been fascinated by the wide applicability of the maximum flow problem since undergraduate. In the [paper](https://arxiv.org/abs/1301.5584), we showed that one can solve the maximum flow problem on undirected graphs in almost linear time by "correctly" apply Frank Wolfe algorithm on the equation above.
