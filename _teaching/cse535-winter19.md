@@ -48,31 +48,31 @@ Submitted via [Canvas](http://canvas.uw.edu/).
 + Jan 17:
 + Jan 22: 
 + Jan 24:
++ Jan 29: 
 
 ### Elimination
-+ Jan 29: 
 + Jan 31:
++ Feb 05: 
 
 ### Conditioning
-+ Feb 05: 
 + Feb 07:
++ Feb 12: 
 
 ### Geometrization
-+ Feb 12: 
 + Feb 14:
++ Feb 12: 
 
 ### Expansion
-+ Feb 12: 
 + Feb 14:
 + Feb 19: 
 + Feb 21:
++ Feb 26: 
 
 ### Sparsification
-+ Feb 26: 
 + Feb 28:
++ Mar 5: 
 
 ### Acceleration
-+ Mar 5: 
 + Mar 7: 
 
 ### Decomposition
