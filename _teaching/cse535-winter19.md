@@ -7,7 +7,16 @@ author_profile: false
 
 # CSE 535: Theory of Optimization and Continuous Algorithms
 
-The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. Typically, a continuous process, deterministic or randomized is designed (or shown) to have desirable properties, such as approaching an optimal solution or a desired distribution, and an algorithm is derived from this by appropriate discretization. In interesting and general settings, the current fastest methods are a consequence of this perspective. We will discuss several examples in the context of high-dimensional optimization and sampling.
+The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. In this course, we focus on the design of convex optimization and sampling algorithms. Via examples, we will explain some of the following concepts 
++ Reduction
++ Elimination
++ Conditioning
++ Geometrization
++ Expansion
++ Sparsification
++ Acceleration
++ Decomposition
+We hope that these concepts will help students become a designer instead of a consumer of continuous algorithms.
 
 This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/contalgos.html).
 
@@ -29,26 +38,44 @@ Submitted via [Canvas](http://canvas.uw.edu/).
 + Assignment 5 due Sunday, 17-Mar 11:59PM
 
 ## Tentative Schedule:
+
+### Introduction
 + Jan 08:
 + Jan 10:
 + Jan 15: 
+
+### Reduction
 + Jan 17:
 + Jan 22: 
 + Jan 24:
+
+### Elimination
 + Jan 29: 
 + Jan 31:
+
+### Conditioning
 + Feb 05: 
 + Feb 07:
+
+### Geometrization
 + Feb 12: 
 + Feb 14:
+
+### Expansion
 + Feb 12: 
 + Feb 14:
 + Feb 19: 
 + Feb 21:
+
+### Sparsification
 + Feb 26: 
 + Feb 28:
+
+### Acceleration
 + Mar 5: 
 + Mar 7: 
+
+### Decomposition
 + Mar 12: 
 + Mar 14: 
 
