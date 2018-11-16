@@ -16,6 +16,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Sparsification
 + Acceleration
 + Decomposition
+
 We hope that these concepts will help students become a designer instead of a consumer of continuous algorithms.
 
 This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/contalgos.html).
