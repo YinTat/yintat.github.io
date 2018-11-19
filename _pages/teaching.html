@@ -10,10 +10,8 @@ author_profile: true
 
 {% for data_col in site.data.teaching %}
 {% for entry in data_col.data %}
-{% if entry.display %}
 <h3><a href="{{ entry.url }}">{{ entry.name }}</a></h3>
 <h4>{{entry.time}} </h4>
 {{ entry.description }}
-{% endif %}
 {% endfor %}
 {% endfor %}
