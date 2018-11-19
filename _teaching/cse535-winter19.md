@@ -7,7 +7,7 @@ author_profile: false
 
 # CSE 535: Theory of Optimization and Continuous Algorithms
 
-The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. In this course, we focus on the design of convex optimization and sampling algorithms. Via examples, we will explain some of the following concepts 
+The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. Typically, a continuous process, deterministic or randomized is designed (or shown) to have desirable properties, such as approaching an optimal solution or a desired distribution, and an algorithm is derived from this by appropriate discretization. In interesting and general settings, the current fastest methods are a consequence of this perspective. We will discuss several examples of algorithms for high-dimensional optimization and sampling, and use them to understand the following concepts in detail.
 + Reduction
 + Elimination
 + Conditioning
