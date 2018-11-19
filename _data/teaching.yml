@@ -2,23 +2,19 @@
   - name: CSE 535 Theory of Optimization and Continuous Algorithms
     description: This course covers several concepts in convex optimization, including, Reduction, elimination, conditioning, geometrization, expansion, sparsification, acceleration, and decomposition.
     time: Winter 2019
-    unique: yes
     url: teaching/cse535-winter19/
   - name: CSE 421 Introduction to Algorithms
     description: This course covers a range of design and analysis techniques including greedy methods, divide and conquer, and dynamic programming. It also discusses the maximum flow problem and NP-completeness.
-    time: Spring 2018, Fall 2018
-    unique: yes
+    time: Autumn 2018
     url: https://courses.cs.washington.edu/courses/cse421/18au/
     
 - year: 2017-2018
   data:
   - name: CSE 421 Introduction to Algorithms
     description: This course covers a range of design and analysis techniques including greedy methods, divide and conquer, and dynamic programming. It also discusses the maximum flow problem and NP-completeness.
-    time: Spring 2018, Fall 2018
-    unique: yes
+    time: Spring 2018
     url: https://courses.cs.washington.edu/courses/cse421/18au/
   - name: CSE 599 Interplay between Convex Optimization and Geometry
     description: This course covers several frameworks for convex optimization, including, first-order methods, cutting plane methods and interior point methods.
     time: Winter 2018
-    unique: yes
     url: teaching/cse599-winter18/
