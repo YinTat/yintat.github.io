@@ -1,3 +1,22 @@
+- id: DBLP:conf/nips/ScamanBBLM17
+  authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
+  url: https://arxiv.org/pdf/1702.08704.pdf
+  venue: NeurIPS 2018
+  year: 2018
+  type: best
+  order: 4
+  title: |
+    Optimal Algorithms for Non-Smooth Distributed Optimization in Networks
+  highlight: Best paper in NeuroIPS 2018.
+  bib: |
+    @article{scaman2018optimal,
+      title={Optimal Algorithms for Non-Smooth Distributed Optimization in Networks},
+      author={Scaman, Kevin and Bach, Francis and Bubeck, S{\'e}bastien and Lee, Yin Tat and Massouli{\'e}, Laurent},
+      booktitle = {Advances in Neural Information Processing Systems 31: Annual Conference
+                   on Neural Information Processing Systems 2018, December 2-8, 2018,
+                   Montreal, Quebec, Canada},
+      year={2018}
+    }
 - id: DBLP:journals/corr/LeeY18
   authors: Man-Chung Yue
   url: https://arxiv.org/pdf/1809.03011.pdf
