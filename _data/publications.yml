@@ -7,7 +7,7 @@
   order: 4
   title: |
     Optimal Algorithms for Non-Smooth Distributed Optimization in Networks
-  highlight: Best paper in NeuroIPS 2018.
+  highlight: Best paper in NeurIPS 2018.
   bib: |
     @article{scaman2018optimal,
       title={Optimal Algorithms for Non-Smooth Distributed Optimization in Networks},
