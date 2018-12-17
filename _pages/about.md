@@ -20,3 +20,6 @@ Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAw
 
 Email: yintat@<span style="display: none;">ignoreme-</span>uw.edu<br>
 Office: CSE 562
+
+
+[Call for theory group postdocs](https://theory.cs.washington.edu/postdoc.html)
