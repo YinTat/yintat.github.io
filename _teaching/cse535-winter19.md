@@ -8,16 +8,12 @@ author_profile: false
 # CSE 535: Theory of Optimization and Continuous Algorithms
 
 The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. Typically, a continuous process, deterministic or randomized is designed (or shown) to have desirable properties, such as approaching an optimal solution or a desired distribution, and an algorithm is derived from this by appropriate discretization. In interesting and general settings, the current fastest methods are a consequence of this perspective. We will discuss several examples of algorithms for high-dimensional optimization and sampling, and use them to understand the following concepts in detail.
-+ Reduction
 + Elimination
-+ Conditioning
++ Reduction
 + Geometrization
-+ Expansion
-+ Sparsification
 + Acceleration
++ Sparsification
 + Decomposition
-
-We hope that these concepts will help students become a designer instead of a consumer of continuous algorithms.
 
 This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/contalgos.html).
 
@@ -41,42 +37,40 @@ Submitted via [Canvas](http://canvas.uw.edu/).
 ## Tentative Schedule:
 
 ### Introduction
-+ Jan 08:
-+ Jan 10:
-+ Jan 15: 
-
-### Reduction
-+ Jan 17:
-+ Jan 22: 
-+ Jan 24:
++ Jan 08: Gradient Descent
++ Jan 10: Langevin Dynamics
 
 ### Elimination
-+ Jan 29: 
-+ Jan 31:
++ Jan 15: Cutting Plane Methods
++ Jan 17: Geometric Descent
 
-### Conditioning
-+ Feb 05: 
-+ Feb 07:
+### Reduction
++ Jan 22: Equivalences
++ Jan 24: Duality
 
-### Geometrization
-+ Feb 12: 
-+ Feb 14:
+### Geometrization (Optimization)
++ Jan 29: Mirror Descent & Frank-Wolfe
++ Jan 31: Newton Method & L-BFGS
++ Feb 05: Interior Point Method
++ Feb 07: Applications
 
-### Expansion
-+ Feb 19: 
-+ Feb 21:
-+ Feb 26: 
-
-### Sparsification
-+ Feb 28:
-+ Mar 5: 
+### Geometrization (Sampling)
++ Feb 12: Ball walk & Isoperimetry
++ Feb 14: Isotropic Transformation & Simulated Annealing.
++ Feb 19: Hit-and-Run, Dikin walk
++ Feb 21: RHMC
 
 ### Acceleration
-+ Mar 7: 
++ Feb 26: Chebyshev Expansion & Conjugate Gradient 
++ Feb 28: Accelerated Gradient Descent
+
+### Sparsification
++ Mar 5: Stochastic Gradient Descent & Variance Reduction
++ Mar 7: Leverage Score Sampling
 
 ### Decomposition
-+ Mar 12: 
-+ Mar 14: 
++ Mar 12: Cholesky decomposition
++ Mar 14: Laplacian Solver
 
 ## Related Theory Optimization Courses:
 + [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
