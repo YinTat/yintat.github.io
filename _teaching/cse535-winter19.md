@@ -27,12 +27,12 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 
 ## Assignments
 
-Submitted via [Canvas](http://canvas.uw.edu/).
-+ Assignment 1 due Sunday, 20-Jan 11:59PM
-+ Assignment 2 due Sunday, 3-Feb 11:59PM
-+ Assignment 3 due Sunday, 17-Feb 11:59PM
-+ Assignment 4 due Sunday, 3-Mar 11:59PM
-+ Assignment 5 due Sunday, 17-Mar 11:59PM
+Submitted via ???.
++ Assignment 1 due Monday, 14-Jan 11:59PM
++ Assignment 2 due Monday, 28-Jan 11:59PM
++ Assignment 3 due Monday, 11-Feb 11:59PM
++ Assignment 4 due Monday, 25-Feb 11:59PM
++ Assignment 5 due Monday, 11-Mar 11:59PM
 
 ## Tentative Schedule:
 
