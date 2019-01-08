@@ -28,7 +28,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 ## Assignments
 
 Submitted via ???.
-+ Assignment 1 due Monday, 14-Jan 11:59PM
++ [Assignment 1](http://yintat.com/pdf/cse535_hw1.pdf) due Monday, 14-Jan 11:59PM
 + Assignment 2 due Monday, 28-Jan 11:59PM
 + Assignment 3 due Monday, 11-Feb 11:59PM
 + Assignment 4 due Monday, 25-Feb 11:59PM
