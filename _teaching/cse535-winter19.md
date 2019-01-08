@@ -22,6 +22,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
 + Lectures: Tue, Thu 10:00-11:20 at ARC G070
++ Lecture Note: https://www.dropbox.com/s/wdxhrlcnjz3tecj/main.pdf
 + Course evaluation: Homework (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
