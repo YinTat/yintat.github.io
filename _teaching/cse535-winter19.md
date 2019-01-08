@@ -27,7 +27,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 
 ## Assignments
 
-Submitted via ???.
+Submitted via [Gradescope](https://www.gradescope.com/courses/35189).
 + [Assignment 1](http://yintat.com/pdf/cse535_hw1.pdf) due Monday, 14-Jan 11:59PM
 + Assignment 2 due Monday, 28-Jan 11:59PM
 + Assignment 3 due Monday, 11-Feb 11:59PM
