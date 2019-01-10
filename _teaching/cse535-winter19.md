@@ -38,8 +38,8 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). (I will se
 ## Tentative Schedule:
 
 ### Introduction
-+ Jan 08: Gradient Descent
-+ Jan 10: Langevin Dynamics
++ Jan 08: Gradient Descent (1.1, 1.2, 1.4)
++ Jan 10: Langevin Dynamics (1.3, 1.5, 1.6)
 
 ### Elimination
 + Jan 15: Cutting Plane Methods
