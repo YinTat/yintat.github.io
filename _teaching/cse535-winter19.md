@@ -44,7 +44,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). (I will se
 
 ### Elimination
 + Jan 15: Cutting Plane Methods (2.1, 2.2, 2.3, 2.4)
-+ Jan 17: Geometric Descent (2.6, 2.7)
++ Jan 17: Sphere and Parabola Method (2.6, 2.7)
 
 ### Reduction
 + Jan 22: Equivalences
