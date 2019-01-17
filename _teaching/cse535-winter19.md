@@ -43,8 +43,8 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). (I will se
 + Jan 10: Langevin Dynamics (1.3, 1.5, 1.6)
 
 ### Elimination
-+ Jan 15: Cutting Plane Methods
-+ Jan 17: Geometric Descent
++ Jan 15: Cutting Plane Methods (2.1, 2.2, 2.3, 2.4)
++ Jan 17: Geometric Descent (2.6, 2.7)
 
 ### Reduction
 + Jan 22: Equivalences
