@@ -42,32 +42,33 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Jan 17: Sphere and Parabola Method (2.6, 2.7)
 
 ### Reduction
-+ Jan 22: Equivalences
-+ Jan 24: Duality
++ Jan 22: Equivalences (3.1, 3.2, 3.3)
++ Jan 24: Equivalences (3.4)
++ Jan 29: Duality
 
 ### Geometrization (Optimization)
-+ Jan 29: Mirror Descent & Frank-Wolfe
-+ Jan 31: Newton Method & L-BFGS
-+ Feb 05: Interior Point Method
-+ Feb 07: Applications
++ Jan 31: Mirror Descent
++ Feb 05: Frank-Wolfe
++ Feb 07: Newton Method & L-BFGS
++ Feb 12: Interior Point Method
 
 ### Geometrization (Sampling)
-+ Feb 12: Ball walk & Isoperimetry
-+ Feb 14: Isotropic Transformation & Simulated Annealing.
-+ Feb 19: Hit-and-Run, Dikin walk
-+ Feb 21: RHMC
++ Feb 14: Ball walk & Isoperimetry
++ Feb 19: Isotropic Transformation & Simulated Annealing.
++ Feb 21: Hit-and-Run, Dikin walk
++ Feb 26: RHMC
 
 ### Acceleration
-+ Feb 26: Chebyshev Expansion & Conjugate Gradient 
-+ Feb 28: Accelerated Gradient Descent
++ Feb 28: Chebyshev Expansion & Conjugate Gradient 
++ Mar 5: Accelerated Gradient Descent
 
 ### Sparsification
-+ Mar 5: Stochastic Gradient Descent & Variance Reduction
-+ Mar 7: Leverage Score Sampling
++ Mar 7: Stochastic Gradient Descent & Variance Reduction
++ Mar 12: Leverage Score Sampling
 
 ### Decomposition
-+ Mar 12: Cholesky decomposition
-+ Mar 14: Laplacian Solver
++ Mar 14: Cholesky decomposition
++ Mar ??: Laplacian Solver (Anyone want extra lecture?)
 
 ## Related Theory Optimization Courses:
 + [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
