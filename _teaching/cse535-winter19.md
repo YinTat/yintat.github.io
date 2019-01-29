@@ -44,7 +44,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 ### Reduction
 + Jan 22: Equivalences (3.1, 3.2, 3.3)
 + Jan 24: Equivalences (3.4)
-+ Jan 29: Duality
++ Jan 29: Duality (3.5)
 
 ### Geometrization (Optimization)
 + Jan 31: Mirror Descent
