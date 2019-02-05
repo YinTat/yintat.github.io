@@ -58,13 +58,13 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Feb 21: Hit-and-Run, Dikin walk
 + Feb 26: RHMC
 
-### Acceleration
-+ Feb 28: Chebyshev Expansion & Conjugate Gradient 
-+ Mar 5: Accelerated Gradient Descent
-
 ### Sparsification
-+ Mar 7: Stochastic Gradient Descent & Variance Reduction
-+ Mar 12: Leverage Score Sampling
++ Feb 28: Stochastic Gradient Descent & Variance Reduction
++ Mar 5: Leverage Score Sampling
+
+### Acceleration
++ Mar 7: Chebyshev Expansion & Conjugate Gradient 
++ Mar 12: Accelerated Gradient Descent
 
 ### Decomposition
 + Mar 14: Cholesky decomposition
