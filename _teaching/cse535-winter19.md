@@ -48,7 +48,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 
 ### Geometrization (Optimization)
 + Jan 31: Mirror Descent
-+ Feb 05: Frank-Wolfe
++ Feb 07: Frank-Wolfe
 + Feb 07: Newton Method & L-BFGS
 + Feb 12: Interior Point Method
 
@@ -68,7 +68,6 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 
 ### Decomposition
 + Mar 14: Cholesky decomposition
-+ Mar ??: Laplacian Solver (Anyone want extra lecture?)
 
 ## Related Theory Optimization Courses:
 + [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
