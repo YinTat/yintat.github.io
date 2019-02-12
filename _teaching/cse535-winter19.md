@@ -50,7 +50,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Jan 31: Mirror Descent
 + Feb 07: Frank-Wolfe
 + Feb 07: Newton Method & L-BFGS
-+ Feb 12: Interior Point Method
++ Feb ??: Interior Point Method
 
 ### Geometrization (Sampling)
 + Feb 14: Ball walk & Isoperimetry
