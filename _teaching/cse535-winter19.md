@@ -48,7 +48,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 
 ### Geometrization (Optimization)
 + Jan 31: Mirror Descent (4.1)
-+ --- --: Frank-Wolfe (4.2)
++ Jan 31: Frank-Wolfe (4.2)
 + Feb 07: Newton Method & L-BFGS (4.3)
 + Feb 19: Interior Point Method (4.4)
 
