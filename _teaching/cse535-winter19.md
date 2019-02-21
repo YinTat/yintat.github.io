@@ -65,8 +65,8 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Mar 12: Chebyshev Expansion & Conjugate Gradient 
 + Mar 14: Accelerated Gradient Descent
 
-### Decomposition
-+ Feb 21: Cholesky decomposition
+### Linear Systems
++ Feb 21: Survey
 
 ## Related Theory Optimization Courses:
 + [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
