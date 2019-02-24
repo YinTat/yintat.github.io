@@ -51,6 +51,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Jan 31: Frank-Wolfe (4.2)
 + Feb 07: Newton Method & L-BFGS (4.3)
 + Feb 19: Interior Point Method (4.4)
++ Feb 21: Survey on Solving Linear Systems
 
 ### Geometrization (Sampling)
 + Feb 14: Ball walk & Isoperimetry (5.1, 5.2)
@@ -64,9 +65,6 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 ### Acceleration
 + Mar 12: Chebyshev Expansion & Conjugate Gradient 
 + Mar 14: Accelerated Gradient Descent
-
-### Linear Systems
-+ Feb 21: Survey
 
 ## Related Theory Optimization Courses:
 + [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
