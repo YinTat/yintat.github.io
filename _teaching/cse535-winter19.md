@@ -23,7 +23,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Office Hours: By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
 + TA Office hours: Fri 2:45-4:00, CSE 021
 + Lectures: Tue, Thu 10:00-11:20 at ARC G070
-+ Lecture Note: [https://www.dropbox.com/s/wdxhrlcnjz3tecj/main.pdf](https://www.dropbox.com/s/wdxhrlcnjz3tecj/main.pdf)
++ Lecture Note: [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
 + Course evaluation: Homework (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
