@@ -72,4 +72,4 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + [Nisheeth Vishnoi, Algorithms for Convex Optimization](https://nisheethvishnoi.wordpress.com/convex-optimization/)
 + [Jonathan Kelner, Topics in Theoretical Computer Science: An Algorithmist's Toolkit](http://stellar.mit.edu/S/course/18/sp14/18.409/index.html)
 + [Santosh Vempala, Simple Algorithms](https://algorithms2017.wordpress.com/lectures/)
-+ [Sheehan Olver,Numerical Complex Analysis](http://www.maths.usyd.edu.au/u/olver/teaching/NCA/)
++ [Sheehan Olver, Numerical Complex Analysis](http://www.maths.usyd.edu.au/u/olver/teaching/NCA/)
