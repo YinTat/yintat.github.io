@@ -51,20 +51,20 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Jan 31: Frank-Wolfe (4.2)
 + Feb 07: Newton Method & L-BFGS (4.3)
 + Feb 19: Interior Point Method (4.4)
-+ Feb 21: Survey on Solving Linear Systems
++ Feb 21: Survey on Solving Linear Systems (Not in the lecture note)
 
 ### Geometrization (Sampling)
 + Feb 14: Ball walk & Isoperimetry (5.1, 5.2)
-+ Feb 26: Isotropic Transformation & Simulated Annealing.
-+ Feb 28: HMC
++ Feb 26: Ball walk (5.3, 5.4)
++ Feb 28: HMC (5.5, 5.6, 5.8)
 
 ### Sparsification
-+ Mar 5: Stochastic Gradient Descent & Variance Reduction
-+ Mar 7: Leverage Score Sampling
++ Mar 5: Leverage Score Sampling (6.1, 6.2)
++ Mar 7: Stochastic Gradient Descent & Variance Reduction (6.3, 6.4)
 
 ### Acceleration
-+ Mar 12: Chebyshev Expansion & Conjugate Gradient 
-+ Mar 14: Accelerated Gradient Descent
++ Mar 12: Conjugate Gradient & Chebyshev Expansion (8.1, 8.2)
++ Mar 14: Accelerated Gradient Descent (8.3)
 
 ## Related Theory Optimization Courses:
 + [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
