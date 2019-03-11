@@ -67,9 +67,9 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Mar 14: Accelerated Gradient Descent (8.3)
 
 ## Related Theory Optimization Courses:
-+ [Aaron Sidford](http://www.aaronsidford.com/sp17_opt_theory.html)
-+ [Lap Chi Lau](https://cs.uwaterloo.ca/~lapchi/cs798/index.html)
-+ [Nisheeth Vishnoi](https://nisheethvishnoi.wordpress.com/convex-optimization/)
-+ [Jonathan Kelner](http://stellar.mit.edu/S/course/18/sp14/18.409/index.html)
-+ [Aleksander Mądry](http://courses.csail.mit.edu/6.S978/)
-+ [Santosh Vempala](https://algorithms2017.wordpress.com/lectures/)
++ [Aaron Sidford, Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html)
++ [Lap Chi Lau, Convexity and Optimization](https://cs.uwaterloo.ca/~lapchi/cs798/index.html)
++ [Nisheeth Vishnoi, Algorithms for Convex Optimization](https://nisheethvishnoi.wordpress.com/convex-optimization/)
++ [Jonathan Kelner, Topics in Theoretical Computer Science: An Algorithmist's Toolkit](http://stellar.mit.edu/S/course/18/sp14/18.409/index.html)
++ [Santosh Vempala, Simple Algorithms](https://algorithms2017.wordpress.com/lectures/)
++ [Sheehan Olver,Numerical Complex Analysis](http://www.maths.usyd.edu.au/u/olver/teaching/NCA/)
