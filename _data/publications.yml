@@ -424,7 +424,7 @@
       url       = {http://doi.acm.org/10.1145/3055399.3055419},
       doi       = {10.1145/3055399.3055419}
     }
-- id: thesis
+- id: YinTatThesis
   url: http://yintat.com/pdf/thesis.pdf
   year: 2016
   type: survey
@@ -477,7 +477,7 @@
       url       = {https://doi.org/10.1137/1.9781611974331.ch127},
       doi       = {10.1137/1.9781611974331.ch127}
     }
-- id: DBLP:conf/soda/KwokLL16
+- id: DBLP:journals/siamcomp/KwokLL17
   authors: Tsz Chiu Kwok and Lap Chi Lau
   url: https://arxiv.org/pdf/1504.00686.pdf
   venue: SODA 2016
@@ -607,7 +607,7 @@
       url       = {https://doi.org/10.1109/FOCS.2015.23},
       doi       = {10.1109/FOCS.2015.23}
     }
-- id: DBLP:conf/focs/LeeS15a
+- id: DBLP:journals/siamcomp/Lee018
   authors: He Sun
   url: https://arxiv.org/pdf/1508.03261.pdf
   venue: FOCS 2015
@@ -616,17 +616,18 @@
   title: |
     Constructing Linear-Sized Spectral Sparsification in Almost-Linear Time
   bib: |
-    @inproceedings{DBLP:conf/focs/LeeS15a,
+    @article{DBLP:journals/siamcomp/Lee018,
       author    = {Yin Tat Lee and
                    He Sun},
       title     = {Constructing Linear-Sized Spectral Sparsification in Almost-Linear
                    Time},
-      booktitle = {{IEEE} 56th Annual Symposium on Foundations of Computer Science, {FOCS}
-                   2015, Berkeley, CA, USA, 17-20 October, 2015},
-      pages     = {250--269},
-      year      = {2015},
-      url       = {https://doi.org/10.1109/FOCS.2015.24},
-      doi       = {10.1109/FOCS.2015.24}
+      journal   = {{SIAM} J. Comput.},
+      volume    = {47},
+      number    = {6},
+      pages     = {2315--2336},
+      year      = {2018},
+      url       = {https://doi.org/10.1137/16M1061850},
+      doi       = {10.1137/16M1061850}
     }
 - id: DBLP:conf/focs/LeeSW15
   authors: Aaron Sidford and Sam Chiu-wai Wong
@@ -699,7 +700,7 @@
       url       = {https://doi.org/10.1109/FOCS.2014.52},
       doi       = {10.1109/FOCS.2014.52}
     }
-- id: DBLP:conf/focs/KapralovLMMS14
+- id: DBLP:journals/siamcomp/KLMMS17
   authors: Michael Kapralov, Cameron Musco, Christopher Musco, and Aaron Sidford
   url: https://arxiv.org/pdf/1407.1289.pdf
   venue: FOCS 2014, SIAM J. Comput.
