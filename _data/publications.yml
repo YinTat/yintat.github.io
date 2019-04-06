@@ -610,7 +610,7 @@
 - id: DBLP:journals/siamcomp/Lee018
   authors: He Sun
   url: https://arxiv.org/pdf/1508.03261.pdf
-  venue: FOCS 2015
+  venue: FOCS 2015, SIAM J. Comput.
   year: 2015
   highlight: Improved to <a href="#DBLPconfstocLee017">nearly-linear-time</a>.
   title: |
