@@ -1,3 +1,40 @@
+- id: conf/stoc/CLS19
+  authors: Michael B. Cohen and Zhao Song
+  url: https://arxiv.org/pdf/1810.07896.pdf
+  venue: STOC 2019
+  year: 2019
+  type: selected
+  highlight: First time we can solve linear programs as fast as linear systems
+  title: |
+    Solving Linear Programs in the Current Matrix Multiplication Time
+  bib: |
+    @inproceedings{conf/stoc/CLS19,
+      author    = {Michael B. Cohen and
+                   Yin Tat Lee and
+                   Zhao Song},
+      title     = {Solving Linear Programs in the Current Matrix Multiplication Time},
+      booktitle = {Proceedings of the 51th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2019},
+      year      = {2019}
+    }
+- id: conf/stoc/BLLM19
+  authors: Sebastien Bubeck, Yuanzhi Li and Mark Sellke
+  url: https://arxiv.org/pdf/1811.00887.pdf
+  venue: STOC 2019
+  year: 2019
+  title: |
+    Competitively Chasing Convex Bodies
+  bib: |
+    @inproceedings{conf/stoc/BLLM19,
+      author    = {Sebastien Bubeck and
+                   Yin Tat Lee and
+                   Yuanzhi Li and
+                   Mark Sellke},
+      title     = {Competitively Chasing Convex Bodies},
+      booktitle = {Proceedings of the 51th Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2019},
+      year      = {2019}
+    }
 - id: DBLP:conf/soda/BubeckCLL19
   authors: Sebastien Bubeck, Michael B. Cohen and James R. Lee
   url: https://arxiv.org/pdf/1807.04404.pdf
@@ -62,7 +99,7 @@
       year      = {2018},
       url       = {http://proceedings.mlr.press/v75/lee18a.html}
     }
-- id: DBLP:conf/nips/ScamanBBLM17
+- id: DBLP:conf/nips/ScamanBBML18
   authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
   url: https://arxiv.org/pdf/1702.08704.pdf
   venue: NeurIPS 2018
@@ -73,13 +110,19 @@
     Optimal Algorithms for Non-Smooth Distributed Optimization in Networks
   highlight: Best paper in NeurIPS 2018.
   bib: |
-    @article{scaman2018optimal,
-      title={Optimal Algorithms for Non-Smooth Distributed Optimization in Networks},
-      author={Scaman, Kevin and Bach, Francis and Bubeck, S{\'e}bastien and Lee, Yin Tat and Massouli{\'e}, Laurent},
+    @inproceedings{DBLP:conf/nips/ScamanBBML18,
+      author    = {Kevin Scaman and
+                   Francis Bach and
+                   S{\'{e}}bastien Bubeck and
+                   Laurent Massouli{\'{e}} and
+                   Yin Tat Lee},
+      title     = {Optimal Algorithms for Non-Smooth Distributed Optimization in Networks},
       booktitle = {Advances in Neural Information Processing Systems 31: Annual Conference
-                   on Neural Information Processing Systems 2018, December 2-8, 2018,
-                   Montreal, Quebec, Canada},
-      year={2018}
+                   on Neural Information Processing Systems 2018, NeurIPS 2018, 3-8 December
+                   2018, Montr{\'{e}}al, Canada.},
+      pages     = {2745--2754},
+      year      = {2018},
+      url       = {http://papers.nips.cc/paper/7539-optimal-algorithms-for-non-smooth-distributed-optimization-in-networks}
     }
 - id: DBLP:journals/corr/LeeY18
   authors: Man-Chung Yue
