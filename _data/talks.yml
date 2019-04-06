@@ -1,3 +1,7 @@
+- title: Solving Linear Programs in the Current Matrix Multiplication Time
+  data:
+  - name: Simons Workshop on Bridging Continuous and Discrete Optimization Reunion, Dec 2018
+
 - title: Efficient Convex Optimization with Membership Oracles
   data:
   - name: Conference on Learning Theory (COLT), July 2018
