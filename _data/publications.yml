@@ -22,6 +22,7 @@
   url: https://arxiv.org/pdf/1811.00887.pdf
   venue: STOC 2019
   year: 2019
+  highlight: First competitive algorithm to chase convex bodies
   title: |
     Competitively Chasing Convex Bodies
   bib: |
