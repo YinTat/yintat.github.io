@@ -1,3 +1,67 @@
+- id: DBLP:conf/soda/BubeckCLL19
+  authors: Sebastien Bubeck, Michael B. Cohen and James R. Lee
+  url: https://arxiv.org/pdf/1807.04404.pdf
+  venue: SODA 2019
+  year: 2019
+  title: |
+    Metrical task systems on trees via mirror descent and unfair gluing
+  bib: |
+    @inproceedings{DBLP:conf/soda/BubeckCLL19,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Michael B. Cohen and
+                   James R. Lee and
+                   Yin Tat Lee},
+      title     = {Metrical task systems on trees via mirror descent and unfair gluing},
+      booktitle = {Proceedings of the Thirtieth Annual {ACM-SIAM} Symposium on Discrete
+                   Algorithms, {SODA} 2019, San Diego, California, USA, January 6-9,
+                   2019},
+      pages     = {89--97},
+      year      = {2019},
+      url       = {https://doi.org/10.1137/1.9781611975482.6},
+      doi       = {10.1137/1.9781611975482.6}
+    }
+- id: DBLP:conf/soda/ArgueBCGL19
+  authors: C. J. Argue, Sebastien Bubeck, Michael B. Cohen and Anupam Gupta
+  url: https://arxiv.org/pdf/1806.08865.pdf
+  venue: SODA 2019
+  year: 2019
+  title: |
+    A Nearly-Linear Bound for Chasing Nested Convex Bodies
+  bib: |
+    @inproceedings{DBLP:conf/soda/ArgueBCGL19,
+      author    = {C. J. Argue and
+                   S{\'{e}}bastien Bubeck and
+                   Michael B. Cohen and
+                   Anupam Gupta and
+                   Yin Tat Lee},
+      title     = {A Nearly-Linear Bound for Chasing Nested Convex Bodies},
+      booktitle = {Proceedings of the Thirtieth Annual {ACM-SIAM} Symposium on Discrete
+                   Algorithms, {SODA} 2019, San Diego, California, USA, January 6-9,
+                   2019},
+      pages     = {117--122},
+      year      = {2019},
+      url       = {https://doi.org/10.1137/1.9781611975482.8},
+      doi       = {10.1137/1.9781611975482.8}
+    }
+- id: DBLP:conf/colt/LeeSV18
+  authors: Aaron Sidford and Santosh S. Vempala
+  url: https://arxiv.org/pdf/1706.07357.pdf
+  venue: COLT 2018
+  year: 2018
+  title: |
+    Efficient Convex Optimization with Membership Oracles
+  bib: |
+    @inproceedings{DBLP:conf/colt/LeeSV18,
+      author    = {Yin Tat Lee and
+                   Aaron Sidford and
+                   Santosh S. Vempala},
+      title     = {Efficient Convex Optimization with Membership Oracles},
+      booktitle = {Conference On Learning Theory, {COLT} 2018, Stockholm, Sweden, 6-9
+                   July 2018.},
+      pages     = {1292--1294},
+      year      = {2018},
+      url       = {http://proceedings.mlr.press/v75/lee18a.html}
+    }
 - id: DBLP:conf/nips/ScamanBBLM17
   authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
   url: https://arxiv.org/pdf/1702.08704.pdf
