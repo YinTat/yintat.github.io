@@ -8,13 +8,9 @@ redirect_from:
 
 
 <!--<img style="float: left;padding-right:3%" src="images/profile.jpg" width="35%">-->
-Yin Tat Lee is an assistant professor in the [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/) at the University of Washington and a visiting researcher in [Microsoft Research AI](https://www.microsoft.com/en-us/research/group/mlog/).
+Yin Tat Lee is an assistant professor in the [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/) at the University of Washington and a visiting researcher in [Microsoft Research AI](https://www.microsoft.com/en-us/research/group/mlog/). He completed his Ph.D. at Massachusetts Institute of Technology and his undergraduate studies at the Chinese University of Hong Kong. His research interests are primarily in algorithms and they span a wide range of topics such as convex optimization, convex geometry, spectral graph theory, and online algorithms.
 
-His research interests are primarily in algorithms and they span a wide range of topics such as convex optimization, convex geometry, spectral graph theory, and online algorithms. His primary research goal is to find algorithms for solving a general class of convex optimization problems.
-
-He has received a variety of awards for his work, including Best Paper Award and 2 x Best Student Paper Awards at FOCS, Best Paper Award at SODA, Best Paper Award at NeurIPS, Sprowls Award and [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [A.W. Tucker Prize](http://www.mathopt.org/?nav=tucker), and [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/).
-
-This is written in third person so that anyone (including me) can copy it as a talk bio.
+Over the past few years, he combined ideas from continuous and discrete mathematics to substantially advance the state-of-the-art algorithms for solving many fundamental problems in computer science and optimization, such as linear programming and the maximum flow problem.  As a result, he has received a variety of awards for his work, including Best Paper Award and 2 x Best Student Paper Awards at FOCS, Best Paper Award at SODA, Best Paper Award at NeurIPS, Sprowls Award and [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [A.W. Tucker Prize](http://www.mathopt.org/?nav=tucker), and [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/).
 
 Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [CCF-1740551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551), [DMS-1839116](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839116), and [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/).
 
