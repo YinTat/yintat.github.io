@@ -1,5 +1,5 @@
-- id: conf/stoc/CLS19
-  authors: Michael B. Cohen and Zhao Song
+- id: DBLP:conf/stoc/CohenLS19
+  authors: Michael Cohen and Zhao Song
   url: https://arxiv.org/pdf/1810.07896.pdf
   venue: STOC 2019
   year: 2019
@@ -8,33 +8,129 @@
   title: |
     Solving Linear Programs in the Current Matrix Multiplication Time
   bib: |
-    @inproceedings{conf/stoc/CLS19,
+    @inproceedings{DBLP:conf/stoc/CohenLS19,
       author    = {Michael B. Cohen and
                    Yin Tat Lee and
                    Zhao Song},
-      title     = {Solving Linear Programs in the Current Matrix Multiplication Time},
-      booktitle = {Proceedings of the 51th Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2019},
-      year      = {2019}
+      title     = {Solving linear programs in the current matrix multiplication time},
+      booktitle = {Proceedings of the 51st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2019, Phoenix, AZ, USA, June 23-26, 2019.},
+      pages     = {938--942},
+      year      = {2019},
+      url       = {https://doi.org/10.1145/3313276.3316303},
+      doi       = {10.1145/3313276.3316303}
     }
-- id: conf/stoc/BLLM19
+- id: DBLP:conf/stoc/BubeckLLS19
   authors: Sebastien Bubeck, Yuanzhi Li and Mark Sellke
   url: https://arxiv.org/pdf/1811.00887.pdf
   venue: STOC 2019
   year: 2019
-  highlight: First competitive algorithm to chase convex bodies
   title: |
-    Competitively Chasing Convex Bodies
+    Competitively chasing convex bodies
   bib: |
-    @inproceedings{conf/stoc/BLLM19,
-      author    = {Sebastien Bubeck and
+    @inproceedings{DBLP:conf/stoc/BubeckLLS19,
+      author    = {S{\'{e}}bastien Bubeck and
                    Yin Tat Lee and
                    Yuanzhi Li and
                    Mark Sellke},
-      title     = {Competitively Chasing Convex Bodies},
-      booktitle = {Proceedings of the 51th Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2019},
-      year      = {2019}
+      title     = {Competitively chasing convex bodies},
+      booktitle = {Proceedings of the 51st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2019, Phoenix, AZ, USA, June 23-26, 2019.},
+      pages     = {861--868},
+      year      = {2019},
+      url       = {https://doi.org/10.1145/3313276.3316314},
+      doi       = {10.1145/3313276.3316314}
+    }
+- id: DBLP:conf/colt/CohenCLY19
+  authors: Michael Cohen, Ben Cousins and Xin Yang
+  url: https://arxiv.org/pdf/1905.11580.pdf
+  venue: COLT 2019
+  year: 2019
+  title: |
+    A near-optimal algorithm for approximating the John Ellipsoid
+  bib: |
+    @inproceedings{DBLP:conf/colt/CohenCLY19,
+      author    = {Michael B. Cohen and
+                   Ben Cousins and
+                   Yin Tat Lee and
+                   Xin Yang},
+      title     = {A near-optimal algorithm for approximating the John Ellipsoid},
+      booktitle = {Conference on Learning Theory, {COLT} 2019, 25-28 June 2019, Phoenix,
+                   AZ, {USA}},
+      pages     = {849--873},
+      year      = {2019},
+      url       = {http://proceedings.mlr.press/v99/cohen19a.html}
+    }
+- id: DBLP:conf/colt/GasnikovDGVSU0W19
+  authors: GDGVSUJWZBJLLS19
+  url: http://proceedings.mlr.press/v99/gasnikov19b.html
+  venue: COLT 2019
+  year: 2019
+  title: |
+    Near Optimal Methods for Minimizing Convex Functions with Lipschitz p-th Derivatives
+  bib: |
+    @inproceedings{DBLP:conf/colt/GasnikovDGVSU0W19,
+      author    = {Alexander Gasnikov and
+                   Pavel Dvurechensky and
+                   Eduard Gorbunov and
+                   Evgeniya Vorontsova and
+                   Daniil Selikhanovych and
+                   C{\'{e}}sar A. Uribe and
+                   Bo Jiang and
+                   Haoyue Wang and
+                   Shuzhong Zhang and
+                   S{\'{e}}bastien Bubeck and
+                   Qijia Jiang and
+                   Yin Tat Lee and
+                   Yuanzhi Li and
+                   Aaron Sidford},
+      title     = {Near Optimal Methods for Minimizing Convex Functions with Lipschitz
+                   {\textdollar}p{\textdollar}-th Derivatives},
+      booktitle = {Conference on Learning Theory, {COLT} 2019, 25-28 June 2019, Phoenix,
+                   AZ, {USA}},
+      pages     = {1392--1393},
+      year      = {2019},
+      url       = {http://proceedings.mlr.press/v99/gasnikov19b.html}
+    }
+- id: DBLP:conf/colt/LeeSZ19
+  authors: Zhao Song and Qiuyi Zhang
+  url: https://arxiv.org/pdf/1905.04447.pdf
+  venue: COLT 2019
+  year: 2019
+  title: |
+    Solving Empirical Risk Minimization in the Current Matrix Multiplication Time
+  bib: |
+    @inproceedings{DBLP:conf/colt/LeeSZ19,
+      author    = {Yin Tat Lee and
+                   Zhao Song and
+                   Qiuyi Zhang},
+      title     = {Solving Empirical Risk Minimization in the Current Matrix Multiplication
+                   Time},
+      booktitle = {Conference on Learning Theory, {COLT} 2019, 25-28 June 2019, Phoenix,
+                   AZ, {USA}},
+      pages     = {2140--2157},
+      year      = {2019},
+      url       = {http://proceedings.mlr.press/v99/lee19a.html}
+    }
+- id: DBLP:conf/icml/BubeckLPR19
+  authors: Sebastien Bubeck, Eric Price and Ilya Razenshteyn
+  url: https://arxiv.org/pdf/1805.10204.pdf
+  venue: ICML 2019
+  year: 2019
+  title: |
+    Adversarial examples from computational constraints
+  bib: |
+    @inproceedings{DBLP:conf/icml/BubeckLPR19,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Yin Tat Lee and
+                   Eric Price and
+                   Ilya P. Razenshteyn},
+      title     = {Adversarial examples from computational constraints},
+      booktitle = {Proceedings of the 36th International Conference on Machine Learning,
+                   {ICML} 2019, 9-15 June 2019, Long Beach, California, {USA}},
+      pages     = {831--840},
+      year      = {2019},
+      url       = {http://proceedings.mlr.press/v97/bubeck19a.html}
     }
 - id: DBLP:conf/soda/BubeckCLL19
   authors: Sebastien Bubeck, Michael B. Cohen and James R. Lee
