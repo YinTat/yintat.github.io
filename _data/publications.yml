@@ -25,6 +25,7 @@
   url: https://arxiv.org/pdf/1811.00887.pdf
   venue: STOC 2019
   year: 2019
+  highlight: See <a href="https://arxiv.org/abs/1905.11968">this</a> and <a href="https://arxiv.org/abs/1905.11877">this</a> for an almost tight bound.
   title: |
     Competitively chasing convex bodies
   bib: |
@@ -46,6 +47,7 @@
   url: https://arxiv.org/pdf/1905.11580.pdf
   venue: COLT 2019
   year: 2019
+  highlight: A practical algorithm for finding John Ellipsoid.
   title: |
     A near-optimal algorithm for approximating the John Ellipsoid
   bib: |
@@ -97,6 +99,7 @@
   url: https://arxiv.org/pdf/1905.04447.pdf
   venue: COLT 2019
   year: 2019
+  highlight: Many convex problems can be solved in matrix multiplication time now!
   title: |
     Solving Empirical Risk Minimization in the Current Matrix Multiplication Time
   bib: |
