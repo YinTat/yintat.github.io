@@ -1,5 +1,13 @@
+- title: Solving Empirical Risk Minimization in the Current Matrix Multiplication Time
+  data:
+  - name: Conference on Learning Theory (COLT), June 2019
+
 - title: Solving Linear Programs in the Current Matrix Multiplication Time
   data:
+  - name: Symposium on the Theory of Computing (STOC), June 2019
+  - name: ARC Colloquium in Gatech, May 2019
+  - name: ISE Seminar in University of Washington, May 2019
+  - name: Theory Seminar, April 2019
   - name: Simons Workshop on Bridging Continuous and Discrete Optimization Reunion, Dec 2018
 
 - title: Efficient Convex Optimization with Membership Oracles
