@@ -200,7 +200,7 @@
       url       = {http://proceedings.mlr.press/v75/lee18a.html}
     }
 - id: DBLP:conf/nips/ScamanBBML18
-  authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
+  authors: Kevin Scaman, Francis R. Bach, Sebastien Bubeck, and Laurent Massoulie
   url: https://arxiv.org/pdf/1702.08704.pdf
   venue: NeurIPS 2018
   year: 2018
