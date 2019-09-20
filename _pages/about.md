@@ -14,8 +14,5 @@ Over the past few years, he combined ideas from continuous and discrete mathemat
 
 Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [CCF-1740551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551), [DMS-1839116](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839116), and [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/).
 
-[ADSI Summer school](https://alecgt.github.io/adsi_summer/)
-[ADSI workshop](https://ajwagen.github.io/adsi_learning_and_control/)
-
 Email: yintat@<span style="display: none;">ignoreme-</span>uw.edu<br>
 Office: CSE 562
