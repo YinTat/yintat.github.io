@@ -34,37 +34,38 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 ## Tentative Schedule:
 
 ### Introduction
-+ Jan 08: Gradient Descent (1.1, 1.2, 1.4)
-+ Jan 10: Langevin Dynamics (1.3, 1.5, 1.6)
++ Jan 07: Introduction (1.1, 1.2, 1.3)
++ Jan 09: Gradient Descent (1.5, 1.6)
 
 ### Elimination
-+ Jan 15: Cutting Plane Methods (2.1, 2.2, 2.3, 2.4)
-+ Jan 17: Sphere and Parabola Method (2.6, 2.7)
++ Jan 14: Limitation of Gradient Descent (2.7)
++ Jan 16: Cutting Plane Methods (2.1, 2.2)
++ Jan 21: Cutting Plane Methods (2.3, 2.4)
++ Jan 23: Sphere and Parabola Method (2.6)
 
 ### Reduction
-+ Jan 22: Equivalences (3.1, 3.2, 3.3)
-+ Jan 24: Equivalences (3.4)
-+ Jan 29: Duality (3.5)
++ Jan 28: Equivalences (3.1, 3.2, 3.3, 3.4)
++ Jan 30: Duality (3.6)
 
-### Geometrization (Optimization)
-+ Jan 31: Mirror Descent (4.1)
-+ Jan 31: Frank-Wolfe (4.2)
-+ Feb 07: Newton Method & L-BFGS (4.3)
-+ Feb 19: Interior Point Method (4.4)
-+ Feb 21: Survey on Solving Linear Systems (Not in the lecture note)
-
-### Geometrization (Sampling)
-+ Feb 14: Ball walk & Isoperimetry (5.1, 5.2)
-+ Feb 26: Ball walk (5.3, 5.4)
-+ Feb 28: HMC (5.5, 5.6, 5.8)
+### Geometrization
++ Feb 04: Mirror Descent (4.1)
++ Feb 06: Frank-Wolfe (4.2)
++ Feb 11: Newton Method & L-BFGS (4.3)
++ Feb 13: Interior Point Method (4.4)
 
 ### Sparsification
-+ Mar 5: Leverage Score Sampling (6.1, 6.2)
-+ Mar 7: Stochastic Gradient Descent & Variance Reduction (6.3, 6.4)
++ Feb 18: Subspace Embedding (6.1)
++ Feb 20: Leverage Score Sampling (6.2)
++ Feb 25: Coordinate Descent (6.4)
++ Feb 27: Stochastic Gradient Descent & Variance Reduction (6.3)
+
+### Linear Systems
++ Mar 3: Cholesky Decomposition (???)
++ Mar 5: Laplacian Systems (???)
 
 ### Acceleration
-+ Mar 12: Conjugate Gradient & Chebyshev Expansion (8.1, 8.2)
-+ Mar 14: Accelerated Gradient Descent (8.3)
++ Mar 10: Conjugate Gradient & Chebyshev Expansion (8.1, 8.2)
++ Mar 12: Accelerated Gradient Descent (8.3)
 
 ## Related Courses:
 + [Aaron Sidford, Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html)
