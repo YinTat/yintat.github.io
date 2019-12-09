@@ -12,8 +12,8 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Reduction
 + Geometrization
 + Sparsification
-+ Decomposition
 + Acceleration
++ Decomposition
 
 This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/2020CS6550/contalgos.html).
 
@@ -38,19 +38,19 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Jan 09: Gradient Descent (1.5, 1.6)
 
 ### Elimination
-+ Jan 14: Limitation of Gradient Descent (2.7)
-+ Jan 16: Cutting Plane Methods (2.1, 2.2)
-+ Jan 21: Cutting Plane Methods (2.3, 2.4)
-+ Jan 23: Sphere and Parabola Method (2.6)
++ Jan 14: Cutting Plane Methods (2.1, 2.2, 2.3, 2.4)
++ Jan 16: Sphere and Parabola Method (2.6)
 
 ### Reduction
-+ Jan 28: Equivalences (3.1, 3.2, 3.3, 3.4)
-+ Jan 30: Duality (3.6)
++ Jan 21: Equivalences (3.1, 3.2, 3.3, 3.4)
++ Jan 23: Duality (3.6)
 
 ### Geometrization
-+ Feb 04: Mirror Descent (4.1)
-+ Feb 06: Frank-Wolfe (4.2)
-+ Feb 11: Newton Method & L-BFGS (4.3)
++ Jan 28: Lower Bounds (4.1)
++ Jan 30: Mirror Descent (4.1)
++ Feb 04: Frank-Wolfe (4.2)
++ Feb 06: Newton Method & L-BFGS (4.3)
++ Feb 11: Interior Point Method (4.4)
 + Feb 13: Interior Point Method (4.4)
 
 ### Sparsification
@@ -59,13 +59,13 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Feb 25: Coordinate Descent (6.4)
 + Feb 27: Stochastic Gradient Descent & Variance Reduction (6.3)
 
-### Decomposition
-+ Mar 3: Cholesky Decomposition (???)
-+ Mar 5: Laplacian Systems (???)
-
 ### Acceleration
-+ Mar 10: Conjugate Gradient & Chebyshev Expansion (8.1, 8.2)
-+ Mar 12: Accelerated Gradient Descent (8.3)
++ Mar 3: Conjugate Gradient & Chebyshev Expansion (8.1, 8.2)
++ Mar 5: Accelerated Gradient Descent (8.3)
+
+### Decomposition
++ Mar 10: Cholesky Decomposition (???)
++ Mar 12: Laplacian Systems (???)
 
 ## Related Courses:
 + [Aaron Sidford, Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html)
