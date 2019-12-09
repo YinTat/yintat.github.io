@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CSE 535: Theory of Optimization and Continuous Algorithms"
-permalink: /teaching/cse535-winter19/
+permalink: /teaching/cse535-winter20/
 author_profile: false
 ---
 
