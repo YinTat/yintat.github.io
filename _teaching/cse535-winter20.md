@@ -11,11 +11,11 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Elimination
 + Reduction
 + Geometrization
-+ Acceleration
 + Sparsification
 + Decomposition
++ Acceleration
 
-This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/contalgos.html).
+This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/2020CS6550/contalgos.html).
 
 
 ## Administrative Information:
@@ -59,7 +59,7 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + Feb 25: Coordinate Descent (6.4)
 + Feb 27: Stochastic Gradient Descent & Variance Reduction (6.3)
 
-### Linear Systems
+### Decomposition
 + Mar 3: Cholesky Decomposition (???)
 + Mar 5: Laplacian Systems (???)
 
