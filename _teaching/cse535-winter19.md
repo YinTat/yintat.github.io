@@ -7,7 +7,7 @@ author_profile: false
 
 # CSE 535: Theory of Optimization and Continuous Algorithms
 
-The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. Typically, a continuous process, deterministic or randomized is designed (or shown) to have desirable properties, such as approaching an optimal solution or a desired distribution, and an algorithm is derived from this by appropriate discretization. In interesting and general settings, the current fastest methods are a consequence of this perspective. We will discuss several examples of algorithms for high-dimensional optimization and sampling, and use them to understand the following concepts in detail.
+The design of algorithms is traditionally a discrete endeavor. However, many advances have come from a continuous viewpoint. Typically, a continuous process, deterministic or randomized is designed (or shown) to have desirable properties, such as approaching an optimal solution or a desired distribution, and an algorithm is derived from this by appropriate discretization. In interesting and general settings, the current fastest methods are a consequence of this perspective. We will discuss several examples of algorithms for high-dimensional optimization, and use them to understand the following concepts in detail.
 + Elimination
 + Reduction
 + Geometrization
@@ -23,7 +23,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Office Hours: By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
 + TA Office hours: Fri 2:45-4:00, CSE 021
 + Lectures: Tue, Thu 10:00-11:20 at ARC G070
-+ Lecture Note: [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
++ Text Book (in progress): [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
 + Course evaluation: Homework (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
