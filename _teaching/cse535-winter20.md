@@ -20,9 +20,9 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 
 ## Administrative Information:
 + Instructor: Yin Tat Lee
-+ Office Hours: By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
-+ TA Office hours: Fri 2:45-4:00, CSE 021
-+ Lectures: Tue, Thu 10:00-11:20 at ARC G070
++ Office Hours: TBA. By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
++ TA Office hours: TBA
++ Lectures: Tue, Thu 11:30-12:50 at	CSE2 G01
 + Text Book (in progress): [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
 + Course evaluation: 4-5 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
