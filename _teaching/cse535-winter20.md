@@ -24,7 +24,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + TA Office hours: Fri 2:45-4:00, CSE 021
 + Lectures: Tue, Thu 10:00-11:20 at ARC G070
 + Text Book (in progress): [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
-+ Course evaluation: Homework (100%)
++ Course evaluation: 4-5 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
 ## Free Consulting Service (only for students)
@@ -37,6 +37,7 @@ Email me for an appointment.
 ## Assignments
 
 Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emails.
+
 
 ## Tentative Schedule:
 
