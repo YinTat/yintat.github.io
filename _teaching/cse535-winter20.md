@@ -29,7 +29,9 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 
 ## Free Consulting Service (only for students)
 
-If you have any difficult optimization problems in your research, feel free to ask me. Similarly, if you have done some amazing optimization research and want to tell me, do not hesitate. Email me for an appointment.
+If you have any difficult optimization problems in your research, feel free to ask me. Similarly, if you have done some amazing optimization research and want to tell me, do not hesitate. (I am not an expert on optimization in practice though. So, do not set a high expectation.)
+
+Email me for an appointment.
 
 
 ## Assignments
