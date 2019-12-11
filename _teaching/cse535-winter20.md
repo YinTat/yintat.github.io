@@ -27,6 +27,11 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Course evaluation: Homework (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
+## Free Consulting Service (only for students)
+
+If you have any difficult optimization problems in your research, feel free to ask me. Similarly, if you have done some amazing optimization research and want to tell me, do not hesitate. Email me for an appointment.
+
+
 ## Assignments
 
 Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emails.
