@@ -19,12 +19,14 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 
 
 ## Administrative Information:
-+ Instructor: Yin Tat Lee
-+ Office Hours: TBA. By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
-+ TA Office hours: TBA
 + Lectures: Tue, Thu 11:30-12:50 at	CSE2 G01
++ Recitation: Mon 3:30 - 4:30 at CSE2 271
++ Instructor: Yin Tat Lee (yintat@<span style="display: none;">ignoreme-</span>uw.edu</li>)
++ Instructor Office Hours: Tue 3:00-4:00 at CSE 562.
++ TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu</li>)
++ TA Office hours: Wed 3:30 - 4:30 at CSE 5th floor breakout
 + Text Book (in progress): [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
-+ Course evaluation: 4-5 assignments (100%)
++ Course evaluation: 5 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
 ## Free Consulting Service (only for students)
