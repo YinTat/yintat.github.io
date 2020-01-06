@@ -25,7 +25,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Instructor Office Hours: Tue 3:00-4:00 at CSE 562.
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
 + TA Office hours: Wed 3:30 - 4:30 at CSE 5th floor breakout
-+ Text Book (in progress): [https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf](https://www.dropbox.com/s/10zwtzolc1qhpsq/main.pdf)
++ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf)
 + Course evaluation: 5 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
