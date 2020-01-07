@@ -29,13 +29,6 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Course evaluation: 5 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
-## Free Consulting Service (only for students)
-
-If you have any difficult optimization problems in your research, feel free to ask me. Similarly, if you have done some optimization research, do not hesitate to tell me. (I am not an expert on optimization in practice though. So, do not set a high expectation.)
-
-Email me for an appointment.
-
-
 ## Assignments
 
 Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emails.
@@ -93,3 +86,9 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + [Jonathan Kelner, Topics in Theoretical Computer Science: An Algorithmist's Toolkit](http://stellar.mit.edu/S/course/18/sp14/18.409/index.html)
 + [Santosh Vempala, Simple Algorithms](https://algorithms2017.wordpress.com/lectures/)
 + [Sheehan Olver, Numerical Complex Analysis](http://www.maths.usyd.edu.au/u/olver/teaching/NCA/)
+
+## Free Consulting Service (only for students)
+
+If you have any difficult optimization problems in your research, feel free to ask me. Similarly, if you have done some optimization research, do not hesitate to tell me. (I am not an expert on optimization in practice though. So, do not set a high expectation.)
+
+Email me for an appointment.
