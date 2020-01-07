@@ -87,6 +87,13 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189). Check emai
 + [Santosh Vempala, Simple Algorithms](https://algorithms2017.wordpress.com/lectures/)
 + [Sheehan Olver, Numerical Complex Analysis](http://www.maths.usyd.edu.au/u/olver/teaching/NCA/)
 
+## Other Lecture Notes
++ [Sébastien Bubeck, Convex Optimization: Algorithms and Complexity](https://arxiv.org/abs/1405.4980)
++ [Aharon Ben-Tal and Arkadi Nemirovski, Lectures on Modern Convex Optimization](https://www2.isye.gatech.edu/~nemirovs/Lect_ModConvOpt.pdf)
++ [Stephen J. Wright, Optimization Algorithms for Data Analysis](http://www.optimization-online.org/DB_FILE/2016/12/5748.pdf)
++ [Léon Bottou, Frank E. Curtis, Jorge Nocedal. Optimization Methods for Large-Scale Machine Learning](https://arxiv.org/abs/1606.04838)
+
+
 ## Free Consulting Service (only for students)
 
 If you have any difficult optimization problems in your research, feel free to ask me. Similarly, if you have done some optimization research, do not hesitate to tell me. (I am not an expert on optimization in practice though. So, do not set a high expectation.)
