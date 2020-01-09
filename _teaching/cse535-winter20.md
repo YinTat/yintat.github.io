@@ -22,10 +22,10 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + Lectures: Tue, Thu 11:30-12:50 at	CSE2 G01
 + Recitation: Mon 3:30 - 4:30 at CSE2 271
 + Instructor: Yin Tat Lee (yintat@<span style="display: none;">ignoreme-</span>uw.edu)
-+ Instructor Office Hours: Thu 1:30-2:30 at CSE 562.
++ Instructor Office Hours: Tue 3:00-4:00 at CSE 562.
 + I will also answer questions in [Piazza](https://piazza.com/washington/winter2020/cse535)
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
-+ TA Office hours: Wed 3:30 - 4:30 at CSE 5th floor breakout
++ TA Office hours: Thu 1:30-2:30 at CSE 5th floor breakout
 + Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf)
 + Course evaluation: 5 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
