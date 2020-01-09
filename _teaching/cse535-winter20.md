@@ -31,7 +31,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 
 ## Assignments
 
-The assignments are postsed in [Piazza](https://piazza.com/washington/winter2020/cse535)
+The assignments are postsed in [Piazza](https://piazza.com/washington/winter2020/cse535).
 Submitted via [Gradescope](https://www.gradescope.com/courses/35189).
 
 ## Class Policy
