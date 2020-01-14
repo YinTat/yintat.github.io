@@ -16,3 +16,16 @@ Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAw
 
 Email: yintat@<span style="display: none;">ignoreme-</span>uw.edu<br>
 Office: CSE 562
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7216078004228924"
+     data-ad-slot="1584892646"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
