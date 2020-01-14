@@ -49,11 +49,11 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189).
 
 ### Introduction
 + Jan 07: Introduction (1.1, 1.2, 1.3, 1.4)
-+ Jan 09: Gradient Descent (1.5, 1.6, 1.7)
++ Jan 09: Introduction (1.5, Appendix)
 
 ### Elimination
-+ Jan 14: Cutting Plane Methods (2.1, 2.2, 2.3, 2.4)
-+ Jan 16: Sphere and Parabola Method (2.6)
++ Jan 14: Gradient Descent (1.6)
++ Jan 16: Cutting Plane Methods (1.7, 2.1, 2.2, 2.3, 2.4)
 
 ### Reduction
 + Jan 21: Equivalences (3.1, 3.2, 3.3, 3.4)
