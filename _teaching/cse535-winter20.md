@@ -50,34 +50,36 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189).
 ### Introduction
 + Jan 07: Introduction (1.1, 1.2, 1.3, 1.4)
 + Jan 09: Introduction (1.5, Appendix)
-+ Jan 14: Gradient Descent (1.6)
-+ Jan 16: Cutting Plane Methods (1.7, 2.1, 2.2)
+
+### Basic Methods
++ Jan 14: Gradient Descent (2.1)
++ Jan 16: Cutting Plane Methods (2.3, 3.1, 3.2)
++ Jan 21: Cutting Plane Methods (3.3, 3.4, 3.7)
 
 ### Reduction
-+ Jan 21: Equivalences (3.1, 3.2, 3.3, 3.4)
-+ Jan 23: Duality (3.6)
++ Jan 23: Equivalence (4.1, ???)
++ Jan 28: Duality
 
 ### Geometrization
-+ Jan 28: Lower Bounds (4.1)
-+ Jan 30: Mirror Descent (4.1)
-+ Feb 04: Frank-Wolfe (4.2)
-+ Feb 06: Newton Method & L-BFGS (4.3)
-+ Feb 11: Interior Point Method (4.4)
-+ Feb 13: Interior Point Method (4.4)
++ Jan 30: Mirror Descent
++ Feb 04: Frank-Wolfe
++ Feb 06: Newton Method & L-BFG
++ Feb 11: Interior Point Method
++ Feb 13: Interior Point Method
 
 ### Sparsification
-+ Feb 18: Subspace Embedding (6.1)
-+ Feb 20: Leverage Score Sampling (6.2)
-+ Feb 25: Coordinate Descent (6.4)
-+ Feb 27: Stochastic Gradient Descent & Variance Reduction (6.3)
++ Feb 18: Subspace Embedding
++ Feb 20: Leverage Score Sampling
++ Feb 25: Coordinate Descent
++ Feb 27: Stochastic Gradient Descent & Variance Reduction
 
 ### Acceleration
-+ Mar 3: Conjugate Gradient & Chebyshev Expansion (8.1, 8.2)
-+ Mar 5: Accelerated Gradient Descent (8.3)
++ Mar 3: Conjugate Gradient & Chebyshev Expansion
++ Mar 5: Accelerated Gradient Descent
 
 ### Decomposition
-+ Mar 10: Cholesky Decomposition (???)
-+ Mar 12: Laplacian Systems (???)
++ Mar 10: Cholesky Decomposition
++ Mar 12: Laplacian Systems
 
 ## Related Courses:
 + [Aaron Sidford, Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html)
