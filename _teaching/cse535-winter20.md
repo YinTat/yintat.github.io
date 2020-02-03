@@ -57,29 +57,26 @@ Submitted via [Gradescope](https://www.gradescope.com/courses/35189).
 + Jan 21: Cutting Plane Methods (3.3, 3.4, 3.7)
 
 ### Reduction
-+ Jan 23: Equivalence (4.1, ???)
-+ Jan 28: Duality
++ Jan 23: Equivalence (4.1)
++ Jan 28: Duality (4.2)
++ Jan 30: Duality (4.4)
 
 ### Geometrization
-+ Jan 30: Mirror Descent
-+ Feb 04: Frank-Wolfe
-+ Feb 06: Newton Method & L-BFG
-+ Feb 11: Interior Point Method
++ Feb 04: Mirror Descent
++ Feb 06: Frank-Wolfe
++ Feb 11: Newton Method & L-BFG
 + Feb 13: Interior Point Method
++ Feb 18: Interior Point Method
 
 ### Sparsification
-+ Feb 18: Subspace Embedding
-+ Feb 20: Leverage Score Sampling
-+ Feb 25: Coordinate Descent
-+ Feb 27: Stochastic Gradient Descent & Variance Reduction
++ Feb 20: Subspace Embedding
++ Feb 25: Leverage Score Sampling
++ Feb 27: Coordinate Descent
++ Mar 3: Stochastic Gradient Descent & Variance Reduction
 
 ### Acceleration
-+ Mar 3: Conjugate Gradient & Chebyshev Expansion
-+ Mar 5: Accelerated Gradient Descent
-
-### Decomposition
-+ Mar 10: Cholesky Decomposition
-+ Mar 12: Laplacian Systems
++ Mar 5: Conjugate Gradient & Chebyshev Expansion
++ Mar 10: Accelerated Gradient Descent
 
 ## Related Courses:
 + [Aaron Sidford, Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html)
