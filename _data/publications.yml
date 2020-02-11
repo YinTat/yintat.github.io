@@ -74,7 +74,7 @@
   title: |
     Complexity of Highly Parallel Non-Smooth Convex Optimization
   bib: |
-     inproceedings{DBLP:conf/nips/BubeckJLLS19,
+    @inproceedings{DBLP:conf/nips/BubeckJLLS19,
       author    = {S{\'{e}}bastien Bubeck and
                    Qijia Jiang and
                    Yin Tat Lee and
@@ -87,7 +87,7 @@
       pages     = {13900--13909},
       year      = {2019},
       url       = {http://papers.nips.cc/paper/9541-complexity-of-highly-parallel-non-smooth-convex-optimization}
-	  }
+    }
 - id: DBLP:conf/nips/ShenL19
   authors: Ruoqi Shen
   url: https://arxiv.org/pdf/1909.05503.pdf
