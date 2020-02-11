@@ -3,6 +3,7 @@
   url: https://arxiv.org/pdf/1911.00612.pdf
   venue: SODA 20
   year: 2020
+  highlight: Nearly linear time algorithm for circle packing
   title: |
     Computing Circle Packing Representations of Planar Graphs
   bib: |
