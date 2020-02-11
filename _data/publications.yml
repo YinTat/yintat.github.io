@@ -1,3 +1,111 @@
+- id: DBLP:conf/soda/DongLQ20
+  authors: Sally Dong and Kent Quanrud
+  url: https://arxiv.org/pdf/1911.00612.pdf
+  venue: SODA 20
+  year: 2020
+  title: |
+    Computing Circle Packing Representations of Planar Graphs
+  bib: |
+    @inproceedings{DBLP:conf/soda/DongLQ20,
+      author    = {Sally Dong and
+                   Yin Tat Lee and
+                   Kent Quanrud},
+      title     = {Computing Circle Packing Representations of Planar Graphs},
+      booktitle = {Proceedings of the 2020 {ACM-SIAM} Symposium on Discrete Algorithms,
+                   {SODA} 2020, Salt Lake City, UT, USA, January 5-8, 2020},
+      pages     = {2860--2875},
+      publisher = {{SIAM}},
+      year      = {2020},
+      url       = {https://doi.org/10.1137/1.9781611975994.174},
+      doi       = {10.1137/1.9781611975994.174}
+    }
+- id: DBLP:conf/soda/EliasKKL20
+  authors: Marek Elias, Michael Kapralov, and Janardhan Kulkarni
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.34?mobileUi=0
+  venue: SODA 20
+  year: 2020
+  highlight: A tight differentially private algorithm for releasing graphs with additive cut error
+  title: |
+    Differentially Private Release of Synthetic Graphs
+  bib: |
+    @inproceedings{DBLP:conf/soda/EliasKKL20,
+      author    = {Marek Eli{\'{a}}s and
+                   Michael Kapralov and
+                   Janardhan Kulkarni and
+                   Yin Tat Lee},=
+      title     = {Differentially Private Release of Synthetic Graphs},
+      booktitle = {Proceedings of the 2020 {ACM-SIAM} Symposium on Discrete Algorithms,
+                   {SODA} 2020, Salt Lake City, UT, USA, January 5-8, 2020},
+      pages     = {560--578},
+      publisher = {{SIAM}},
+      year      = {2020},
+      url       = {https://doi.org/10.1137/1.9781611975994.34},
+      doi       = {10.1137/1.9781611975994.34}
+    }
+- id: DBLP:conf/soda/BubeckKLLS20
+  authors: Sebastien Bubeck, Boaz Klartag, Yuanzhi Li, and Mark Sellke
+  url: https://arxiv.org/pdf/1911.00612.pdf
+  venue: SODA 20
+  year: 2020
+  title: |
+    Computing Circle Packing Representations of Planar Graphs
+  bib: |
+    @inproceedings{DBLP:conf/soda/BubeckKLLS20,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Bo'az Klartag and
+                   Yin Tat Lee and
+                   Yuanzhi Li and
+                   Mark Sellke},
+      title     = {Chasing Nested Convex Bodies Nearly Optimally},
+      booktitle = {Proceedings of the 2020 {ACM-SIAM} Symposium on Discrete Algorithms,
+                   {SODA} 2020, Salt Lake City, UT, USA, January 5-8, 2020},
+      pages     = {1496--1508},
+      publisher = {{SIAM}},
+      year      = {2020},
+      url       = {https://doi.org/10.1137/1.9781611975994.91},
+      doi       = {10.1137/1.9781611975994.91}
+    }
+- id: DBLP:conf/nips/BubeckJLLS19
+  authors: Sebastien Bubeck, Qijia Jiang, Yuanzhi Li and Aaron Sidford
+  url: https://arxiv.org/pdf/1906.10655.pdf
+  venue: NeurIPS 19
+  year: 2019
+  title: |
+    Complexity of Highly Parallel Non-Smooth Convex Optimization
+  bib: |
+     inproceedings{DBLP:conf/nips/BubeckJLLS19,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Qijia Jiang and
+                   Yin Tat Lee and
+                   Yuanzhi Li and
+                   Aaron Sidford},
+      title     = {Complexity of Highly Parallel Non-Smooth Convex Optimization},
+      booktitle = {Advances in Neural Information Processing Systems 32: Annual Conference
+                   on Neural Information Processing Systems 2019, NeurIPS 2019, 8-14
+                   December 2019, Vancouver, BC, Canada},
+      pages     = {13900--13909},
+      year      = {2019},
+      url       = {http://papers.nips.cc/paper/9541-complexity-of-highly-parallel-non-smooth-convex-optimization}
+	  }
+- id: DBLP:conf/nips/ShenL19
+  authors: Ruoqi Shen
+  url: https://arxiv.org/pdf/1909.05503.pdf
+  venue: NeurIPS 19
+  year: 2019
+  title: |
+    The Randomized Midpoint Method for Log-Concave Sampling
+  bib: |
+    @inproceedings{DBLP:conf/nips/ShenL19,
+      author    = {Ruoqi Shen and
+                   Yin Tat Lee},
+      title     = {The Randomized Midpoint Method for Log-Concave Sampling},
+      booktitle = {Advances in Neural Information Processing Systems 32: Annual Conference
+                   on Neural Information Processing Systems 2019, NeurIPS 2019, 8-14
+                   December 2019, Vancouver, BC, Canada},
+      pages     = {2098--2109},
+      year      = {2019},
+      url       = {http://papers.nips.cc/paper/8483-the-randomized-midpoint-method-for-log-concave-sampling}
+    }
 - id: DBLP:conf/stoc/CohenLS19
   authors: Michael Cohen and Zhao Song
   url: https://arxiv.org/pdf/1810.07896.pdf
