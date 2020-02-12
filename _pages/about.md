@@ -12,7 +12,7 @@ Yin Tat Lee is an assistant professor in the [Paul G. Allen School of Computer S
 
 Over the past few years, he combined ideas from continuous and discrete mathematics to substantially advance the state-of-the-art algorithms for solving many fundamental problems in computer science and optimization, such as linear programming and the maximum flow problem.  As a result, he has received a variety of awards for his work, including Best Paper Award and 2 x Best Student Paper Awards at FOCS, Best Paper Award at SODA, Best Paper Award at NeurIPS, Sprowls Award and [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [A.W. Tucker Prize](http://www.mathopt.org/?nav=tucker), and [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/).
 
-Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [CCF-1740551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551), [DMS-1839116](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839116), and [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/).
+Current funding: NSF awards [CCF-1749609](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [CCF-1740551](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1740551), [DMS-1839116](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839116), [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/), and [Sloan Research Fellowship](https://sloan.org/fellowships/)
 
 Email: yintat@<span style="display: none;">ignoreme-</span>uw.edu<br>
 Office: CSE 562
