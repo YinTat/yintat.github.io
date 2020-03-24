@@ -45,11 +45,11 @@
     }
 - id: DBLP:conf/soda/BubeckKLLS20
   authors: Sebastien Bubeck, Boaz Klartag, Yuanzhi Li, and Mark Sellke
-  url: https://arxiv.org/pdf/1911.00612.pdf
+  url: https://arxiv.org/pdf/1811.00999.pdf
   venue: SODA 20
   year: 2020
   title: |
-    Computing Circle Packing Representations of Planar Graphs
+    Chasing Nested Convex Bodies Nearly Optimally
   bib: |
     @inproceedings{DBLP:conf/soda/BubeckKLLS20,
       author    = {S{\'{e}}bastien Bubeck and
