@@ -107,6 +107,29 @@
       year      = {2019},
       url       = {http://papers.nips.cc/paper/8483-the-randomized-midpoint-method-for-log-concave-sampling}
     }
+- id: DBLP:conf/focs/ChakrabartyLS0W19
+  authors: Deeparnab Chakrabarty, Aaron Sidford, Sahil Singla and Sam Chiu-wai Wong
+  url: https://arxiv.org/pdf/1911.10765.pdf
+  venue: FOCS 2019
+  year: 2019
+  title: |
+    Faster Matroid Intersection
+  bib: |
+    @inproceedings{DBLP:conf/focs/ChakrabartyLS0W19,
+      author    = {Deeparnab Chakrabarty and
+                   Yin Tat Lee and
+                   Aaron Sidford and
+                   Sahil Singla and
+                   Sam Chiu{-}wai Wong},
+      title     = {Faster Matroid Intersection},
+      booktitle = {60th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2019, Baltimore, Maryland, USA, November 9-12, 2019},
+      pages     = {1146--1168},
+      year      = {2019},
+      crossref  = {DBLP:conf/focs/2019},
+      url       = {https://doi.org/10.1109/FOCS.2019.00072},
+      doi       = {10.1109/FOCS.2019.00072}
+    }
 - id: DBLP:conf/stoc/CohenLS19
   authors: Michael Cohen and Zhao Song
   url: https://arxiv.org/pdf/1810.07896.pdf
