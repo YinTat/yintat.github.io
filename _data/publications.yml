@@ -1,3 +1,65 @@
+- id: STOC20204
+  authors: Jan van den Brand, Aaron Sidford and Zhao Song
+  url: https://arxiv.org/pdf/2002.02304.pdf
+  venue: STOC 2020
+  year: 2020
+  highlight: The first nearly linear time algorithm for any linear program with much more constraints than variables
+  title: |
+    Solving Tall Dense Linear Programs in Nearly Linear Time
+  bib: |
+    @inproceedings{STOC20204,
+      author    = {Jan van den Brand, Yin Tat Lee, Aaron Sidford, Zhao Song},
+      title     = {Solving Tall Dense Linear Programs in Nearly Linear Time},
+      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
+      year      = {2020}
+    }
+- id: STOC20203
+  authors: Haotian Jiang, Zhao Song and Sam Chiu-wai Wong
+  url: http://www.yintat.com
+  venue: STOC 2020
+  year: 2020
+  highlight: The first cubic time algorithm for convex optimization
+  title: |
+    An Improved Cutting Plane Method for Convex Optimization, Convex-Concave Games and its Applications
+  bib: |
+    @inproceedings{STOC20203,
+      author    = {Haotian Jiang, Yin Tat Lee, Zhao Song, Sam Chiu-wai Wong},
+      title     = {An Improved Cutting Plane Method for Convex Optimization, Convex-Concave Games and its Applications},
+      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
+      year      = {2020}
+    }
+- id: STOC20202
+  authors: Arun Jambulapati, Jerry Li, Swati Padmanabhan and Kevin Tian
+  url: https://arxiv.org/pdf/2002.04830.pdf
+  venue: STOC 2020
+  year: 2020
+  title: |
+    Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent
+  bib: |
+    @inproceedings{STOC20202,
+      author    = {Arun Jambulapati, Yin Tat Lee, Jerry Li, Swati Padmanabhan, Kevin Tian},
+      title     = {Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent},
+      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
+      year      = {2020}
+    }
+- id: STOC20201
+  authors: Aditi Laddha and Santosh Vempala
+  url: https://arxiv.org/pdf/1911.05656.pdf
+  venue: STOC 2020
+  year: 2020
+  title: |
+    Strong Self-Concordance and Sampling
+  bib: |
+    @inproceedings{STOC20201,
+      author    = {Aditi Laddha, Yin Tat Lee, Santosh Vempala},
+      title     = {Strong Self-Concordance and Sampling},
+      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
+      year      = {2020}
+    }
 - id: DBLP:conf/soda/DongLQ20
   authors: Sally Dong and Kent Quanrud
   url: https://arxiv.org/pdf/1911.00612.pdf
