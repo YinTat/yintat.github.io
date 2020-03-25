@@ -96,7 +96,7 @@
       author    = {Marek Eli{\'{a}}s and
                    Michael Kapralov and
                    Janardhan Kulkarni and
-                   Yin Tat Lee},=
+                   Yin Tat Lee},
       title     = {Differentially Private Release of Synthetic Graphs},
       booktitle = {Proceedings of the 2020 {ACM-SIAM} Symposium on Discrete Algorithms,
                    {SODA} 2020, Salt Lake City, UT, USA, January 5-8, 2020},
