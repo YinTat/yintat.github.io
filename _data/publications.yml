@@ -64,7 +64,7 @@
 - id: DBLP:conf/soda/DongLQ20
   authors: Sally Dong and Kent Quanrud
   url: https://arxiv.org/pdf/1911.00612.pdf
-  venue: SODA 20
+  venue: SODA 2020
   year: 2020
   highlight: Nearly linear time algorithm for circle packing
   title: |
@@ -86,7 +86,7 @@
 - id: DBLP:conf/soda/EliasKKL20
   authors: Marek Elias, Michael Kapralov, and Janardhan Kulkarni
   url: https://epubs.siam.org/doi/abs/10.1137/1.9781611975994.34?mobileUi=0
-  venue: SODA 20
+  venue: SODA 2020
   year: 2020
   highlight: A tight differentially private algorithm for releasing graphs with additive cut error
   title: |
@@ -109,7 +109,7 @@
 - id: DBLP:conf/soda/BubeckKLLS20
   authors: Sebastien Bubeck, Boaz Klartag, Yuanzhi Li, and Mark Sellke
   url: https://arxiv.org/pdf/1811.00999.pdf
-  venue: SODA 20
+  venue: SODA 2020
   year: 2020
   title: |
     Chasing Nested Convex Bodies Nearly Optimally
@@ -154,7 +154,7 @@
 - id: DBLP:conf/nips/ShenL19
   authors: Ruoqi Shen
   url: https://arxiv.org/pdf/1909.05503.pdf
-  venue: NeurIPS 19
+  venue: NeurIPS 2019
   year: 2019
   title: |
     The Randomized Midpoint Method for Log-Concave Sampling
