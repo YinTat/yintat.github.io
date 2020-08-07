@@ -137,7 +137,7 @@
   title: |
     A Generalized Central Limit Conjecture for Convex Bodies
   bib: |
-    @incollection{jiang2020generalized,
+    @article{jiang2020generalized,
       title={A Generalized Central Limit Conjecture for Convex Bodies},
       author={Jiang, Haotian and Lee, Yin Tat and Vempala, Santosh S},
       booktitle={Geometric Aspects of Functional Analysis},
