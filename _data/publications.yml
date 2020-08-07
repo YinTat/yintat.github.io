@@ -129,6 +129,22 @@
       url       = {https://doi.org/10.1137/1.9781611975994.91},
       doi       = {10.1137/1.9781611975994.91}
     }
+- id: journals/GAFA/JiangL20
+  authors: Haotian Jiang
+  url: https://arxiv.org/pdf/1909.13127.pdf
+  venue: GAFA Seminar Notes
+  year: 2020
+  title: |
+    A Generalized Central Limit Conjecture for Convex Bodies
+  bib: |
+    @incollection{jiang2020generalized,
+      title={A Generalized Central Limit Conjecture for Convex Bodies},
+      author={Jiang, Haotian and Lee, Yin Tat and Vempala, Santosh S},
+      booktitle={Geometric Aspects of Functional Analysis},
+      pages={1--41},
+      year={2020},
+      publisher={Springer}
+    }
 - id: DBLP:conf/nips/BubeckJLLS19
   authors: Sebastien Bubeck, Qijia Jiang, Yuanzhi Li and Aaron Sidford
   url: https://arxiv.org/pdf/1906.10655.pdf
