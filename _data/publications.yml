@@ -17,7 +17,7 @@
     }
 - id: STOC20203
   authors: Haotian Jiang, Zhao Song and Sam Chiu-wai Wong
-  url: http://www.yintat.com
+  url: https://arxiv.org/pdf/2004.04250.pdf
   venue: STOC 2020
   year: 2020
   highlight: The first cubic time algorithm for convex optimization
