@@ -23,3 +23,4 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 
 
 ## Related Theory Courses:
++ [Jelani Nelson](https://www.sketchingbigdata.org/fall20/)
