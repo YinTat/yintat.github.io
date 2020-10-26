@@ -11,6 +11,7 @@ Sketching algorithms are powerful techniques to compress data in a way that lets
 + Randomized algorithms for linear algebra
 + Streaming algorithms
 + Compressed sensing
+
 Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses such as CSE 521.
 
 ## Administrative Information:
