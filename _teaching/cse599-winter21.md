@@ -8,9 +8,9 @@ author_profile: false
 # CSE 599: Sketching Algorithms
 
 Sketching algorithms are powerful techniques to compress data in a way that lets you answer various queries. In this course, we will cover various algorithms that make use of sketching techniques. This includes:
-> Randomized algorithms for linear algebra
-> Streaming algorithms
-> Compressed sensing
++ Randomized algorithms for linear algebra
++ Streaming algorithms
++ Compressed sensing
 Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses such as CSE 521.
 
 ## Administrative Information:
