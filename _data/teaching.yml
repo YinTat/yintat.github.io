@@ -1,3 +1,10 @@
+- year: 2020-2021
+  data:
+  - name: CSE 599 Sketching Algorithms
+    description: This course covers several concepts in sketching and sub-linear space algorithms.
+    time: Winter 2021
+    url: teaching/cse599-winter21/
+    
 - year: 2019-2020
   data:
   - name: CSE 535 Theory of Optimization and Continuous Algorithms
