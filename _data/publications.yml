@@ -12,7 +12,7 @@
       author    = {Sally Dong and
                    Yin Tat Lee and
                    Guanghao Ye},
-      title     = {A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth:
+      title     = {A Nearly Linear Time Algorithm for Linear Programs with Small Treewidth:
                    {A} Multiscale Representation of Robust Central Path},
       journal   = {CoRR},
       volume    = {abs/2011.05365},
