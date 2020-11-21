@@ -12,7 +12,7 @@
       author    = {Sally Dong and
                    Yin Tat Lee and
                    Guanghao Ye},
-      title     = {A Nearly Linear Time Algorithm for Linear Programs with Small Treewidth:
+      title     = {A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth:
                    {A} Multiscale Representation of Robust Central Path},
       journal   = {CoRR},
       volume    = {abs/2011.05365},
@@ -20,7 +20,7 @@
       url       = {https://arxiv.org/abs/2011.05365},
       archivePrefix = {arXiv},
       eprint    = {2011.05365}
-}
+    }
 - id: STOC20204
   authors: Jan van den Brand, Aaron Sidford and Zhao Song
   url: https://arxiv.org/pdf/2002.02304.pdf
