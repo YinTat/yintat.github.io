@@ -27,7 +27,7 @@
   venue: STOC 2020
   year: 2020
   type: selected
-  highlight: The first nearly linear time algorithm for linear programs with much more constraints than variables
+  highlight: The first nearly linear time algorithm for linear programs with lots of constraints
   title: |
     Solving Tall Dense Linear Programs in Nearly Linear Time
   bib: |
@@ -1109,7 +1109,6 @@
   url: https://arxiv.org/pdf/1301.5584.pdf
   venue: STOC 2013, SIAM J. Comput.
   year: 2013
-  type: selected
   highlight: Proving that Cheeger’s inequality is tight for graphs with spectral gaps.
   title: |
     Improved Cheeger's inequality: analysis of spectral partitioning algorithms
