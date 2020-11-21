@@ -1,3 +1,26 @@
+- id: treewidthLP
+  authors: Sally Dong and Guanghao Ye
+  url: https://arxiv.org/pdf/2011.05365.pdf
+  venue: arXiv
+  year: 2020
+  type: selected
+  highlight: The first nearly linear time algorithm for linear programs with small treewidth
+  title: |
+    A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth: A Multiscale Representation of Robust Central Path
+  bib: |
+    @article{DBLP:journals/corr/abs-2011-05365,
+      author    = {Sally Dong and
+                   Yin Tat Lee and
+                   Guanghao Ye},
+      title     = {A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth:
+                   {A} Multiscale Representation of Robust Central Path},
+      journal   = {CoRR},
+      volume    = {abs/2011.05365},
+      year      = {2020},
+      url       = {https://arxiv.org/abs/2011.05365},
+      archivePrefix = {arXiv},
+      eprint    = {2011.05365}
+}
 - id: STOC20204
   authors: Jan van den Brand, Aaron Sidford and Zhao Song
   url: https://arxiv.org/pdf/2002.02304.pdf
