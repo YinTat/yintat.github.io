@@ -67,7 +67,7 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Mar 4: Graph Properties
 
 ### Reversed
-+ Mar 9: I probably cannot finish above any way
++ Mar 9: I probably cannot finish above anyway
 + Mar 11: so, it does not matter what I wrote here
 
 ## Related Courses:
