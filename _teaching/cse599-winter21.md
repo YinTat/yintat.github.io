@@ -66,9 +66,9 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Mar 2: Distribution Testing
 + Mar 4: Graph Properties
 
-### Reversed
-+ Mar 9: I probably cannot finish above anyway
-+ Mar 11: so, it does not matter what I wrote here
+### TBA
++ Mar 9: TBA
++ Mar 11: TBA
 
 ## Related Courses:
 + [Jelani Nelson](https://www.sketchingbigdata.org/fall20/)
