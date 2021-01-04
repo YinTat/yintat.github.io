@@ -17,7 +17,7 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 ## Administrative Information:
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at yintat@<span style="display: none;">ignoreme-</span>uw.edu
-+ Lectures: Tue, Thu 10:00 – 11:20AM at Zoom (TBA)
++ Lectures: Tue, Thu 10:00 – 11:20AM at [https://washington.zoom.us/j/97903393364](Zoom)
 + TA: Sally Dong (sallyqd@<span style="display: none;">ignoreme-</span>cs.washington.edu)
 + Text Book: [https://www.sketchingbigdata.org/fall20/lec/notes.pdf](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
 + Course evaluation: 4 assignments or 1 project (100%)
