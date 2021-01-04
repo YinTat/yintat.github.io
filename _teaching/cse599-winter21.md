@@ -20,11 +20,11 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Lectures: Tue, Thu 10:00 – 11:20AM at [https://washington.zoom.us/j/97903393364](Zoom)
 + TA: Sally Dong (sallyqd@<span style="display: none;">ignoreme-</span>cs.washington.edu)
 + Text Book: [https://www.sketchingbigdata.org/fall20/lec/notes.pdf](https://www.sketchingbigdata.org/fall20/lec/notes.pdf)
-+ Course evaluation: 4 assignments or 1 project (100%)
++ Course evaluation: 4 assignments (100%) or 1 project (100%)
 + Project ideas: https://sublinear.info/index.php?title=Main_Page
 
 ## Assignments
-+ Posted and Submitted via Gradescope. I will email you whenever I post the assignment.
++ Posted and Submitted via [https://www.gradescope.com/courses/220862](Gradescope). I will email you whenever I post the assignment.
 
 ## Class Policy
 + You may discuss assignments with others, but you must write down the solutions by yourself.
