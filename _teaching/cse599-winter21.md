@@ -24,3 +24,11 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 
 ## Related Theory Courses:
 + [Jelani Nelson](https://www.sketchingbigdata.org/fall20/)
++ [Eric Price](https://www.cs.utexas.edu/~ecprice/courses/sublinear/)
++ [David Woodruff](http://www.cs.cmu.edu/~dwoodruf/teaching/15859-fall20/index.html)
++ [Chandra Chekuri](https://courses.engr.illinois.edu/cs498abd/sp2019/)
++ [Grigory Yaroslavtsev](http://grigory.us/big-data-class.html)
++ [Andrew McGregor](https://people.cs.umass.edu/~mcgregor/CS711S18/index.html)
++ [Paul Beame](https://courses.cs.washington.edu/courses/cse522/14sp/)
++ [Piotr Indyk](https://stellar.mit.edu/S/course/6/fa14/6.893/materials.html)
++ [Piotr Indyk, Ronitt Rubinfeld](http://stellar.mit.edu/S/course/6/sp13/6.893/materials.html)
