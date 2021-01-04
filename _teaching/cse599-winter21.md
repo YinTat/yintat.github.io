@@ -23,7 +23,7 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Course evaluation: 4 assignments (100%)
 
 ## Assignments
-+ Postsed and Submitted via Gradescope.
++ Posted and Submitted via Gradescope. I will email you whenever I post the assignment.
 
 ## Class Policy
 + You may discuss assignments with others, but you must write down the solutions by yourself.
