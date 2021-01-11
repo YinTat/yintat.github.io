@@ -69,8 +69,8 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 
 ### Others
 + Mar 4: Coresets
-+ Mar 9: TBA
-+ Mar 11: TBA
++ Mar 9: Spectral Sparsifier
++ Mar 11: Spectral Sparsifier
 
 ## Related Courses:
 + [Jelani Nelson](https://www.sketchingbigdata.org/fall20/)
