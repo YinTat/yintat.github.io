@@ -40,33 +40,35 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Jan 05: Morris Counter
 + Jan 07: Distinct elements
 
-### Linear Sketch
+### Heavy hitter
 + Jan 12: Heavy hitter
-+ Jan 14: Heavy hitter
-+ Jan 19: Norm Estimation
-+ Jan 21: Graph Applications
++ Jan 14: Graph Applications
 
 ### Johnson-Lindenstrauss Transforms
-+ Jan 26: JL Lemma
-+ Jan 28: Fast JL
-+ Feb 2: Sparse JL
-+ Feb 4: Linear Algebra Applications
++ Jan 19: Norm Estimation
++ Jan 21: JL Lemma
++ Jan 26: Fast JL
++ Jan 28: Sparse JL
+
+### Linear Algebra Applications
++ Feb 2: Approximate Matrix Multiplication
++ Feb 4: Oblivious Subspace Embedding
++ Feb 9: Low-rank Approximation
 
 ### Sparse recovery
-+ Feb 9: Compressive sensing, RIP properties
-+ Feb 11: Iterative Hard Thresholding
-+ Feb 16: Sparse Recovery, lp Sampler
-+ Feb 18: Medical Applications
++ Feb 11: Compressive Sensing, RIP Properties
++ Feb 16: Iterative Hard Thresholding
 
 ### Sparse FFT
-+ Feb 23: 1-sparse Fourier Sampling
-+ Feb 25: Isolation via Aliasing
++ Feb 18: 1-sparse Fourier Sampling
++ Feb 23: Isolation via Aliasing
 
 ### Property Testing
-+ Mar 2: Distribution Testing
-+ Mar 4: Graph Properties
++ Feb 25: Distribution Testing
++ Mar 2: Graph Properties
 
-### TBA
+### Others
++ Mar 4: Coresets
 + Mar 9: TBA
 + Mar 11: TBA
 
