@@ -40,11 +40,9 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Jan 05: Morris Counter
 + Jan 07: Distinct elements
 
-### Heavy hitter
+### Linear Sketch and Johnson-Lindenstrauss Transforms
 + Jan 12: Heavy hitter
 + Jan 14: Dynamic Spanning Tree
-
-### Johnson-Lindenstrauss Transforms
 + Jan 19: Norm Estimation
 + Jan 21: JL Lemma
 + Jan 26: Fast JL
