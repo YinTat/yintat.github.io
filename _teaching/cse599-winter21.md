@@ -42,7 +42,7 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 
 ### Heavy hitter
 + Jan 12: Heavy hitter
-+ Jan 14: Graph Applications
++ Jan 14: Dynamic Spanning Tree
 
 ### Johnson-Lindenstrauss Transforms
 + Jan 19: Norm Estimation
