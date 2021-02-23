@@ -61,13 +61,13 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 + Feb 18: 1-sparse Fourier Sampling
 + Feb 23: Isolation via Aliasing
 
-### Property Testing
-+ Feb 25: Distribution Testing
-+ Mar 2: Graph Properties
+### Dudley's theorem and its applications
++ Feb 25: Dudley's theorem
++ Mar 2: Instance-wise bounds for JL
 
 ### Others
-+ Mar 4: Coresets
-+ Mar 9: Spectral Sparsifier
++ Mar 4: Property Testing
++ Mar 9: Coresets
 + Mar 11: Project Presentation
 
 ## Related Courses:
