@@ -67,7 +67,7 @@ Prerequisites: Linear Algebra, Probabilities. Comfortable with theory courses su
 
 ### Others
 + Mar 4: Property Testing
-+ Mar 9: Coresets
++ Mar 9: Project Presentation
 + Mar 11: Project Presentation
 
 ## Related Courses:
