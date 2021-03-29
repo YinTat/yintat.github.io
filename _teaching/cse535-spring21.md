@@ -47,28 +47,34 @@ Posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020)
 ### Basic Methods
 + Apr 06: Gradient Descent
 + Apr 08: Cutting Plane Methods
-+ Apr 13: Cutting Plane Methods
 
 ### Reduction
-+ Apr 15: Equivalence
-+ Apr 20: Duality
-+ Apr 22: Duality
++ Apr 13: Duality
++ Apr 15: Composition
 
 ### Geometrization
-+ Apr 27: Mirror Descent
-+ Apr 29: Frank-Wolfe
-+ May 04: Newton Method & L-BFG
-+ May 06: Interior Point Method
-+ May 11: Interior Point Method
++ Apr 20: Frank-Wolfe
++ Apr 22: Newton Method & L-BFG
+
+### Homotopy Method
++ Apr 27: Interior Point Method
++ Apr 29: Robust Interior Point Method
+
+### Decomposition
++ May 04: Cholesky Decomposition
++ May 06: Multigrid Method
 
 ### Sparsification
-+ May 13: Subspace Embedding
-+ May 18: Leverage Score Sampling
-+ May 20: Coordinate Descent
-+ May 25: Stochastic Gradient Descent & Variance Reduction
++ May 11: Leverage Score Sampling
++ May 13: Stochastic Gradient Descent & Variance Reduction
 
 ### Acceleration
-+ May 27: Conjugate Gradient & Chebyshev Expansion
++ May 18: Conjugate Gradient & Chebyshev Expansion
++ May 20: Accelerated Gradient Descent
+
+### Adaptivity
++ May 25: ?????
++ May 27: ?????
 
 ### Project Presentations (Depending on Number of Projects)
 + Jun 01: Project
