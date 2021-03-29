@@ -1,7 +1,7 @@
 - id: treewidthLP
   authors: Sally Dong and Guanghao Ye
   url: https://arxiv.org/pdf/2011.05365.pdf
-  venue: arXiv
+  venue: STOC 2021
   year: 2020
   type: selected
   highlight: First nearly linear time algorithm for linear programs with small treewidth
