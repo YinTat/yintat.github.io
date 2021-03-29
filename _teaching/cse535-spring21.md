@@ -41,38 +41,42 @@ Posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020)
 ## Tentative Schedule:
 
 ### Introduction
-+ Jan 07: Introduction (1.1, 1.2, 1.3, 1.4)
-+ Jan 09: Introduction (1.5, Appendix)
++ Mar 30: Introduction
++ Apr 01: Introduction
 
 ### Basic Methods
-+ Jan 14: Gradient Descent (2.1)
-+ Jan 16: Cutting Plane Methods (2.3, 3.1, 3.2)
-+ Jan 21: Cutting Plane Methods (3.3, 3.4, 3.7)
++ Apr 06: Gradient Descent
++ Apr 08: Cutting Plane Methods
++ Apr 13: Cutting Plane Methods
 
 ### Reduction
-+ Jan 23: Equivalence (4.1)
-+ Jan 28: Duality (4.2)
-+ Jan 30: Duality (4.4)
++ Apr 15: Equivalence
++ Apr 20: Duality
++ Apr 22: Duality
 
 ### Geometrization
-+ Feb 04: Mirror Descent
-+ Feb 06: Frank-Wolfe
-+ Feb 11: Newton Method & L-BFG
-+ Feb 13: Interior Point Method
-+ Feb 18: Interior Point Method
++ Apr 27: Mirror Descent
++ Apr 29: Frank-Wolfe
++ May 04: Newton Method & L-BFG
++ May 06: Interior Point Method
++ May 11: Interior Point Method
 
 ### Sparsification
-+ Feb 20: Subspace Embedding
-+ Feb 25: Leverage Score Sampling
-+ Feb 27: Coordinate Descent
-+ Mar 3: Stochastic Gradient Descent & Variance Reduction
++ May 13: Subspace Embedding
++ May 18: Leverage Score Sampling
++ May 20: Coordinate Descent
++ May 25: Stochastic Gradient Descent & Variance Reduction
 
 ### Acceleration
-+ Mar 5: Conjugate Gradient & Chebyshev Expansion
-+ Mar 10: Accelerated Gradient Descent
++ May 27: Conjugate Gradient & Chebyshev Expansion
+
+### Project Presentations (Depending on Number of Projects)
++ Jun 01: Project
++ Jun 03: Project
+
 
 ## Related Courses:
-+ [Aaron Sidford, Introduction to Optimization Theory](http://www.aaronsidford.com/sp17_opt_theory.html)
++ [Aaron Sidford, Introduction to Optimization Theory](https://web.stanford.edu/~sidford/courses/20fa_opt_theory/fa20_opt_theory.html)
 + [Lap Chi Lau, Convexity and Optimization](https://cs.uwaterloo.ca/~lapchi/cs798/index.html)
 + [Nisheeth Vishnoi, Algorithms for Convex Optimization](https://nisheethvishnoi.wordpress.com/convex-optimization/)
 + [Jonathan Kelner, Topics in Theoretical Computer Science: An Algorithmist's Toolkit](http://stellar.mit.edu/S/course/18/sp14/18.409/index.html)
