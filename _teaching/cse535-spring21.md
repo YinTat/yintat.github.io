@@ -54,7 +54,7 @@ Posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020)
 
 ### Geometrization
 + Apr 20: Frank-Wolfe
-+ Apr 22: Newton Method & L-BFG
++ Apr 22: Newton Method & L-BFGS
 
 ### Homotopy Method
 + Apr 27: Interior Point Method
