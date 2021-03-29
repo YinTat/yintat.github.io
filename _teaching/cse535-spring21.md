@@ -18,6 +18,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 ## Administrative Information:
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at (yintat@<span style="display: none;">ignoreme-</span>uw.edu) 
++ Mailing List: cse535a_sp21@<span style="display: none;">ignoreme-</span>uw.edu
 + I will also answer questions in Edstem.org. (will send out the link soon).
 + Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
