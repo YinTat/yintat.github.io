@@ -2,7 +2,7 @@
   data:
   - name: CSE 535 Theory of Optimization and Continuous Algorithms
     description: This course covers several concepts in convex optimization, including, elimination, reduction, geometrization, sparsification, acceleration, and decomposition.
-    time: Spring 2020
+    time: Spring 2021
     url: teaching/cse535-spring21/
   - name: CSE 599 Sketching Algorithms
     description: This course covers several concepts in sketching and sub-linear space algorithms.
