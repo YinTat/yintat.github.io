@@ -15,25 +15,18 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Acceleration
 + Decomposition
 
-This course is offered in Georgia Tech at the same time by [Santosh Vempala](https://santoshv.github.io/2020CS6550/contalgos.html).
-
-
 ## Administrative Information:
-+ Lectures: Tue, Thu 11:30-12:50 at	CSE2 G01
-+ Recitation: Mon 3:30 - 4:30 at CSE2 271
-+ Instructor: Yin Tat Lee (yintat@<span style="display: none;">ignoreme-</span>uw.edu)
-+ Instructor Office Hours: Tue 3:00-4:00 at CSE 562.
-+ I will also answer questions in [Piazza](https://piazza.com/washington/winter2020/cse535)
++ Instructor: Yin Tat Lee
++ Office Hours: By appointment, email me at (yintat@<span style="display: none;">ignoreme-</span>uw.edu) 
++ I will also answer questions in Edstem.org. (will send out the link soon).
++ Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
-+ TA Office hours: Thu 1:30-2:30 at CSE 5th floor breakout
-+ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf)
-+ Course evaluation: 4 assignments (100%)
++ Course evaluation: 5 assignments (100%) or 1 project (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
 ## Assignments
 
-The assignments are postsed in [Piazza](https://piazza.com/washington/winter2020/cse535).
-Submitted via [Gradescope](https://www.gradescope.com/courses/35189).
+Posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020).
 
 ## Class Policy
 + You may discuss assignments with others, but you must write down the solutions by yourself.
