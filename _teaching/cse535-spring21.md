@@ -61,13 +61,13 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 27: Interior Point Method
 + Apr 29: Robust Interior Point Method
 
-### Decomposition
-+ May 04: Cholesky Decomposition
-+ May 06: Multigrid Method
-
 ### Sparsification
-+ May 11: Leverage Score Sampling
-+ May 13: Stochastic Gradient Descent & Variance Reduction
++ May 04: Leverage Score Sampling
++ May 06: Stochastic Gradient Descent & Variance Reduction
+
+### Decomposition
++ May 11: Cholesky Decomposition
++ May 13: Multigrid Method
 
 ### Acceleration
 + May 18: Conjugate Gradient & Chebyshev Expansion
