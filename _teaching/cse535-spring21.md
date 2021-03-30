@@ -42,7 +42,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 ## Tentative Schedule:
 
 ### Introduction
-+ Mar 30: [Convex Sets and Convex Functions](https://www.dropbox.com/s/jp6kftjej0tukrz/lecture%201.pdf)
++ Mar 30: Convex Sets and Convex Functions [Sec 1.1-1.5](https://www.dropbox.com/s/jp6kftjej0tukrz/lecture%201.pdf)
 + Apr 01: Introduction
 
 ### Basic Methods
