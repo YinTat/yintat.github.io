@@ -17,7 +17,8 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 
 ## Administrative Information:
 + Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
-+ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf) Please do not make comment directly on the merged version, but instead the split versions before. Dropbox cannot handle large documents efficiently.
++ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf).
++ Please do not make comment directly on the merged version, but instead the split versions below. Dropbox cannot handle large documents efficiently.
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at (yintat@<span style="display: none;">ignoreme-</span>uw.edu) 
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
