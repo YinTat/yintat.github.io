@@ -16,18 +16,17 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Decomposition
 
 ## Administrative Information:
++ Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
++ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf) Please do not make comment directly on the merged version, but instead the split versions before. Dropbox cannot handle large documents efficiently.
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at (yintat@<span style="display: none;">ignoreme-</span>uw.edu) 
-+ Mailing List: [Here](https://mailman.u.washington.edu/mailman/listinfo/cse535a_sp21)
-+ I will also answer questions in Edstem.org. (will send out the link soon).
-+ Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
-+ Course evaluation: 5 assignments (100%) or 1 project (100%)
++ Mailing List: [Here](https://mailman.u.washington.edu/mailman/listinfo/cse535a_sp21)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
 ## Assignments
-
-Posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020).
++ Course evaluation: 5 assignments (100%) or 1 project (100%)
++ Assignments posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020).
 
 ## Class Policy
 + You may discuss assignments with others, but you must write down the solutions by yourself.
@@ -42,7 +41,7 @@ Posted and submitted via [Gradescope](https://www.gradescope.com/courses/259020)
 ## Tentative Schedule:
 
 ### Introduction
-+ Mar 30: Introduction
++ Mar 30: [Introduction](https://www.dropbox.com/s/jp6kftjej0tukrz/lecture%201.pdf)
 + Apr 01: Introduction
 
 ### Basic Methods
