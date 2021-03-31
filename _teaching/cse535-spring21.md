@@ -45,7 +45,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 ## Tentative Schedule:
 
 ### Introduction
-+ Mar 30: Convexity [Sec 1.1-1.5](https://www.dropbox.com/s/jp6kftjej0tukrz/lecture%201.pdf, Updated on 31 Mar)
++ Mar 30: Convexity [Sec 1.1-1.5 (Updated on 31 Mar)](https://www.dropbox.com/s/jp6kftjej0tukrz/lecture%201.pdf)
 + Apr 01: Introduction
 
 ### Basic Methods
