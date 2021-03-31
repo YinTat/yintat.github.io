@@ -19,11 +19,14 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
 + Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf).
 + Please do not make comment directly on the merged version, but instead the split versions below. Dropbox cannot handle large documents efficiently.
++ Prerequisite: basic knowledge of algorithms, probability, linear algebra.
+
+## Contacts:
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at (yintat@<span style="display: none;">ignoreme-</span>uw.edu) 
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
 + Mailing List: [Here](https://mailman.u.washington.edu/mailman/listinfo/cse535a_sp21)
-+ Prerequisite: basic knowledge of algorithms, probability, linear algebra.
++ Edstem: [Here](https://edstem.org/us/courses/4940)
 
 ## Assignments
 + Course evaluation: 5 assignments (100%) or 1 project (100%)
