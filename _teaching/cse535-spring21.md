@@ -49,7 +49,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 01: Convexity and Derivative [Sec 4.1-4.4](https://www.dropbox.com/s/o9wn9d6gok0hi95/lecture%202.pdf) [Reading](https://www.dropbox.com/s/wha9wrfs59hco80/reading%202.pdf?dl=0)
 
 ### Basic Methods
-+ Apr 06: Gradient Descent
++ Apr 06: Gradient Descent (HW 1 due)
 + Apr 08: Cutting Plane Methods
 
 ### Reduction
@@ -57,7 +57,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 15: Composition
 
 ### Geometrization
-+ Apr 20: Frank-Wolfe
++ Apr 20: Frank-Wolfe (HW 2 due)
 + Apr 22: Newton Method & L-BFGS
 
 ### Homotopy Method
@@ -65,7 +65,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 29: Robust Interior Point Method
 
 ### Sparsification
-+ May 04: Leverage Score Sampling
++ May 04: Leverage Score Sampling (HW 3 due or project proposal due)
 + May 06: Stochastic Gradient Descent & Variance Reduction
 
 ### Decomposition
@@ -73,7 +73,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 13: Multigrid Method
 
 ### Acceleration
-+ May 18: Conjugate Gradient & Chebyshev Expansion
++ May 18: Conjugate Gradient & Chebyshev Expansion (HW 4 due)
 + May 20: Accelerated Gradient Descent
 
 ### Adaptivity
@@ -81,7 +81,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 27: ?????
 
 ### Project Presentations (Depending on Number of Projects)
-+ Jun 01: Project
++ Jun 01: Project (HW 5 due)
 + Jun 03: Project
 
 
