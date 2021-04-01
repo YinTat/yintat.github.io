@@ -85,6 +85,10 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Jun 03: Project
 
 
++ Project report due on Jun 08
+
+
+
 ## Related Courses:
 + [Aaron Sidford, Introduction to Optimization Theory](https://web.stanford.edu/~sidford/courses/20fa_opt_theory/fa20_opt_theory.html)
 + [Lap Chi Lau, Convexity and Optimization](https://cs.uwaterloo.ca/~lapchi/cs798/index.html)
