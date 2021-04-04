@@ -37,7 +37,6 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Assignments as well as regrade requests are to be submitted only via gradescope.
 + In general, late submissions are not accepted (the submission server closes at the deadline). Gradescope lets you overwrite previous submissions, so it is recommended to use this feature to avoid missing the submission deadline altogether.
 + We follow the standard [UW CSE policy](https://www.cs.washington.edu/academics/misconduct) for academic integrity.
-+ The recitation session is optional. In these sessions, Swati will review concepts from lecture, go over details (for example, of complicated calculations) that may have been unclear/too fast during lecture.
 + The office hours are for general questions about material from the lecture and homework problems.
 + Please refer to university policies regarding [disability accommodations](http://depts.washington.edu/uwdrs/current-students/accommodations/) or [religious accommodations](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/).
 
