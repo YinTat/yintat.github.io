@@ -48,7 +48,8 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 01: Convexity and Derivative [Sec 4.1-4.4](https://www.dropbox.com/s/o9wn9d6gok0hi95/lecture%202.pdf) [Reading](https://www.dropbox.com/s/wha9wrfs59hco80/reading%202.pdf?dl=0)
 
 ### Basic Methods
-+ Apr 06: Gradient Descent (HW 1 due)
++ Apr 06: Gradient Descent [Sec 2](https://www.dropbox.com/s/cx6husyj2nbfq2e/lecture%203.pdf?dl=0) 
++ Apr 06: (HW 1 due)
 + Apr 08: Cutting Plane Methods
 
 ### Reduction
