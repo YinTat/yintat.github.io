@@ -69,17 +69,17 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 04: Leverage Score Sampling (HW 3 due or project proposal due)
 + May 06: Stochastic Gradient Descent & Variance Reduction
 
-### Decomposition
+### Combinatorial Methods
 + May 11: Cholesky Decomposition
-+ May 13: Multigrid Method
++ May 13: Laplacian Solver
 
 ### Acceleration
 + May 18: Conjugate Gradient & Chebyshev Expansion (HW 4 due)
 + May 20: Accelerated Gradient Descent
 
-### Adaptivity
-+ May 25: ?????
-+ May 27: ?????
+### Student Requests
++ May 25: Adagrad
++ May 27: Bayesian methods
 
 ### Project Presentations (Depending on Number of Projects)
 + Jun 01: Project (HW 5 due)
