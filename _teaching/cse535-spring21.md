@@ -56,7 +56,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 15: Duality
 
 ### Geometrization
-+ Apr 20: Frank-Wolfe (HW 2 due)
++ Apr 20: Mirror Descent (HW 2 due)
 + Apr 22: Newton Method & L-BFGS
 
 ### Homotopy Method
