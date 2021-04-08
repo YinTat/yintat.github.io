@@ -25,7 +25,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Instructor: Yin Tat Lee
 + Office Hours: By appointment, email me at (yintat@<span style="display: none;">ignoreme-</span>uw.edu) 
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
-+ TA Office Hours: 1030 am - 1120 am Thu and 930 pm - 1020 pm Thu, zoom link on edstem.
++ TA Office Hours: 1130 am - 1220 am Thu and 930 pm - 1020 pm Thu, zoom link on edstem.
 + Mailing List: [Here](https://mailman.u.washington.edu/mailman/listinfo/cse535a_sp21)
 + Edstem: [Here](https://edstem.org/us/courses/4940)
 
