@@ -52,7 +52,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 06: Gradient Descent [Sec 2 (Added Sec 2.6 on 7 Apr)](https://www.dropbox.com/s/cx6husyj2nbfq2e/lecture%203.pdf?dl=0) 
 + Apr 06: (HW 1 due)
 + Apr 08: Gradient Descent (cont) and Proximal Methods (See Sec 2 above)
-+ Apr 13: Cutting Plane Methods
++ Apr 13: Cutting Plane Methods [Sec 3](https://www.dropbox.com/s/hgtcajmix8q7qzh/lecture%205.pdf?dl=0)
 + Apr 15: Duality
 
 ### Geometrization
