@@ -56,7 +56,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 15: Cutting Plane Methods (cont)
 
 ### Geometrization
-+ Apr 20: Mirror Descent (HW 2 due)
++ Apr 20: Mirror Descent (HW 2 due) [Sec 5](https://www.dropbox.com/s/27jmxsvczvi7v6n/lecture%207.pdf?dl=0)
 + Apr 22: Newton Method & L-BFGS
 
 ### Homotopy Method
