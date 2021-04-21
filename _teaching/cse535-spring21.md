@@ -57,11 +57,11 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 
 ### Geometrization
 + Apr 20: Mirror Descent (HW 2 due) [Sec 5](https://www.dropbox.com/s/27jmxsvczvi7v6n/lecture%207.pdf?dl=0)
-+ Apr 22: Newton Method & L-BFGS
++ Apr 22: Mirror Descent (cont)
 
 ### Homotopy Method
-+ Apr 27: Interior Point Method
-+ Apr 29: Robust Interior Point Method
++ Apr 27: Newton Method
++ Apr 29: Interior Point Method
 
 ### Sparsification
 + May 04: Leverage Score Sampling (HW 3 due or project proposal due)
