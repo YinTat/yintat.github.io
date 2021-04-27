@@ -60,7 +60,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 22: Mirror Descent (cont)
 
 ### Homotopy Method
-+ Apr 27: Newton Method
++ Apr 27: Newton Method [Sec 5.3](https://www.dropbox.com/s/6trmy06pmwrrlrw/lecture%209.pdf?dl=0)
 + Apr 29: Interior Point Method
 
 ### Sparsification
