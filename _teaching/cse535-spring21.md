@@ -62,9 +62,9 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 ### Homotopy Method
 + Apr 27: Newton Method [Sec 5.3](https://www.dropbox.com/s/6trmy06pmwrrlrw/lecture%209.pdf?dl=0)
 + Apr 29: Interior Point Method
-+ May 04: Robust Interior Point Method (HW 3 due or project proposal due)
 
 ### Sparsification
++ May 04: Leverage Score (HW 3 due or project proposal due)
 + May 06: Stochastic Gradient Descent & Variance Reduction
 
 ### Combinatorial Methods
