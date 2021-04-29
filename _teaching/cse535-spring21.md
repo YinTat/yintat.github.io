@@ -72,8 +72,8 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 13: Laplacian Solver
 
 ### Acceleration
-+ May 18: Conjugate Gradient & Chebyshev Expansion (HW 4 due)
-+ May 20: Accelerated Gradient Descent
++ May 18: Accelerated Gradient Descent (HW 4 due)
++ May 20: Robust IPM
 
 ### Student Requests
 + May 25: Adagrad
