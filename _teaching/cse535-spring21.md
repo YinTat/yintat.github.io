@@ -64,8 +64,8 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + Apr 29: Interior Point Method
 
 ### Sparsification
-+ May 04: Leverage Score (HW 3 due or project proposal due)
-+ May 06: Stochastic Gradient Descent & Variance Reduction
++ May 04: Stochastic Gradient Descent & Variance Reduction (HW 3 due or project proposal due)
++ May 06: Leverage Score
 
 ### Combinatorial Methods
 + May 11: Cholesky Decomposition
