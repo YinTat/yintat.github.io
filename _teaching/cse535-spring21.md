@@ -65,7 +65,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 04: Interior Point Method + Cholesky Decomposition [Sec 5.4 rewrite](https://www.dropbox.com/s/b68fq1oxru34fy3/lecture%2011.pdf?dl=0) (HW 3 due or project proposal due)
 
 ### Linear System Solving
-+ May 06: Leverage Score
++ May 06: Leverage Score [Sec 6.2](https://www.dropbox.com/s/gua0gf1rjxfqj7n/lecture%2012.pdf?dl=0)
 + May 11: Laplacian Solver
 
 ### Acceleration
