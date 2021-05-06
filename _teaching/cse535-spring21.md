@@ -62,22 +62,20 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 ### Homotopy Method
 + Apr 27: Newton Method [Sec 5.3](https://www.dropbox.com/s/6trmy06pmwrrlrw/lecture%209.pdf?dl=0)
 + Apr 29: Interior Point Method [Sec 5.4](https://www.dropbox.com/s/eqwtyvl5tp1lhby/lecture%2010.pdf?dl=0)
-+ May 04: Interior Point Method + Cholesky Decomposition [Sec 5.4 rewrite](https://www.dropbox.com/s/b68fq1oxru34fy3/lecture%2011.pdf?dl=0)
++ May 04: Interior Point Method + Cholesky Decomposition [Sec 5.4 rewrite](https://www.dropbox.com/s/b68fq1oxru34fy3/lecture%2011.pdf?dl=0) (HW 3 due or project proposal due)
 
-### Sparsification
-+ May 06: Stochastic Gradient Descent & Variance Reduction (HW 3 due or project proposal due)
-+ May 11: Leverage Score
-
-### Combinatorial Methods
-+ May 13: Laplacian Solver
+### Linear System Solving
++ May 06: Leverage Score
++ May 11: Laplacian Solver
 
 ### Acceleration
++ May 13: Stochastic Gradient Descent & Variance Reduction
 + May 18: Accelerated Gradient Descent (HW 4 due)
-+ May 20: Robust IPM
 
-### Student Requests
-+ May 25: Adagrad
-+ May 27: Bayesian methods
+### Others
++ May 20: Adagrad
++ May 25: Bayesian methods
++ May 27: Robust IPM
 
 ### Project Presentations (Depending on Number of Projects)
 + Jun 01: Project (HW 5 due)
