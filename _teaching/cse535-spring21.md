@@ -66,7 +66,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 
 ### Linear System Solving
 + May 06: Leverage Score [Sec 6.2](https://www.dropbox.com/s/gua0gf1rjxfqj7n/lecture%2012.pdf?dl=0)
-+ May 11: Laplacian Solver [Sec 8](https://hdpa2019.sciencesconf.org/data/pages/Tro19_Matrix_Concentration_LN.pdf)
++ May 11: Laplacian Solver [Sec 8 in Tropp, Matrix Concentration & Computational Linear Algebra](https://hdpa2019.sciencesconf.org/data/pages/Tro19_Matrix_Concentration_LN.pdf)
 
 ### Acceleration
 + May 13: Stochastic Gradient Descent & Variance Reduction
