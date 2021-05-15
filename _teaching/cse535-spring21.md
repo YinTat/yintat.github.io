@@ -69,7 +69,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 11: Laplacian Solver [Sec 8 in Tropp, Matrix Concentration & Computational Linear Algebra](https://hdpa2019.sciencesconf.org/data/pages/Tro19_Matrix_Concentration_LN.pdf)
 
 ### Acceleration
-+ May 13: Stochastic Gradient Descent & Variance Reduction [Sec 6.3, 6.4](https://www.dropbox.com/s/2ildlvn48ochbsu/lecture%2014.pdf?dl=0)
++ May 13: Stochastic Gradient Descent & Variance Reduction [Sec 6.3, 6.4](https://www.dropbox.com/s/9c4x09rowvdea7j/lecture%2014.pdf?dl=0)
 + May 18: Accelerated Gradient Descent (HW 4 due)
 
 ### Others
