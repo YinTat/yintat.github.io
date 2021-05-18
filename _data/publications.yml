@@ -2,7 +2,7 @@
   authors: Sally Dong and Guanghao Ye
   url: https://arxiv.org/pdf/2011.05365.pdf
   venue: STOC 2021
-  year: 2020
+  year: 2021
   type: selected
   highlight: First nearly linear time algorithm for linear programs with small treewidth
   title: |
@@ -14,12 +14,9 @@
                    Guanghao Ye},
       title     = {A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth:
                    {A} Multiscale Representation of Robust Central Path},
-      journal   = {CoRR},
-      volume    = {abs/2011.05365},
-      year      = {2020},
-      url       = {https://arxiv.org/abs/2011.05365},
-      archivePrefix = {arXiv},
-      eprint    = {2011.05365}
+      booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2021, Online, June 21–25, 2021.},
+      year      = {2020}
     }
 - id: STOC20204
   authors: Jan van den Brand, Aaron Sidford and Zhao Song
@@ -54,21 +51,21 @@
                    of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
       year      = {2020}
     }
-- id: STOC20202
-  authors: Arun Jambulapati, Jerry Li, Swati Padmanabhan and Kevin Tian
-  url: https://arxiv.org/pdf/2002.04830.pdf
-  venue: STOC 2020
-  year: 2020
-  title: |
-    Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent
-  bib: |
-    @inproceedings{STOC20202,
-      author    = {Arun Jambulapati, Yin Tat Lee, Jerry Li, Swati Padmanabhan, Kevin Tian},
-      title     = {Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent},
-      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
-      year      = {2020}
-    }
+#- id: STOC20202
+#  authors: Arun Jambulapati, Jerry Li, Swati Padmanabhan and Kevin Tian
+#  url: https://arxiv.org/pdf/2002.04830.pdf
+#  venue: STOC 2020
+#  year: 2020
+#  title: |
+#    Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent
+#  bib: |
+#    @inproceedings{STOC20202,
+#      author    = {Arun Jambulapati, Yin Tat Lee, Jerry Li, Swati Padmanabhan, Kevin Tian},
+#      title     = {Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent},
+#      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
+#                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
+#      year      = {2020}
+#    }
 - id: STOC20201
   authors: Aditi Laddha and Santosh Vempala
   url: https://arxiv.org/pdf/1911.05656.pdf
