@@ -29,11 +29,10 @@
     @article{DBLP:journals/corr/abs-2011-05365,
       author    = {Jan van den Brand and
                    Yin Tat Lee and
-                   Yang Liu and
-		   Thatchaphol Saranurak and
-		   Aaron Sidford and
-		   Zhao Song and 
-		   Di Wang},
+                   Thatchaphol Saranurak and
+                   Aaron Sidford and
+                   Zhao Song and 
+                   Di Wang},
       title     = {Minimum Cost Flows, MDPs, and 𝓁1-Regression in Nearly Linear Time for Dense Instances},
       booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
                    of Computing, {STOC} 2021, Online, June 21–25, 2021.},
@@ -179,7 +178,6 @@
       year      = {2020},
       url       = {https://proceedings.neurips.cc/paper/2020/hash/34609bdc08a07ace4e1526bbb1777673-Abstract.html}
     }
-	
 - id: DBLP:conf/nips/CarmonJJJLST20
   authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford and Kevin Tian
   url: https://arxiv.org/pdf/2003.08078.pdf
