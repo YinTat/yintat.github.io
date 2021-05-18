@@ -18,7 +18,171 @@
                    of Computing, {STOC} 2021, Online, June 21–25, 2021.},
       year      = {2020}
     }
-- id: STOC20204
+- id: DBLP:conf/alt/AgarwalKKLNS20
+  authors: Naman Agarwal, Sham Kakade, Rahul Kidambi and, Praneeth Netrapalli and Aaron Sidford
+  url: https://arxiv.org/pdf/1711.08426.pdf
+  venue: ALT 2020
+  year: 2020
+  title: |
+    Leverage Score Sampling for Faster Accelerated Regression and ERM
+  bib: |
+    @inproceedings{DBLP:conf/alt/AgarwalKKLNS20,
+      author    = {Naman Agarwal and
+                   Sham M. Kakade and
+                   Rahul Kidambi and
+                   Yin Tat Lee and
+                   Praneeth Netrapalli and
+                   Aaron Sidford},
+      title     = {Leverage Score Sampling for Faster Accelerated Regression and {ERM}},
+      booktitle = {Algorithmic Learning Theory, {ALT} 2020, 8-11 February 2020, San Diego,
+                   CA, {USA}},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {117},
+      pages     = {22--47},
+      publisher = {{PMLR}},
+      year      = {2020},
+      url       = {http://proceedings.mlr.press/v117/agarwal20a.html}
+    }
+- id: DBLP:conf/colt/LeeST20
+  authors: Ruoqi Shen and Kevin Tian
+  url: https://arxiv.org/pdf/2002.04121.pdf
+  venue: COLT 2020
+  year: 2020
+  title: |
+    Logsmooth Gradient Concentration and Tighter Runtimes for Metropolized Hamiltonian Monte Carlo
+  bib: |
+    @inproceedings{DBLP:conf/colt/LeeST20,
+      author    = {Yin Tat Lee and
+                   Ruoqi Shen and
+                   Kevin Tian},
+      title     = {Logsmooth Gradient Concentration and Tighter Runtimes for Metropolized
+                   Hamiltonian Monte Carlo},
+      booktitle = {Conference on Learning Theory, {COLT} 2020, 9-12 July 2020, Virtual
+                   Event [Graz, Austria]},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {125},
+      pages     = {2565--2597},
+      publisher = {{PMLR}},
+      year      = {2020},
+      url       = {http://proceedings.mlr.press/v125/lee20b.html}
+    }
+- id: DBLP:conf/colt/LeeP20
+  authors: Swati Padmanabhan
+  url: https://arxiv.org/pdf/1903.01859.pdf
+  venue: COLT 2020
+  year: 2020
+  title: |
+    An O(m/eps^(3.5))-Cost  Algorithm for Semidefinite Programs with Diagonal Constraints
+  bib: |
+    @inproceedings{DBLP:conf/colt/LeeP20,
+      author    = {Yin Tat Lee and
+                   Swati Padmanabhan},
+      title     = {An O(m/eps^(3.5))-Cost
+                   Algorithm for Semidefinite Programs with Diagonal Constraints},
+      booktitle = {Conference on Learning Theory, {COLT} 2020, 9-12 July 2020, Virtual
+                   Event [Graz, Austria]},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {125},
+      pages     = {3069--3119},
+      publisher = {{PMLR}},
+      year      = {2020},
+      url       = {http://proceedings.mlr.press/v125/lee20c.html}
+    }
+- id: DBLP:conf/focs/JiangKLP020
+  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford and Kevin Tian
+  url: https://arxiv.org/pdf/2009.10217.pdf
+  venue: FOCS 2020
+  year: 2020
+  title: |
+    A Faster Interior Point Method for Semidefinite Programming
+  bib: |
+    @inproceedings{DBLP:conf/focs/JiangKLP020,
+      author    = {Haotian Jiang and
+                   Tarun Kathuria and
+                   Yin Tat Lee and
+                   Swati Padmanabhan and
+                   Zhao Song},
+      title     = {A Faster Interior Point Method for Semidefinite Programming},
+      booktitle = {61st {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2020, Durham, NC, USA, November 16-19, 2020},
+      pages     = {910--918},
+      publisher = {{IEEE}},
+      year      = {2020},
+      url       = {https://doi.org/10.1109/FOCS46700.2020.00089},
+      doi       = {10.1109/FOCS46700.2020.00089}
+    }
+- id: DBLP:conf/focs/BrandLNPSS0W20
+  authors: Jan van den Brand, Danupon Nanongkai, Richard Peng, Thatchaphol Saranurak, Aaron Sidford, Zhao Song and Di Wang
+  url: https://arxiv.org/pdf/2009.01802.pdf
+  venue: FOCS 2020
+  year: 2020
+  title: |
+    Bipartite Matching in Nearly-linear Time on Moderately Dense Graphs
+  bib: |
+    @inproceedings{DBLP:conf/focs/BrandLNPSS0W20,
+      author    = {Jan van den Brand and
+                   Yin Tat Lee and
+                   Danupon Nanongkai and
+                   Richard Peng and
+                   Thatchaphol Saranurak and
+                   Aaron Sidford and
+                   Zhao Song and
+                   Di Wang},
+      title     = {Bipartite Matching in Nearly-linear Time on Moderately Dense Graphs},
+      booktitle = {61st {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                   2020, Durham, NC, USA, November 16-19, 2020},
+      pages     = {919--930},
+      publisher = {{IEEE}},
+      year      = {2020},
+      url       = {https://doi.org/10.1109/FOCS46700.2020.00090},
+      doi       = {10.1109/FOCS46700.2020.00090}
+    }
+- id: DBLP:conf/nips/BubeckELM20
+  authors: Sebastien Bubeck, Ronen Eldan and Dan Mikulincer
+  url: https://arxiv.org/pdf/2006.02855.pdf
+  venue: NeurIPS 2020
+  year: 2020
+  title: |
+    Network size and size of the weights in memorization with two-layers neural networks
+  bib: |
+    @inproceedings{DBLP:conf/nips/BubeckELM20,
+      author    = {S{\'{e}}bastien Bubeck and
+                   Ronen Eldan and
+                   Yin Tat Lee and
+                   Dan Mikulincer},
+      title     = {Network size and size of the weights in memorization with two-layers
+                   neural networks},
+      booktitle = {Advances in Neural Information Processing Systems 33: Annual Conference
+                   on Neural Information Processing Systems 2020, NeurIPS 2020, December
+                   6-12, 2020, virtual},
+      year      = {2020},
+      url       = {https://proceedings.neurips.cc/paper/2020/hash/34609bdc08a07ace4e1526bbb1777673-Abstract.html}
+    }
+	
+- id: DBLP:conf/nips/CarmonJJJLST20
+  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford and Kevin Tian
+  url: https://arxiv.org/pdf/2003.08078.pdf
+  venue: NeurIPS 2020
+  year: 2020
+  title: |
+    Acceleration with a Ball Optimization Oracle
+  bib: |
+    @inproceedings{DBLP:conf/nips/CarmonJJJLST20,
+      author    = {Yair Carmon and
+                   Arun Jambulapati and
+                   Qijia Jiang and
+                   Yujia Jin and
+                   Yin Tat Lee and
+                   Aaron Sidford and
+                   Kevin Tian},
+      title     = {Acceleration with a Ball Optimization Oracle},
+      booktitle = {Advances in Neural Information Processing Systems 33: Annual Conference
+                   on Neural Information Processing Systems 2020, NeurIPS 2020, December
+                   6-12, 2020, virtual},
+      year      = {2020},
+      url       = {https://proceedings.neurips.cc/paper/2020/hash/dba4c1a117472f6aca95211285d0587e-Abstract.html}
+    }
+- id: DBLP:conf/stoc/BrandLSS20
   authors: Jan van den Brand, Aaron Sidford and Zhao Song
   url: https://arxiv.org/pdf/2002.02304.pdf
   venue: STOC 2020
@@ -28,14 +192,21 @@
   title: |
     Solving Tall Dense Linear Programs in Nearly Linear Time
   bib: |
-    @inproceedings{STOC20204,
-      author    = {Jan van den Brand, Yin Tat Lee, Aaron Sidford, Zhao Song},
-      title     = {Solving Tall Dense Linear Programs in Nearly Linear Time},
-      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
-      year      = {2020}
+    @inproceedings{DBLP:conf/stoc/BrandLSS20,
+      author    = {Jan van den Brand and
+                   Yin Tat Lee and
+                   Aaron Sidford and
+                   Zhao Song},
+      title     = {Solving tall dense linear programs in nearly linear time},
+      booktitle = {Proccedings of the 52nd Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22-26, 2020},
+      pages     = {775--788},
+      publisher = {{ACM}},
+      year      = {2020},
+      url       = {https://doi.org/10.1145/3357713.3384309},
+      doi       = {10.1145/3357713.3384309}
     }
-- id: STOC20203
+- id: DBLP:conf/stoc/JiangLSW20
   authors: Haotian Jiang, Zhao Song and Sam Chiu-wai Wong
   url: https://arxiv.org/pdf/2004.04250.pdf
   venue: STOC 2020
@@ -44,29 +215,22 @@
   title: |
     An Improved Cutting Plane Method for Convex Optimization, Convex-Concave Games and its Applications
   bib: |
-    @inproceedings{STOC20203,
-      author    = {Haotian Jiang, Yin Tat Lee, Zhao Song, Sam Chiu-wai Wong},
-      title     = {An Improved Cutting Plane Method for Convex Optimization, Convex-Concave Games and its Applications},
-      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
-      year      = {2020}
+    @inproceedings{DBLP:conf/stoc/JiangLSW20,
+      author    = {Haotian Jiang and
+                   Yin Tat Lee and
+                   Zhao Song and
+                   Sam Chiu{-}wai Wong},
+      title     = {An improved cutting plane method for convex optimization, convex-concave
+                   games, and its applications},
+      booktitle = {Proccedings of the 52nd Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22-26, 2020},
+      pages     = {944--953},
+      publisher = {{ACM}},
+      year      = {2020},
+      url       = {https://doi.org/10.1145/3357713.3384284},
+      doi       = {10.1145/3357713.3384284}
     }
-#- id: STOC20202
-#  authors: Arun Jambulapati, Jerry Li, Swati Padmanabhan and Kevin Tian
-#  url: https://arxiv.org/pdf/2002.04830.pdf
-#  venue: STOC 2020
-#  year: 2020
-#  title: |
-#    Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent
-#  bib: |
-#    @inproceedings{STOC20202,
-#      author    = {Arun Jambulapati, Yin Tat Lee, Jerry Li, Swati Padmanabhan, Kevin Tian},
-#      title     = {Positive Semidefinite Programming: Mixed, Parallel, and Width-Independent},
-#      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
-#                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
-#      year      = {2020}
-#    }
-- id: STOC20201
+- id: DBLP:conf/stoc/LaddhaLV20
   authors: Aditi Laddha and Santosh Vempala
   url: https://arxiv.org/pdf/1911.05656.pdf
   venue: STOC 2020
@@ -74,12 +238,18 @@
   title: |
     Strong Self-Concordance and Sampling
   bib: |
-    @inproceedings{STOC20201,
-      author    = {Aditi Laddha, Yin Tat Lee, Santosh Vempala},
-      title     = {Strong Self-Concordance and Sampling},
-      booktitle = {Proceedings of the 52st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22–26, 2020.},
-      year      = {2020}
+    @inproceedings{DBLP:conf/stoc/LaddhaLV20,
+      author    = {Aditi Laddha and
+                   Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {Strong self-concordance and sampling},
+      booktitle = {Proccedings of the 52nd Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2020, Chicago, IL, USA, June 22-26, 2020},
+      pages     = {1212--1222},
+      publisher = {{ACM}},
+      year      = {2020},
+      url       = {https://doi.org/10.1145/3357713.3384272},
+      doi       = {10.1145/3357713.3384272}
     }
 - id: DBLP:conf/soda/DongLQ20
   authors: Sally Dong and Kent Quanrud
