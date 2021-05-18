@@ -70,7 +70,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 
 ### Acceleration
 + May 13: Stochastic Gradient Descent & Variance Reduction [Sec 6.3, 6.4](https://www.dropbox.com/s/9c4x09rowvdea7j/lecture%2014.pdf?dl=0)
-+ May 18: Accelerated Gradient Descent (HW 4 due) [Sec ???](), [Note](https://www.dropbox.com/s/sgdw6cbly3w6g94/lecture%2015.pdf?dl=0)
++ May 18: Accelerated Gradient Descent (HW 4 due) [Sec 7](https://www.dropbox.com/s/brplezbqteg35e3/lecture%2015%202.pdf?dl=0), [Note](https://www.dropbox.com/s/sgdw6cbly3w6g94/lecture%2015.pdf?dl=0)
 
 ### Others
 + May 20: Adagrad
