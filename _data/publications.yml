@@ -19,7 +19,7 @@
       year      = {2021}
     }
 - id: KLSReducePaper
-  authors: He Jia, Aditi Laddha and Santosh Vempala
+  authors: He Jia, Aditi Laddha, and Santosh Vempala
   url: https://arxiv.org/pdf/2008.02146.pdf
   venue: STOC 2021
   year: 2021
@@ -37,12 +37,12 @@
       year      = {2021}
     }
 - id: MaxflowPaper
-  authors: Jan van den Brand, Yang Liu, Thatchaphol Saranurak, Aaron Sidford, Zhao Song and Di Wang
+  authors: Jan van den Brand, Yang Liu, Thatchaphol Saranurak, Aaron Sidford, Zhao Song, and Di Wang
   url: https://arxiv.org/pdf/2101.05719.pdf
   venue: STOC 2021
   year: 2021
   title: |
-    Minimum Cost Flows, MDPs, and 𝓁1-Regression in Nearly Linear Time for Dense Instances
+    Minimum Cost Flows, MDPs, and l1-Regression in Nearly Linear Time for Dense Instances
   bib: |
     @article{DBLP:journals/corr/abs-2011-05365,
       author    = {Jan van den Brand and
@@ -57,7 +57,7 @@
       year      = {2021}
     }
 - id: DBLP:conf/alt/AgarwalKKLNS20
-  authors: Naman Agarwal, Sham Kakade, Rahul Kidambi and, Praneeth Netrapalli and Aaron Sidford
+  authors: Naman Agarwal, Sham Kakade, Rahul Kidambi and, Praneeth Netrapalli, and Aaron Sidford
   url: https://arxiv.org/pdf/1711.08426.pdf
   venue: ALT 2020
   year: 2020
@@ -127,7 +127,7 @@
       url       = {http://proceedings.mlr.press/v125/lee20c.html}
     }
 - id: DBLP:conf/focs/JiangKLP020
-  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford and Kevin Tian
+  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford, and Kevin Tian
   url: https://arxiv.org/pdf/2009.10217.pdf
   venue: FOCS 2020
   year: 2020
@@ -150,7 +150,7 @@
       doi       = {10.1109/FOCS46700.2020.00089}
     }
 - id: DBLP:conf/focs/BrandLNPSS0W20
-  authors: Jan van den Brand, Danupon Nanongkai, Richard Peng, Thatchaphol Saranurak, Aaron Sidford, Zhao Song and Di Wang
+  authors: Jan van den Brand, Danupon Nanongkai, Richard Peng, Thatchaphol Saranurak, Aaron Sidford, Zhao Song, and Di Wang
   url: https://arxiv.org/pdf/2009.01802.pdf
   venue: FOCS 2020
   year: 2020
@@ -176,7 +176,7 @@
       doi       = {10.1109/FOCS46700.2020.00090}
     }
 - id: DBLP:conf/nips/BubeckELM20
-  authors: Sebastien Bubeck, Ronen Eldan and Dan Mikulincer
+  authors: Sebastien Bubeck, Ronen Eldan, and Dan Mikulincer
   url: https://arxiv.org/pdf/2006.02855.pdf
   venue: NeurIPS 2020
   year: 2020
@@ -197,7 +197,7 @@
       url       = {https://proceedings.neurips.cc/paper/2020/hash/34609bdc08a07ace4e1526bbb1777673-Abstract.html}
     }
 - id: DBLP:conf/nips/CarmonJJJLST20
-  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford and Kevin Tian
+  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford, and Kevin Tian
   url: https://arxiv.org/pdf/2003.08078.pdf
   venue: NeurIPS 2020
   year: 2020
@@ -220,7 +220,7 @@
       url       = {https://proceedings.neurips.cc/paper/2020/hash/dba4c1a117472f6aca95211285d0587e-Abstract.html}
     }
 - id: DBLP:conf/stoc/BrandLSS20
-  authors: Jan van den Brand, Aaron Sidford and Zhao Song
+  authors: Jan van den Brand, Aaron Sidford, and Zhao Song
   url: https://arxiv.org/pdf/2002.02304.pdf
   venue: STOC 2020
   year: 2020
@@ -244,7 +244,7 @@
       doi       = {10.1145/3357713.3384309}
     }
 - id: DBLP:conf/stoc/JiangLSW20
-  authors: Haotian Jiang, Zhao Song and Sam Chiu-wai Wong
+  authors: Haotian Jiang, Zhao Song, and Sam Chiu-wai Wong
   url: https://arxiv.org/pdf/2004.04250.pdf
   venue: STOC 2020
   year: 2020
@@ -357,7 +357,7 @@
       doi       = {10.1137/1.9781611975994.91}
     }
 - id: journals/GAFA/JiangL20
-  authors: Haotian Jiang
+  authors: Haotian Jiang and Santosh Vempala
   url: https://arxiv.org/pdf/1909.13127.pdf
   venue: GAFA Seminar Notes
   year: 2020
@@ -373,7 +373,7 @@
       publisher={Springer}
     }
 - id: DBLP:conf/nips/BubeckJLLS19
-  authors: Sebastien Bubeck, Qijia Jiang, Yuanzhi Li and Aaron Sidford
+  authors: Sebastien Bubeck, Qijia Jiang, Yuanzhi Li, and Aaron Sidford
   url: https://arxiv.org/pdf/1906.10655.pdf
   venue: NeurIPS 19
   year: 2019
@@ -414,7 +414,7 @@
       url       = {http://papers.nips.cc/paper/8483-the-randomized-midpoint-method-for-log-concave-sampling}
     }
 - id: DBLP:conf/focs/ChakrabartyLS0W19
-  authors: Deeparnab Chakrabarty, Aaron Sidford, Sahil Singla and Sam Chiu-wai Wong
+  authors: Deeparnab Chakrabarty, Aaron Sidford, Sahil Singla, and Sam Chiu-wai Wong
   url: https://arxiv.org/pdf/1911.10765.pdf
   venue: FOCS 2019
   year: 2019
@@ -459,7 +459,7 @@
       doi       = {10.1145/3313276.3316303}
     }
 - id: DBLP:conf/stoc/BubeckLLS19
-  authors: Sebastien Bubeck, Yuanzhi Li and Mark Sellke
+  authors: Sebastien Bubeck, Yuanzhi Li, and Mark Sellke
   url: https://arxiv.org/pdf/1811.00887.pdf
   venue: STOC 2019
   year: 2019
@@ -481,7 +481,7 @@
       doi       = {10.1145/3313276.3316314}
     }
 - id: DBLP:conf/colt/CohenCLY19
-  authors: Michael Cohen, Ben Cousins and Xin Yang
+  authors: Michael Cohen, Ben Cousins, and Xin Yang
   url: https://arxiv.org/pdf/1905.11580.pdf
   venue: COLT 2019
   year: 2019
@@ -554,7 +554,7 @@
       url       = {http://proceedings.mlr.press/v99/lee19a.html}
     }
 - id: DBLP:conf/icml/BubeckLPR19
-  authors: Sebastien Bubeck, Eric Price and Ilya Razenshteyn
+  authors: Sebastien Bubeck, Eric Price, and Ilya Razenshteyn
   url: https://arxiv.org/pdf/1805.10204.pdf
   venue: ICML 2019
   year: 2019
@@ -574,7 +574,7 @@
       url       = {http://proceedings.mlr.press/v97/bubeck19a.html}
     }
 - id: DBLP:conf/soda/BubeckCLL19
-  authors: Sebastien Bubeck, Michael B. Cohen and James R. Lee
+  authors: Sebastien Bubeck, Michael Cohen, and James R. Lee
   url: https://arxiv.org/pdf/1807.04404.pdf
   venue: SODA 2019
   year: 2019
@@ -596,7 +596,7 @@
       doi       = {10.1137/1.9781611975482.6}
     }
 - id: DBLP:conf/soda/ArgueBCGL19
-  authors: C. J. Argue, Sebastien Bubeck, Michael B. Cohen and Anupam Gupta
+  authors: C. J. Argue, Sebastien Bubeck, Michael Cohen, and Anupam Gupta
   url: https://arxiv.org/pdf/1806.08865.pdf
   venue: SODA 2019
   year: 2019
@@ -619,7 +619,7 @@
       doi       = {10.1137/1.9781611975482.8}
     }
 - id: DBLP:conf/colt/LeeSV18
-  authors: Aaron Sidford and Santosh S. Vempala
+  authors: Aaron Sidford and Santosh Vempala
   url: https://arxiv.org/pdf/1706.07357.pdf
   venue: COLT 2018
   year: 2018
@@ -638,7 +638,7 @@
       url       = {http://proceedings.mlr.press/v75/lee18a.html}
     }
 - id: DBLP:conf/nips/ScamanBBML18
-  authors: Kevin Scaman, Francis R. Bach, Sebastien Bubeck, and Laurent Massoulie
+  authors: Kevin Scaman, Francis Bach, Sebastien Bubeck, and Laurent Massoulie
   url: https://arxiv.org/pdf/1806.00291.pdf
   venue: NeurIPS 2018
   year: 2018
@@ -682,7 +682,7 @@
       eprint    = {1809.03011}
     }
 - id: DBLP:journals/corr/LeeV18
-  authors: Santosh S. Vempala
+  authors: Santosh Vempala
   url: https://arxiv.org/pdf/1807.03465.pdf
   venue: arXiv
   type: survey
@@ -702,7 +702,7 @@
       eprint    = {1807.03465}
     }
 - id: DBLP:conf/stoc/BubeckCLLM18
-  authors: Sebastien Bubeck, Michael B. Cohen, James R. Lee, and Aleksander Madry
+  authors: Sebastien Bubeck, Michael Cohen, James Lee, and Aleksander Madry
   url: https://arxiv.org/pdf/1711.01085.pdf
   venue: STOC 2018
   year: 2018
@@ -791,7 +791,7 @@
       doi       = {10.1145/3188745.3188774}
     }
 - id: DBLP:conf/stoc/LeeV18a
-  authors: Santosh S. Vempala
+  authors: Santosh Vempala
   url: https://arxiv.org/pdf/1712.01791.pdf
   venue: STOC 2018
   year: 2018
@@ -811,7 +811,7 @@
       doi       = {10.1145/3188745.3188866}
     }
 - id: DBLP:conf/stoc/BubeckCLL18
-  authors: Sebastien Bubeck, Michael B. Cohen, and Yuanzhi Li
+  authors: Sebastien Bubeck, Michael Cohen, and Yuanzhi Li
   url: https://arxiv.org/pdf/1711.01328.pdf
   venue: STOC 2018
   year: 2018
@@ -834,7 +834,7 @@
       doi       = {10.1145/3188745.3188776}
     }
 - id: DBLP:conf/focs/LeeV17
-  authors: Santosh S. Vempala
+  authors: Santosh Vempala
   url: https://arxiv.org/pdf/1612.01507.pdf
   venue: FOCS 2017
   year: 2017
@@ -856,7 +856,7 @@
       doi       = {10.1109/FOCS.2017.96}
     }
 - id: DBLP:conf/icml/ScamanBBLM17
-  authors: Kevin Scaman, Francis R. Bach, and Sebastien Bubeck
+  authors: Kevin Scaman, Francis Bach, and Sebastien Bubeck
   url: https://arxiv.org/pdf/1702.08704.pdf
   venue: ICML 2017
   year: 2017
@@ -920,7 +920,7 @@
       doi       = {10.1145/3055399.3055477}
     }
 - id: DBLP:conf/stoc/LeeV17
-  authors: Santosh S. Vempala
+  authors: Santosh Vempala
   url: https://arxiv.org/pdf/1606.04696.pdf
   venue: STOC 2017
   year: 2017
@@ -1036,7 +1036,7 @@
       doi       = {10.1137/16M1079816}
     }
 - id: DBLP:conf/stoc/CohenLMPS16
-  authors: Michael B. Cohen, Gary L. Miller, Jakub Pachocki, and Aaron Sidford
+  authors: Michael Cohen, Gary Miller, Jakub Pachocki, and Aaron Sidford
   url: https://arxiv.org/pdf/1606.05225.pdf
   venue: STOC 2016
   year: 2016
@@ -1058,7 +1058,7 @@
       doi       = {10.1145/2897518.2897647}
     }
 - id: DBLP:conf/stoc/KyngLPSS16
-  authors: Rasmus Kyng, Richard Peng, Sushant Sachdeva, and Daniel A. Spielman
+  authors: Rasmus Kyng, Richard Peng, Sushant Sachdeva, and Daniel Spielman
   url: https://arxiv.org/pdf/1512.01892.pdf
   venue: STOC 2016
   year: 2016
@@ -1190,7 +1190,7 @@
       doi       = {10.1109/FOCS.2015.68}
     }
 - id: DBLP:conf/innovations/CohenLMMPS15
-  authors: Michael B. Cohen, Cameron Musco, Christopher Musco, Richard Peng, and Aaron Sidford
+  authors: Michael Cohen, Cameron Musco, Christopher Musco, Richard Peng, and Aaron Sidford
   url: https://arxiv.org/pdf/1408.5099.pdf
   venue: ITCS 2015
   year: 2015
@@ -1263,7 +1263,7 @@
       bibsource = {dblp computer science bibliography, https://dblp.org}
     }
 - id: DBLP:conf/soda/KelnerLOS14
-  authors: Jonathan A. Kelner, Lorenzo Orecchia, and Aaron Sidford
+  authors: Jonathan Kelner, Lorenzo Orecchia, and Aaron Sidford
   url: https://arxiv.org/pdf/1304.2338.pdf
   venue: SODA 2014
   year: 2014
