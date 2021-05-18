@@ -18,6 +18,24 @@
                    of Computing, {STOC} 2021, Online, June 21–25, 2021.},
       year      = {2021}
     }
+- id: KLSReducePaper
+  authors: He Jia, Aditi Laddha and Santosh Vempala
+  url: https://arxiv.org/pdf/2008.02146.pdf
+  venue: STOC 2021
+  year: 2021
+  title: |
+    Reducing Isotropy and Volume to KLS: An $O(n^3 \psi^2)$ Volume Algorithm
+  bib: |
+    @article{DBLP:journals/corr/abs-2011-05365,
+      author    = {He Jia and
+                   Aditi Laddha and
+                   Yin Tat Lee and
+                   Santosh S. Vempala},
+      title     = {Reducing Isotropy and Volume to KLS: An $O(n^3 \psi^2)$ Volume Algorithm},
+      booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2021, Online, June 21–25, 2021.},
+      year      = {2021}
+    }
 - id: MaxflowPaper
   authors: Jan van den Brand, Yang Liu, Thatchaphol Saranurak, Aaron Sidford, Zhao Song and Di Wang
   url: https://arxiv.org/pdf/2101.05719.pdf
@@ -33,7 +51,7 @@
                    Aaron Sidford and
                    Zhao Song and 
                    Di Wang},
-      title     = {Minimum Cost Flows, MDPs, and 𝓁1-Regression in Nearly Linear Time for Dense Instances},
+      title     = {Minimum Cost Flows, MDPs, and l1-Regression in Nearly Linear Time for Dense Instances},
       booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
                    of Computing, {STOC} 2021, Online, June 21–25, 2021.},
       year      = {2021}
