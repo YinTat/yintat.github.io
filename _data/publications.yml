@@ -16,7 +16,28 @@
                    {A} Multiscale Representation of Robust Central Path},
       booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
                    of Computing, {STOC} 2021, Online, June 21–25, 2021.},
-      year      = {2020}
+      year      = {2021}
+    }
+- id: MaxflowPaper
+  authors: Jan van den Brand, Yang Liu, Thatchaphol Saranurak, Aaron Sidford, Zhao Song and Di Wang
+  url: https://arxiv.org/pdf/2101.05719.pdf
+  venue: STOC 2021
+  year: 2021
+  title: |
+    Minimum Cost Flows, MDPs, and 𝓁1-Regression in Nearly Linear Time for Dense Instances
+  bib: |
+    @article{DBLP:journals/corr/abs-2011-05365,
+      author    = {Jan van den Brand and
+                   Yin Tat Lee and
+                   Yang Liu and
+		   Thatchaphol Saranurak and
+		   Aaron Sidford and
+		   Zhao Song and 
+		   Di Wang},
+      title     = {Minimum Cost Flows, MDPs, and 𝓁1-Regression in Nearly Linear Time for Dense Instances},
+      booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
+                   of Computing, {STOC} 2021, Online, June 21–25, 2021.},
+      year      = {2021}
     }
 - id: DBLP:conf/alt/AgarwalKKLNS20
   authors: Naman Agarwal, Sham Kakade, Rahul Kidambi and, Praneeth Netrapalli and Aaron Sidford
