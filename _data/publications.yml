@@ -224,7 +224,6 @@
   url: https://arxiv.org/pdf/2002.02304.pdf
   venue: STOC 2020
   year: 2020
-  type: selected
   highlight: First nearly linear time algorithm for linear programs with lots of constraints
   title: |
     Solving Tall Dense Linear Programs in Nearly Linear Time
