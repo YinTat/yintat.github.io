@@ -73,7 +73,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 18: Accelerated Gradient Descent (HW 4 due) [Sec 7](https://www.dropbox.com/s/brplezbqteg35e3/lecture%2015%202.pdf?dl=0), [Note](https://www.dropbox.com/s/sgdw6cbly3w6g94/lecture%2015.pdf?dl=0)
 
 ### Others
-+ May 20: Adagrad
++ May 20: Adagrad [Note](https://www.dropbox.com/s/02atdn561ytgy8r/lecture%2016.pdf?dl=0)
 + May 25: Bayesian methods
 + May 27: Robust IPM
 
