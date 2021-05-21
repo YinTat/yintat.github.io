@@ -8,7 +8,7 @@
   title: |
     A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth: A Multiscale Representation of Robust Central Path
   bib: |
-    @article{DBLP:journals/corr/abs-2011-05365,
+    @article{treewidthLP,
       author    = {Sally Dong and
                    Yin Tat Lee and
                    Guanghao Ye},
@@ -26,7 +26,7 @@
   title: |
     Reducing Isotropy and Volume to KLS: An $O(n^3 \psi^2)$ Volume Algorithm
   bib: |
-    @article{DBLP:journals/corr/abs-2011-05365,
+    @article{KLSReducePaper,
       author    = {He Jia and
                    Aditi Laddha and
                    Yin Tat Lee and
@@ -44,7 +44,7 @@
   title: |
     Minimum Cost Flows, MDPs, and l1-Regression in Nearly Linear Time for Dense Instances
   bib: |
-    @article{DBLP:journals/corr/abs-2011-05365,
+    @article{MaxflowPaper,
       author    = {Jan van den Brand and
                    Yin Tat Lee and
                    Thatchaphol Saranurak and
