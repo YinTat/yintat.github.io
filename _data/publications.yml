@@ -115,7 +115,7 @@
     @inproceedings{DBLP:conf/colt/LeeP20,
       author    = {Yin Tat Lee and
                    Swati Padmanabhan},
-      title     = {An O(m/eps^(3.5))-Cost
+      title     = {An $O(m/eps^(3.5))$-Cost
                    Algorithm for Semidefinite Programs with Diagonal Constraints},
       booktitle = {Conference on Learning Theory, {COLT} 2020, 9-12 July 2020, Virtual
                    Event [Graz, Austria]},
