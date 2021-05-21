@@ -1,3 +1,29 @@
+- title: Recent Progress on Convex Optimization
+  data:
+  - name: The 6th Highlights of Algorithms, May 2021
+  - name: Foundations of Software Technology and Theoretical Computer Science, Dec 2020
+  - name: Theory Seminar in Columbia University, Dec 2020
+  - name: Optimization for Machine Learning Workshop in Vancouver, Dec 2019
+  - name: TRIPODS Virtual PI Meeting, Apr 2019
+  
+- title: Introduction to Differential Privacy
+  data:
+  - name: Statistics Seminar in University of Washington, Nov 2020
+
+- title: Interior Point Methods and Bayesian Sampling
+  data:
+  - name: Simons Workshop on Probability, Geometry, and Computation in High Dimensions, Nov 2020
+  - name: Kickoff Meeting of Institute for Foundations of Data Science, Sept 2020
+
+- title: Reducing Sampling to KLS
+  data:
+  - name: Simons Workshop on Probability, Geometry, and Computation in High Dimensions, Oct 2020
+  - name: OPTML++ in MIT, Sept 2020
+
+- title: A Generalized Central Limit Conjecture for Convex Bodies
+  data:
+  - name: AMS Sectional Meeting on Probabilistic and Geometric Tools in High-Dimension in University of Florida, Nov 2019
+
 - title: Solving Empirical Risk Minimization in the Current Matrix Multiplication Time
   data:
   - name: Conference on Learning Theory (COLT), June 2019
@@ -7,7 +33,7 @@
   - name: Symposium on the Theory of Computing (STOC), June 2019
   - name: ARC Colloquium in Gatech, May 2019
   - name: ISE Seminar in University of Washington, May 2019
-  - name: Theory Seminar, April 2019
+  - name: Theory Seminar in University of Washington, April 2019
   - name: Simons Workshop on Bridging Continuous and Discrete Optimization Reunion, Dec 2018
 
 - title: Efficient Convex Optimization with Membership Oracles
