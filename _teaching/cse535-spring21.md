@@ -74,7 +74,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 
 ### Others
 + May 20: Adagrad [Note](https://www.dropbox.com/s/02atdn561ytgy8r/lecture%2016.pdf?dl=0)
-+ May 25: Bayesian methods
++ May 25: Bayesian methods [Note](https://www.dropbox.com/s/fyeuvfxazbunpvo/lecture%2017.pdf?dl=0)
 + May 27: Robust IPM
 
 ### Project Presentations (Depending on Number of Projects)
