@@ -78,10 +78,8 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 + May 27: Robust IPM
 
 ### Project Presentations (Depending on Number of Projects)
-+ Jun 01: Project (HW 5 due)
-+ Jun 03: Project
-
-
++ Jun 01: Project
++ Jun 03: Project (HW 5 due)
 + Project report due on Jun 08
 
 
