@@ -17,7 +17,7 @@ Email: yintat@<span style="display: none;">ignoreme-</span>uw.edu<br>
 Office: CSE 562
 
 
-*Postdoc at University of Washington and Georgia Tech (Apply by FEBRUARY 1, 2022)*
+*Postdoc at University of Washington and Georgia Tech (Apply by December 10, 2021)*
 
 Yin Tat Lee and Santosh Vempala are looking for a postdoc interested in the broad topics of high-dimensional optimization and sampling. Candidates who will be obtaining a PhD (or have recently obtained one) in Theoretical Computer Science, Mathematics, Operations Research or related fields are invited to apply. The position is for up to 3 years, and the candidate can split their time between University of Washington (Seattle) and Georgia Tech (Atlanta). There is no teaching requirement. The start date is flexible (can be as early as Jan 1, 2022). Please feel free to contact us by yintat@uw.edu with a CV, or to ask any questions.
 
