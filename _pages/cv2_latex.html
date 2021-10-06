@@ -1,0 +1,41 @@
+---
+title: "CV Latex Version"
+permalink: /cv2.tex
+author_profile: false
+layout: 
+---
+\documentclass[11pt,fullpage]{article}
+\usepackage{hyperref,geometry,listliketab,longtable,natbib,bibentry,sectsty}
+\geometry{body={6.5in, 9.5in}, left=1.0in, top=1.0in, bottom=1.0in}
+\nobibliography*
+\bibliographystyle{apalike}
+\pagestyle{myheadings}
+\markright{Yin Tat Lee}
+\thispagestyle{empty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+\setlength\parindent{0em}
+
+\begin{filecontents}{lee.bib}
+{% for entry in site.data.publications %}
+{{ entry.bib }}
+{% endfor %}
+\end{filecontents}
+
+\begin{document}
+
+\begin{longtable}{p{0.5in}|p{5.5in}}
+{% assign last_year = 0 %}
+{% for entry in site.data.publications %}
+	{% if entry.year != last_year %}
+		{{ entry.year }}
+		{% assign last_year = entry.year %}
+	{% endif %} & \bibentry{{ entry.id | prepend:'{' }}} \\
+{% endfor %}
+\end{longtable}
+
+
+
+
+\nobibliography{lee}
+\end{document}
