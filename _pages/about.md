@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-Yin Tat Lee is a Paul G. Allen endowed assistant professor in the [Paul G. Allen School of Computer Science &amp; Engineering](https://www.cs.washington.edu/) at the University of Washington<!--and a visiting researcher in [Microsoft Research AI](https://www.microsoft.com/en-us/research/group/mlog/)-->. His research interests are convex optimization, convex geometry, graph algorithms, online algorithms, and differential privacy.
+Yin Tat Lee is an assistant professor of [Computer Science](https://www.cs.washington.edu/) at the University of Washington<!--and a visiting researcher in [Microsoft Research AI](https://www.microsoft.com/en-us/research/group/mlog/)-->. His research interests are convex optimization, convex geometry, graph algorithms, online algorithms, and differential privacy.
 
 During his career, he has received a variety of awards, including Best Paper Award and 2 x Best Student Paper Awards at FOCS, Best Paper Award at SODA, Best Paper Award at NeurIPS, Sprowls Award, [NSF CAREER Award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1749609), [A.W. Tucker Prize](http://www.mathopt.org/?nav=tucker), [Microsoft Research Faculty Fellowship](https://www.microsoft.com/en-us/research/academic-program/faculty-fellowship/), [Sloan Research Fellowship](https://sloan.org/fellowships/), and [Packard Fellowships](https://www.packard.org/what-we-fund/science/packard-fellowships-for-science-and-engineering/).
 
