@@ -1,5 +1,12 @@
 - year: 2020-2021
   data:
+  - name: CSE 421 Introduction to Algorithms
+    description: This course covers a range of design and analysis techniques including greedy methods, divide and conquer, and dynamic programming. It also discusses the maximum flow problem and NP-completeness.
+    time: Winter 2022
+    url: https://courses.cs.washington.edu/courses/cse421/22wi/
+    
+- year: 2020-2021
+  data:
   - name: CSE 535 Theory of Optimization and Continuous Algorithms
     description: This course covers several concepts in convex optimization, including, elimination, reduction, geometrization, sparsification, acceleration, and decomposition.
     time: Spring 2021
