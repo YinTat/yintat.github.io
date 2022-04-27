@@ -71,15 +71,8 @@
                    Yin Tat Lee and
                    Lukas Wutschitz},
       title     = {Numerical Composition of Differential Privacy},
-      journal   = {CoRR},
-      volume    = {abs/2106.02848},
-      year      = {2021},
-      url       = {https://arxiv.org/abs/2106.02848},
-      eprinttype = {arXiv},
-      eprint    = {2106.02848},
-      timestamp = {Thu, 10 Jun 2021 16:34:18 +0200},
-      biburl    = {https://dblp.org/rec/journals/corr/abs-2106-02848.bib},
-      bibsource = {dblp computer science bibliography, https://dblp.org}
+      booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
+                   on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
 - id: DPSCO
   authors: Janardhan Kulkarni and Daogao Liu
@@ -95,15 +88,8 @@
                    Daogao Liu},
       title     = {Private Non-smooth Empirical Risk Minimization and Stochastic Convex
                    Optimization in Subquadratic Steps},
-      journal   = {CoRR},
-      volume    = {abs/2103.15352},
-      year      = {2021},
-      url       = {https://arxiv.org/abs/2103.15352},
-      eprinttype = {arXiv},
-      eprint    = {2103.15352},
-      timestamp = {Wed, 07 Apr 2021 15:31:46 +0200},
-      biburl    = {https://dblp.org/rec/journals/corr/abs-2103-15352.bib},
-      bibsource = {dblp computer science bibliography, https://dblp.org}
+      booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
+                   on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
 - id: SampleLower
   authors: Ruoqi Shen and Kevin Tian
@@ -119,15 +105,8 @@
                    Kevin Tian},
       title     = {Lower Bounds on Metropolized Sampling Methods for Well-Conditioned
                    Distributions},
-      journal   = {CoRR},
-      volume    = {abs/2106.05480},
-      year      = {2021},
-      url       = {https://arxiv.org/abs/2106.05480},
-      eprinttype = {arXiv},
-      eprint    = {2106.05480},
-      timestamp = {Tue, 15 Jun 2021 16:35:15 +0200},
-      biburl    = {https://dblp.org/rec/journals/corr/abs-2106-05480.bib},
-      bibsource = {dblp computer science bibliography, https://dblp.org}
+      booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
+                   on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
 - id: DPJL
   authors: Zhiqi Bu, Sivakanth Gopi, Janardhan Kulkarni, Hanwen Shen, Uthaipon Tantipongpipat
@@ -145,15 +124,8 @@
                    Judy Hanwen Shen and
                    Uthaipon Tantipongpipat},
       title     = {Fast and Memory Efficient Differentially Private-SGD via {JL} Projections},
-      journal   = {CoRR},
-      volume    = {abs/2102.03013},
-      year      = {2021},
-      url       = {https://arxiv.org/abs/2102.03013},
-      eprinttype = {arXiv},
-      eprint    = {2102.03013},
-      timestamp = {Wed, 10 Feb 2021 15:24:32 +0100},
-      biburl    = {https://dblp.org/rec/journals/corr/abs-2102-03013.bib},
-      bibsource = {dblp computer science bibliography, https://dblp.org}
+      booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
+                   on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
 - id: DBLP:conf/stoc/DongLY21
   authors: Sally Dong and Guanghao Ye
