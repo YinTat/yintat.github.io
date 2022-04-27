@@ -1,3 +1,12 @@
+- title: Optimization and Data Structure
+  - name: Seminar Series in Cognitive Computing at Baidu Research, May 2022
+
+- title: Reducing Sampling to KLS
+  data:
+  - name: Math Colloquium in Worcester Polytechnic Institute, Nov 2021
+  - name: Simons Workshop on Probability, Geometry, and Computation in High Dimensions, Oct 2020
+  - name: OPTML++ in MIT, Sept 2020
+  
 - title: Recent Progress on Convex Optimization
   data:
   - name: The 6th Highlights of Algorithms, June 2021
@@ -14,11 +23,6 @@
   data:
   - name: Simons Workshop on Probability, Geometry, and Computation in High Dimensions, Nov 2020
   - name: Kickoff Meeting of Institute for Foundations of Data Science, Sept 2020
-
-- title: Reducing Sampling to KLS
-  data:
-  - name: Simons Workshop on Probability, Geometry, and Computation in High Dimensions, Oct 2020
-  - name: OPTML++ in MIT, Sept 2020
 
 - title: A Generalized Central Limit Conjecture for Convex Bodies
   data:
