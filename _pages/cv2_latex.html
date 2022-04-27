@@ -30,6 +30,7 @@ layout:
 	{% if entry.year != last_year %}
 		{{ entry.year }}
 		{% assign last_year = entry.year %}
+        {% else %} -
 	{% endif %} & \bibentry{{ entry.id | prepend:'{' }}} \\
 {% endfor %}
 \end{longtable}
