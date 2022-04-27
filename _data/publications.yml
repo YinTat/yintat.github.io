@@ -66,7 +66,7 @@
   title: |
     Differentially Private Fine-tuning of Language Models
   bib: |
-    @article{DPDL,
+    @inproceedings{DPDL,
       author    = {Da Yu and
                    Saurabh Naik and
                    Arturs Backurs and
@@ -90,7 +90,7 @@
   title: |
     Numerical Composition of Differential Privacy
   bib: |
-    @article{NumDP,
+    @inproceedings{NumDP,
       author    = {Sivakanth Gopi and
                    Yin Tat Lee and
                    Lukas Wutschitz},
@@ -106,7 +106,7 @@
   title: |
     Private Non-smooth ERM and SCO in Subquadratic Steps
   bib: |
-    @article{DPSCO,
+    @inproceedings{DPSCO,
       author    = {Janardhan Kulkarni and
                    Yin Tat Lee and
                    Daogao Liu},
@@ -123,7 +123,7 @@
   title: |
     Lower Bounds on Metropolized Sampling Methods for Well-Conditioned Distributions
   bib: |
-    @article{SampleLower,
+    @inproceedings{SampleLower,
       author    = {Yin Tat Lee and
                    Ruoqi Shen and
                    Kevin Tian},
@@ -140,7 +140,7 @@
   title: |
     Fast and Memory Efficient Differentially Private-SGD via JL Projections
   bib: |
-    @article{DPJL,
+    @inproceedings{DPJL,
       author    = {Zhiqi Bu and
                    Sivakanth Gopi and
                    Janardhan Kulkarni and
