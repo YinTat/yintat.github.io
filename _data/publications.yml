@@ -1,4 +1,161 @@
-- id: treewidthLP
+- id: DBLP:conf/soda/DongGGLPSY22
+  authors: Sally Dong, Yu Gao, Gramoz Goranci, Richard Peng, Sushant Sachdeva and Guanghao Ye
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.7
+  venue: SODA 2022
+  year: 2022
+  title: |
+    Nested Dissection Meets IPMs: Planar Min-Cost Flow in Nearly-Linear Time
+  bib: |
+    @inproceedings{DBLP:conf/soda/DongGGLPSY22,
+      author    = {Sally Dong and
+                   Yu Gao and
+                   Gramoz Goranci and
+                   Yin Tat Lee and
+                   Richard Peng and
+                   Sushant Sachdeva and
+                   Guanghao Ye},
+      editor    = {Joseph (Seffi) Naor and
+                   Niv Buchbinder},
+      title     = {Nested Dissection Meets IPMs: Planar Min-Cost Flow in Nearly-Linear
+                   Time},
+      booktitle = {Proceedings of the 2022 {ACM-SIAM} Symposium on Discrete Algorithms,
+                   {SODA} 2022, Virtual Conference / Alexandria, VA, USA, January 9 -
+                   12, 2022},
+      pages     = {124--153},
+      publisher = {{SIAM}},
+      year      = {2022},
+      url       = {https://doi.org/10.1137/1.9781611977073.7},
+      doi       = {10.1137/1.9781611977073.7},
+      timestamp = {Tue, 12 Apr 2022 11:24:56 +0200},
+      biburl    = {https://dblp.org/rec/conf/soda/DongGGLPSY22.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/soda/FazelLPS22
+  authors: Maryam Fazel, Swati Padmanabhan and Aaron Sidford
+  url: https://arxiv.org/pdf/2110.15563.pdf
+  venue: SODA 2022
+  year: 2022
+  title: |
+    Computing Lewis Weights to High Precision
+  bib: |
+    @inproceedings{DBLP:conf/soda/FazelLPS22,
+      author    = {Maryam Fazel and
+                   Yin Tat Lee and
+                   Swati Padmanabhan and
+                   Aaron Sidford},
+      editor    = {Joseph (Seffi) Naor and
+                   Niv Buchbinder},
+      title     = {Computing Lewis Weights to High Precision},
+      booktitle = {Proceedings of the 2022 {ACM-SIAM} Symposium on Discrete Algorithms,
+                   {SODA} 2022, Virtual Conference / Alexandria, VA, USA, January 9 -
+                   12, 2022},
+      pages     = {2723--2742},
+      publisher = {{SIAM}},
+      year      = {2022},
+      url       = {https://doi.org/10.1137/1.9781611977073.107},
+      doi       = {10.1137/1.9781611977073.107},
+      timestamp = {Tue, 12 Apr 2022 11:24:56 +0200},
+      biburl    = {https://dblp.org/rec/conf/soda/FazelLPS22.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: NumDP
+  authors: Sivakanth Gopi and Lukas Wutschitz
+  url: https://arxiv.org/pdf/2106.02848.pdf
+  venue: NeurIPS 2021
+  year: 2021
+  title: |
+    Numerical Composition of Differential Privacy
+  bib: |
+    @article{DBLP:journals/corr/abs-2106-02848,
+      author    = {Sivakanth Gopi and
+                   Yin Tat Lee and
+                   Lukas Wutschitz},
+      title     = {Numerical Composition of Differential Privacy},
+      journal   = {CoRR},
+      volume    = {abs/2106.02848},
+      year      = {2021},
+      url       = {https://arxiv.org/abs/2106.02848},
+      eprinttype = {arXiv},
+      eprint    = {2106.02848},
+      timestamp = {Thu, 10 Jun 2021 16:34:18 +0200},
+      biburl    = {https://dblp.org/rec/journals/corr/abs-2106-02848.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DPSCO
+  authors: Janardhan Kulkarni and Daogao Liu
+  url: https://arxiv.org/pdf/2103.15352.pdf
+  venue: NeurIPS 2021
+  year: 2021
+  title: |
+    Private Non-smooth ERM and SCO in Subquadratic Steps
+  bib: |
+    @article{DBLP:journals/corr/abs-2103-15352,
+      author    = {Janardhan Kulkarni and
+                   Yin Tat Lee and
+                   Daogao Liu},
+      title     = {Private Non-smooth Empirical Risk Minimization and Stochastic Convex
+                   Optimization in Subquadratic Steps},
+      journal   = {CoRR},
+      volume    = {abs/2103.15352},
+      year      = {2021},
+      url       = {https://arxiv.org/abs/2103.15352},
+      eprinttype = {arXiv},
+      eprint    = {2103.15352},
+      timestamp = {Wed, 07 Apr 2021 15:31:46 +0200},
+      biburl    = {https://dblp.org/rec/journals/corr/abs-2103-15352.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: SampleLower
+  authors: Ruoqi Shen and Kevin Tian
+  url: https://arxiv.org/pdf/2106.05480.pdf
+  venue: NeurIPS 2021
+  year: 2021
+  title: |
+    Lower Bounds on Metropolized Sampling Methods for Well-Conditioned Distributions
+  bib: |
+    @article{DBLP:journals/corr/abs-2106-05480,
+      author    = {Yin Tat Lee and
+                   Ruoqi Shen and
+                   Kevin Tian},
+      title     = {Lower Bounds on Metropolized Sampling Methods for Well-Conditioned
+                   Distributions},
+      journal   = {CoRR},
+      volume    = {abs/2106.05480},
+      year      = {2021},
+      url       = {https://arxiv.org/abs/2106.05480},
+      eprinttype = {arXiv},
+      eprint    = {2106.05480},
+      timestamp = {Tue, 15 Jun 2021 16:35:15 +0200},
+      biburl    = {https://dblp.org/rec/journals/corr/abs-2106-05480.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DPJL
+  authors: Zhiqi Bu, Sivakanth Gopi, Janardhan Kulkarni, Hanwen Shen, Uthaipon Tantipongpipat
+  url: https://arxiv.org/pdf/2102.03013.pdf
+  venue: NeurIPS 2021
+  year: 2021
+  title: |
+    Fast and Memory Efficient Differentially Private-SGD via JL Projections
+  bib: |
+    @article{DBLP:journals/corr/abs-2102-03013,
+      author    = {Zhiqi Bu and
+                   Sivakanth Gopi and
+                   Janardhan Kulkarni and
+                   Yin Tat Lee and
+                   Judy Hanwen Shen and
+                   Uthaipon Tantipongpipat},
+      title     = {Fast and Memory Efficient Differentially Private-SGD via {JL} Projections},
+      journal   = {CoRR},
+      volume    = {abs/2102.03013},
+      year      = {2021},
+      url       = {https://arxiv.org/abs/2102.03013},
+      eprinttype = {arXiv},
+      eprint    = {2102.03013},
+      timestamp = {Wed, 10 Feb 2021 15:24:32 +0100},
+      biburl    = {https://dblp.org/rec/journals/corr/abs-2102-03013.bib},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/stoc/DongLY21
   authors: Sally Dong and Guanghao Ye
   url: https://arxiv.org/pdf/2011.05365.pdf
   venue: STOC 2021
@@ -8,17 +165,22 @@
   title: |
     A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth: A Multiscale Representation of Robust Central Path
   bib: |
-    @inproceedings{treewidthLP,
+    @inproceedings{DBLP:conf/stoc/DongLY21,
       author    = {Sally Dong and
                    Yin Tat Lee and
                    Guanghao Ye},
-      title     = {A Nearly-Linear Time Algorithm for Linear Programs with Small Treewidth:
-                   {A} Multiscale Representation of Robust Central Path},
-      booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2021, Online, June 21–25, 2021.},
-      year      = {2021}
+      editor    = {Samir Khuller and
+                   Virginia Vassilevska Williams},
+      title     = {A nearly-linear time algorithm for linear programs with small treewidth:
+                   a multiscale representation of robust central path},
+      booktitle = {{STOC} '21: 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
+                   Virtual Event, Italy, June 21-25, 2021},
+      pages     = {1784--1797},
+      publisher = {{ACM}},
+      year      = {2021},
+      url       = {https://doi.org/10.1145/3406325.3451056}
     }
-- id: KLSReducePaper
+- id: DBLP:conf/stoc/JiaLLV21
   authors: He Jia, Aditi Laddha, and Santosh Vempala
   url: https://arxiv.org/pdf/2008.02146.pdf
   venue: STOC 2021
@@ -26,17 +188,23 @@
   title: |
     Reducing Isotropy and Volume to KLS: An $O(n^3 \psi^2)$ Volume Algorithm
   bib: |
-    @inproceedings{KLSReducePaper,
+    @inproceedings{DBLP:conf/stoc/JiaLLV21,
       author    = {He Jia and
                    Aditi Laddha and
                    Yin Tat Lee and
                    Santosh S. Vempala},
-      title     = {Reducing Isotropy and Volume to KLS: An $O(n^3 \psi^2)$ Volume Algorithm},
-      booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2021, Online, June 21–25, 2021.},
-      year      = {2021}
+      editor    = {Samir Khuller and
+                   Virginia Vassilevska Williams},
+      title     = {Reducing isotropy and volume to {KLS:} an \emph{o}*(\emph{n}\({}^{\mbox{3}}\)\emph{{\(\psi\)}}\({}^{\mbox{2}}\))
+                   volume algorithm},
+      booktitle = {{STOC} '21: 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
+                   Virtual Event, Italy, June 21-25, 2021},
+      pages     = {961--974},
+      publisher = {{ACM}},
+      year      = {2021},
+      url       = {https://doi.org/10.1145/3406325.3451018}
     }
-- id: MaxflowPaper
+- id: DBLP:conf/stoc/BrandLLSS0W21
   authors: Jan van den Brand, Yang Liu, Thatchaphol Saranurak, Aaron Sidford, Zhao Song, and Di Wang
   url: https://arxiv.org/pdf/2101.05719.pdf
   venue: STOC 2021
@@ -44,17 +212,24 @@
   title: |
     Minimum Cost Flows, MDPs, and l1-Regression in Nearly Linear Time for Dense Instances
   bib: |
-    @inproceedings{MaxflowPaper,
+    @inproceedings{DBLP:conf/stoc/BrandLLSS0W21,
       author    = {Jan van den Brand and
                    Yin Tat Lee and
+                   Yang P. Liu and
                    Thatchaphol Saranurak and
                    Aaron Sidford and
-                   Zhao Song and 
+                   Zhao Song and
                    Di Wang},
-      title     = {Minimum Cost Flows, MDPs, and l1-Regression in Nearly Linear Time for Dense Instances},
-      booktitle = {Proceedings of the 53st Annual {ACM} {SIGACT} Symposium on Theory
-                   of Computing, {STOC} 2021, Online, June 21–25, 2021.},
-      year      = {2021}
+      editor    = {Samir Khuller and
+                   Virginia Vassilevska Williams},
+      title     = {Minimum cost flows, MDPs, and {\(\mathscr{l}\)}\({}_{\mbox{1}}\)-regression
+                   in nearly linear time for dense instances},
+      booktitle = {{STOC} '21: 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
+                   Virtual Event, Italy, June 21-25, 2021},
+      pages     = {859--869},
+      publisher = {{ACM}},
+      year      = {2021},
+      url       = {https://doi.org/10.1145/3406325.3451108}
     }
 - id: DBLP:conf/alt/AgarwalKKLNS20
   authors: Naman Agarwal, Sham Kakade, Rahul Kidambi and, Praneeth Netrapalli, and Aaron Sidford
