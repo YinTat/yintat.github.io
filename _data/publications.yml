@@ -80,6 +80,7 @@
                    Sergey Yekhanin and
                    Huishuai Zhang},
       title     = {Differentially Private Fine-tuning of Language Models},
+      year      = {2022},
       booktitle = {10th International Conference on Learning Representations, ICLR 2022}
     }
 - id: NumDP
@@ -95,6 +96,7 @@
                    Yin Tat Lee and
                    Lukas Wutschitz},
       title     = {Numerical Composition of Differential Privacy},
+      year      = {2021},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
                    on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
@@ -112,6 +114,7 @@
                    Daogao Liu},
       title     = {Private Non-smooth Empirical Risk Minimization and Stochastic Convex
                    Optimization in Subquadratic Steps},
+      year      = {2021},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
                    on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
@@ -129,6 +132,7 @@
                    Kevin Tian},
       title     = {Lower Bounds on Metropolized Sampling Methods for Well-Conditioned
                    Distributions},
+      year      = {2021},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
                    on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
@@ -148,6 +152,7 @@
                    Judy Hanwen Shen and
                    Uthaipon Tantipongpipat},
       title     = {Fast and Memory Efficient Differentially Private-SGD via {JL} Projections},
+      year      = {2021},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
                    on Neural Information Processing Systems 2021, NeurIPS 2021}
     }
