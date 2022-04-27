@@ -195,7 +195,7 @@
                    Santosh S. Vempala},
       editor    = {Samir Khuller and
                    Virginia Vassilevska Williams},
-      title     = {Reducing isotropy and volume to {KLS:} an O(n^3 \psi^2)
+      title     = {Reducing isotropy and volume to {KLS:} an $O(n^3 \psi^2)$
                    volume algorithm},
       booktitle = {{STOC} '21: 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
                    Virtual Event, Italy, June 21-25, 2021},
