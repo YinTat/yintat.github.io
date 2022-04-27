@@ -58,6 +58,30 @@
       biburl    = {https://dblp.org/rec/conf/soda/FazelLPS22.bib},
       bibsource = {dblp computer science bibliography, https://dblp.org}
     }
+- id: DPDL
+  authors: Da Yu, Saurabh Naik, Arturs Backurs, Sivakanth Gopi, Huseyin A Inan, Gautam Kamath, Janardhan Kulkarni, Andre Manoel, Lukas Wutschitz, Sergey Yekhanin and Huishuai Zhang
+  url: https://arxiv.org/abs/2110.06500
+  venue: ICLR 2022
+  year: 2022
+  title: |
+    Differentially Private Fine-tuning of Language Models
+  bib: |
+    @article{DPDL,
+      author    = {Da Yu and
+                   Saurabh Naik and
+                   Arturs Backurs and
+                   Sivakanth Gopi and
+                   Huseyin A. Inan and
+                   Gautam Kamath and
+                   Janardhan Kulkarni and
+                   Yin Tat Lee and
+                   Andre Manoel and
+                   Lukas Wutschitz and
+                   Sergey Yekhanin and
+                   Huishuai Zhang},
+      title     = {Differentially Private Fine-tuning of Language Models},
+      booktitle = {10th International Conference on Learning Representations, ICLR 2022}
+    }
 - id: NumDP
   authors: Sivakanth Gopi and Lukas Wutschitz
   url: https://arxiv.org/pdf/2106.02848.pdf
