@@ -831,7 +831,7 @@
       year      = {2018},
       url       = {http://papers.nips.cc/paper/7539-optimal-algorithms-for-non-smooth-distributed-optimization-in-networks}
     }
-- id: DBLP:journals/corr/LeeY18
+- id: DBLP:journals/mor/LeeY21
   authors: Man-Chung Yue
   url: https://arxiv.org/pdf/1809.03011.pdf
   venue: arXiv
@@ -839,16 +839,17 @@
   title: |
     Universal Barrier is n-Self-Concordant
   bib: |
-    @article{DBLP:journals/corr/LeeY18,
+    @article{DBLP:journals/mor/LeeY21,
       author    = {Yin Tat Lee and
-                   Man-Chung Yue},
-      title     = {Universal Barrier is n-Self-Concordant},
-      journal   = {CoRR},
-      volume    = {abs/1809.03011},
-      year      = {2018},
-      url       = {https://arxiv.org/abs/1809.03011},
-      archivePrefix = {arXiv},
-      eprint    = {1809.03011}
+                   Man{-}Chung Yue},
+      title     = {Universal Barrier Is \emph{n}-Self-Concordant},
+      journal   = {Math. Oper. Res.},
+      volume    = {46},
+      number    = {3},
+      pages     = {1129--1148},
+      year      = {2021},
+      url       = {https://doi.org/10.1287/moor.2020.1113},
+      doi       = {10.1287/moor.2020.1113}
     }
 - id: DBLP:journals/corr/LeeV18
   authors: Santosh Vempala
