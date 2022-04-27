@@ -195,7 +195,7 @@
                    Santosh S. Vempala},
       editor    = {Samir Khuller and
                    Virginia Vassilevska Williams},
-      title     = {Reducing isotropy and volume to {KLS:} an \emph{o}*(\emph{n}\({}^{\mbox{3}}\)\emph{{\(\psi\)}}\({}^{\mbox{2}}\))
+      title     = {Reducing isotropy and volume to {KLS:} an O(n^3 \psi^2)
                    volume algorithm},
       booktitle = {{STOC} '21: 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
                    Virtual Event, Italy, June 21-25, 2021},
@@ -222,7 +222,7 @@
                    Di Wang},
       editor    = {Samir Khuller and
                    Virginia Vassilevska Williams},
-      title     = {Minimum cost flows, MDPs, and {\(\mathscr{l}\)}\({}_{\mbox{1}}\)-regression
+      title     = {Minimum cost flows, MDPs, and l1-regression
                    in nearly linear time for dense instances},
       booktitle = {{STOC} '21: 53rd Annual {ACM} {SIGACT} Symposium on Theory of Computing,
                    Virtual Event, Italy, June 21-25, 2021},
