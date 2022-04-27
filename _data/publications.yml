@@ -66,7 +66,7 @@
   title: |
     Numerical Composition of Differential Privacy
   bib: |
-    @article{DBLP:journals/corr/abs-2106-02848,
+    @article{NumDP,
       author    = {Sivakanth Gopi and
                    Yin Tat Lee and
                    Lukas Wutschitz},
@@ -89,7 +89,7 @@
   title: |
     Private Non-smooth ERM and SCO in Subquadratic Steps
   bib: |
-    @article{DBLP:journals/corr/abs-2103-15352,
+    @article{DPSCO,
       author    = {Janardhan Kulkarni and
                    Yin Tat Lee and
                    Daogao Liu},
@@ -113,7 +113,7 @@
   title: |
     Lower Bounds on Metropolized Sampling Methods for Well-Conditioned Distributions
   bib: |
-    @article{DBLP:journals/corr/abs-2106-05480,
+    @article{SampleLower,
       author    = {Yin Tat Lee and
                    Ruoqi Shen and
                    Kevin Tian},
@@ -137,7 +137,7 @@
   title: |
     Fast and Memory Efficient Differentially Private-SGD via JL Projections
   bib: |
-    @article{DBLP:journals/corr/abs-2102-03013,
+    @article{DPJL,
       author    = {Zhiqi Bu and
                    Sivakanth Gopi and
                    Janardhan Kulkarni and
