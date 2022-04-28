@@ -303,7 +303,7 @@
       url       = {http://proceedings.mlr.press/v125/lee20c.html}
     }
 - id: DBLP:conf/focs/JiangKLP020
-  authors: Yair Carmon, Arun Jambulapati, Qijia Jiang, Yujia Jin, Aaron Sidford, and Kevin Tian
+  authors: Haotian Jiang, Tarun Kathuria, Swati Padmanabhan and Zhao Song
   url: https://arxiv.org/pdf/2009.10217.pdf
   venue: FOCS 2020
   year: 2020
