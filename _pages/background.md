@@ -33,16 +33,3 @@ A few years ago, I was told that one may win a Fields medal by solving Kannan-Lo
 
 ### $\sum_{u\in T}w_{u}\sum_{i\geq1}(x_{u,i}+\delta)\log(x_{u,i}+\delta)$
 To be honest, I still don't understand [this equation](https://arxiv.org/abs/1711.01085) and I hope someone can explain this to me for general graphs. Maybe this is simply a wrong direction.
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- horizontal -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7216078004228924"
-     data-ad-slot="1584892646"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
