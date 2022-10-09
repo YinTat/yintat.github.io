@@ -1,6 +1,56 @@
+- id: DBLP:conf/colt/GopiLL22
+  authors: Sivakanth Gopi and Daogao Liu
+  url: https://arxiv.org/pdf/2203.00263.pdf
+  venue: COLT 2022
+  year: 2022
+  title: |
+    Private Convex Optimization via Exponential Mechanism
+  bib: |
+    @inproceedings{DBLP:conf/colt/GopiLL22,
+      author    = {Sivakanth Gopi and
+                   Yin Tat Lee and
+                   Daogao Liu},
+      editor    = {Po{-}Ling Loh and
+                   Maxim Raginsky},
+      title     = {Private Convex Optimization via Exponential Mechanism},
+      booktitle = {Conference on Learning Theory, 2-5 July 2022, London, {UK}},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {178},
+      pages     = {1948--1989},
+      publisher = {{PMLR}},
+      year      = {2022},
+      url       = {https://proceedings.mlr.press/v178/gopi22a.html}
+    }
+- id: DBLP:conf/stoc/BrandGJLLPS22
+  authors: Jan van den Brand, Yu Gao, Arun Jambulapati, Yang P. Liu, Richard Peng and Aaron Sidford
+  url: https://arxiv.org/pdf/2112.00722.pdf
+  venue: STOC 2022
+  year: 2022
+  title: |
+    Faster maxflow via improved dynamic spectral vertex sparsifiers
+  bib: |
+    @inproceedings{DBLP:conf/stoc/BrandGJLLPS22,
+      author    = {Jan van den Brand and
+                   Yu Gao and
+                   Arun Jambulapati and
+                   Yin Tat Lee and
+                   Yang P. Liu and
+                   Richard Peng and
+                   Aaron Sidford},
+      editor    = {Stefano Leonardi and
+                   Anupam Gupta},
+      title     = {Faster maxflow via improved dynamic spectral vertex sparsifiers},
+      booktitle = {{STOC} '22: 54th Annual {ACM} {SIGACT} Symposium on Theory of Computing,
+                   Rome, Italy, June 20 - 24, 2022},
+      pages     = {543--556},
+      publisher = {{ACM}},
+      year      = {2022},
+      url       = {https://doi.org/10.1145/3519935.3520068},
+      doi       = {10.1145/3519935.3520068}
+    }
 - id: DBLP:conf/soda/DongGGLPSY22
   authors: Sally Dong, Yu Gao, Gramoz Goranci, Richard Peng, Sushant Sachdeva and Guanghao Ye
-  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.7
+  url: https://arxiv.org/pdf/2205.01562.pdf
   venue: SODA 2022
   year: 2022
   title: |
@@ -58,7 +108,7 @@
       biburl    = {https://dblp.org/rec/conf/soda/FazelLPS22.bib},
       bibsource = {dblp computer science bibliography, https://dblp.org}
     }
-- id: DPDL
+- id: DBLP:conf/iclr/YuNBGI0KLMWYZ22
   authors: Da Yu, Saurabh Naik, Arturs Backurs, Sivakanth Gopi, Huseyin A Inan, Gautam Kamath, Janardhan Kulkarni, Andre Manoel, Lukas Wutschitz, Sergey Yekhanin and Huishuai Zhang
   url: https://arxiv.org/pdf/2110.06500.pdf
   venue: ICLR 2022
@@ -66,7 +116,7 @@
   title: |
     Differentially Private Fine-tuning of Language Models
   bib: |
-    @inproceedings{DPDL,
+    @inproceedings{DBLP:conf/iclr/YuNBGI0KLMWYZ22,
       author    = {Da Yu and
                    Saurabh Naik and
                    Arturs Backurs and
@@ -80,10 +130,13 @@
                    Sergey Yekhanin and
                    Huishuai Zhang},
       title     = {Differentially Private Fine-tuning of Language Models},
+      booktitle = {The Tenth International Conference on Learning Representations, {ICLR}
+                   2022, Virtual Event, April 25-29, 2022},
+      publisher = {OpenReview.net},
       year      = {2022},
-      booktitle = {10th International Conference on Learning Representations, ICLR 2022}
+      url       = {https://openreview.net/forum?id=Q42f0dfjECO}
     }
-- id: NumDP
+- id: DBLP:conf/nips/GopiLW21
   authors: Sivakanth Gopi and Lukas Wutschitz
   url: https://arxiv.org/pdf/2106.02848.pdf
   venue: NeurIPS 2021
@@ -91,16 +144,24 @@
   title: |
     Numerical Composition of Differential Privacy
   bib: |
-    @inproceedings{NumDP,
+    @inproceedings{DBLP:conf/nips/GopiLW21,
       author    = {Sivakanth Gopi and
                    Yin Tat Lee and
                    Lukas Wutschitz},
+      editor    = {Marc'Aurelio Ranzato and
+                   Alina Beygelzimer and
+                   Yann N. Dauphin and
+                   Percy Liang and
+                   Jennifer Wortman Vaughan},
       title     = {Numerical Composition of Differential Privacy},
-      year      = {2021},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
-                   on Neural Information Processing Systems 2021, NeurIPS 2021}
+                   on Neural Information Processing Systems 2021, NeurIPS 2021, December
+                   6-14, 2021, virtual},
+      pages     = {11631--11642},
+      year      = {2021},
+      url       = {https://proceedings.neurips.cc/paper/2021/hash/6097d8f3714205740f30debe1166744e-Abstract.html}
     }
-- id: DPSCO
+- id: DBLP:conf/nips/KulkarniLL21
   authors: Janardhan Kulkarni and Daogao Liu
   url: https://arxiv.org/pdf/2103.15352.pdf
   venue: NeurIPS 2021
@@ -108,17 +169,24 @@
   title: |
     Private Non-smooth ERM and SCO in Subquadratic Steps
   bib: |
-    @inproceedings{DPSCO,
+    @inproceedings{DBLP:conf/nips/KulkarniLL21,
       author    = {Janardhan Kulkarni and
                    Yin Tat Lee and
                    Daogao Liu},
-      title     = {Private Non-smooth Empirical Risk Minimization and Stochastic Convex
-                   Optimization in Subquadratic Steps},
-      year      = {2021},
+      editor    = {Marc'Aurelio Ranzato and
+                   Alina Beygelzimer and
+                   Yann N. Dauphin and
+                   Percy Liang and
+                   Jennifer Wortman Vaughan},
+      title     = {Private Non-smooth {ERM} and {SCO} in Subquadratic Steps},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
-                   on Neural Information Processing Systems 2021, NeurIPS 2021}
+                   on Neural Information Processing Systems 2021, NeurIPS 2021, December
+                   6-14, 2021, virtual},
+      pages     = {4053--4064},
+      year      = {2021},
+      url       = {https://proceedings.neurips.cc/paper/2021/hash/211c1e0b83b9c69fa9c4bdede203c1e3-Abstract.html}
     }
-- id: SampleLower
+- id: DBLP:conf/nips/LeeST21
   authors: Ruoqi Shen and Kevin Tian
   url: https://arxiv.org/pdf/2106.05480.pdf
   venue: NeurIPS 2021
@@ -126,17 +194,25 @@
   title: |
     Lower Bounds on Metropolized Sampling Methods for Well-Conditioned Distributions
   bib: |
-    @inproceedings{SampleLower,
+    @inproceedings{DBLP:conf/nips/LeeST21,
       author    = {Yin Tat Lee and
                    Ruoqi Shen and
                    Kevin Tian},
+      editor    = {Marc'Aurelio Ranzato and
+                   Alina Beygelzimer and
+                   Yann N. Dauphin and
+                   Percy Liang and
+                   Jennifer Wortman Vaughan},
       title     = {Lower Bounds on Metropolized Sampling Methods for Well-Conditioned
                    Distributions},
-      year      = {2021},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
-                   on Neural Information Processing Systems 2021, NeurIPS 2021}
+                   on Neural Information Processing Systems 2021, NeurIPS 2021, December
+                   6-14, 2021, virtual},
+      pages     = {18812--18824},
+      year      = {2021},
+      url       = {https://proceedings.neurips.cc/paper/2021/hash/9c4e6233c6d5ff637e7984152a3531d5-Abstract.html}
     }
-- id: DPJL
+- id: DBLP:conf/nips/LeeST21
   authors: Zhiqi Bu, Sivakanth Gopi, Janardhan Kulkarni, Hanwen Shen, Uthaipon Tantipongpipat
   url: https://arxiv.org/pdf/2102.03013.pdf
   venue: NeurIPS 2021
@@ -144,17 +220,23 @@
   title: |
     Fast and Memory Efficient Differentially Private-SGD via JL Projections
   bib: |
-    @inproceedings{DPJL,
-      author    = {Zhiqi Bu and
-                   Sivakanth Gopi and
-                   Janardhan Kulkarni and
-                   Yin Tat Lee and
-                   Judy Hanwen Shen and
-                   Uthaipon Tantipongpipat},
-      title     = {Fast and Memory Efficient Differentially Private-SGD via {JL} Projections},
-      year      = {2021},
+    @inproceedings{DBLP:conf/nips/LeeST21,
+      author    = {Yin Tat Lee and
+                   Ruoqi Shen and
+                   Kevin Tian},
+      editor    = {Marc'Aurelio Ranzato and
+                   Alina Beygelzimer and
+                   Yann N. Dauphin and
+                   Percy Liang and
+                   Jennifer Wortman Vaughan},
+      title     = {Lower Bounds on Metropolized Sampling Methods for Well-Conditioned
+                   Distributions},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
-                   on Neural Information Processing Systems 2021, NeurIPS 2021}
+                   on Neural Information Processing Systems 2021, NeurIPS 2021, December
+                   6-14, 2021, virtual},
+      pages     = {18812--18824},
+      year      = {2021},
+      url       = {https://proceedings.neurips.cc/paper/2021/hash/9c4e6233c6d5ff637e7984152a3531d5-Abstract.html}
     }
 - id: DBLP:conf/stoc/DongLY21
   authors: Sally Dong and Guanghao Ye
