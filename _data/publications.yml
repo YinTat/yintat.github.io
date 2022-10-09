@@ -212,7 +212,7 @@
       year      = {2021},
       url       = {https://proceedings.neurips.cc/paper/2021/hash/9c4e6233c6d5ff637e7984152a3531d5-Abstract.html}
     }
-- id: DBLP:conf/nips/LeeST21
+- id: DBLP:conf/nips/BuGKLST21
   authors: Zhiqi Bu, Sivakanth Gopi, Janardhan Kulkarni, Hanwen Shen, Uthaipon Tantipongpipat
   url: https://arxiv.org/pdf/2102.03013.pdf
   venue: NeurIPS 2021
@@ -220,23 +220,25 @@
   title: |
     Fast and Memory Efficient Differentially Private-SGD via JL Projections
   bib: |
-    @inproceedings{DBLP:conf/nips/LeeST21,
-      author    = {Yin Tat Lee and
-                   Ruoqi Shen and
-                   Kevin Tian},
+    @inproceedings{DBLP:conf/nips/BuGKLST21,
+      author    = {Zhiqi Bu and
+                   Sivakanth Gopi and
+                   Janardhan Kulkarni and
+                   Yin Tat Lee and
+                   Judy Hanwen Shen and
+                   Uthaipon Tantipongpipat},
       editor    = {Marc'Aurelio Ranzato and
                    Alina Beygelzimer and
                    Yann N. Dauphin and
                    Percy Liang and
                    Jennifer Wortman Vaughan},
-      title     = {Lower Bounds on Metropolized Sampling Methods for Well-Conditioned
-                   Distributions},
+      title     = {Fast and Memory Efficient Differentially Private-SGD via {JL} Projections},
       booktitle = {Advances in Neural Information Processing Systems 34: Annual Conference
                    on Neural Information Processing Systems 2021, NeurIPS 2021, December
                    6-14, 2021, virtual},
-      pages     = {18812--18824},
+      pages     = {19680--19691},
       year      = {2021},
-      url       = {https://proceedings.neurips.cc/paper/2021/hash/9c4e6233c6d5ff637e7984152a3531d5-Abstract.html}
+      url       = {https://proceedings.neurips.cc/paper/2021/hash/a3842ed7b3d0fe3ac263bcabd2999790-Abstract.html}
     }
 - id: DBLP:conf/stoc/DongLY21
   authors: Sally Dong and Guanghao Ye
