@@ -26,7 +26,7 @@ This course is offered in Georgia Tech at the same time by [Santosh Vempala](htt
 + I will also answer questions in [Piazza](https://piazza.com/washington/winter2020/cse535)
 + TA: Swati Padmanabhan (pswati@<span style="display: none;">ignoreme-</span>cs.washington.edu)
 + TA Office hours: Thu 1:30-2:30 at CSE 5th floor breakout
-+ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf)
++ Text Book (in progress): [https://github.com/YinTat/optimizationbook/blob/main/main.pdf](https://github.com/YinTat/optimizationbook/blob/main/main.pdf)
 + Course evaluation: 4 assignments (100%)
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
