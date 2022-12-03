@@ -17,7 +17,7 @@ The design of algorithms is traditionally a discrete endeavor. However, many adv
 
 ## Administrative Information:
 + Lectures: Tue, Thu 10:00-11:20 at	[Zoom](https://washington.zoom.us/j/95120229931)
-+ Text Book (in progress): [https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf](https://www.dropbox.com/s/9ck2p07mibvwrmg/main.pdf).
++ Text Book (in progress): [https://github.com/YinTat/optimizationbook/blob/main/main.pdf](https://github.com/YinTat/optimizationbook/blob/main/main.pdf).
 + Please do not make comment directly on the merged version, but instead the split versions below. Dropbox cannot handle large documents efficiently.
 + Prerequisite: basic knowledge of algorithms, probability, linear algebra.
 
