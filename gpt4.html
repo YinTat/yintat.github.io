@@ -1,0 +1,1016 @@
+<!--
+latest, tempature 0
+
+Prompt:
+
+Write a phyiscs-based game in javascript with the following specifications:
+- 3D game
+- the arena is Microsoft logo shape (i.e. 4 islands with appropriate colors)
+- from time to time, there is a colored sphere drop to the arena.
+- the color of the sphere is one of the colors in Microsoft logo
+- the player starts with 5 life and 0 score.
+- when the sphere hits the arena, the sphere disappear.
+- If the color of the sphere does not match the arena it touches, lost 1 life. If it matches, add 10 scores.
+- User can remove the sphere by clicking it. It gives 1 score.
+- Gameover if 0 life.
+- Embed the game in html.
+
+
+Version 0: AI raw
+
+Version 1: (Manual fix)
+Fix the url <script src="https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.js"></script>
+Fix the index i in "      for (let i = 0; I < 4; i++) {"
+
+
+Version 2: (AI fix)
+Prompt:
+The line "          if (sphere.body.intersectsBody(island.body)) {" does not work.
+It gives the error message "TypeError: sphere.body.intersectsBody is not a function".
+Suggest a replacement of the function checkCollision.
+
+Answer:
+One possible replacement of the function checkCollision is:
+
+    // Check the collision between spheres and arena
+    function checkCollision() {
+      for (let i = 0; i < spheres.length; i++) {
+        const sphere = spheres[i];
+        for (let j = 0; j < arena.length; j++) {
+          const island = arena[j];
+          // Use the distance method instead of the intersectsBody method
+          if (sphere.body.position.distanceTo(island.body.position) < SPHERE_RADIUS + ARENA_SIZE / 2) {
+            if (sphere.color === island.color) {
+              // Match the color, add score
+              score += SCORE_PER_MATCH;
+            } else {
+              // Mismatch the color, lose life
+              life--;
+              if (life === 0) {
+                // Game over
+                alert('Game over!');
+                location.reload();
+              }
+            }
+            // Remove the sphere
+            removeSphere(i);
+            // Update the info
+            updateInfo();
+            // Break the inner loop
+            break;
+          }
+        }
+      }
+    }
+
+Version 3: (AI fix)
+Prompt:
+The ball should drop uniformly on one of the islands, but not too close to the boundary of the island. Otherwise, it confuses the user.
+Which function I should change? Suggest a replacement of that function.
+
+Answer:
+There are different ways to achieve this, but one possible function to change is createSphere, which currently uses a random position for the sphere. A possible replacement of that function is:
+
+    // Create a sphere with a random color and drop it from a random position
+    function createSphere() {
+      const geometry = new THREE.SphereGeometry(SPHERE_RADIUS, 16, 16);
+      const material = new THREE.MeshLambertMaterial();
+      const shape = new CANNON.Sphere(SPHERE_RADIUS);
+      const mesh = new THREE.Mesh(geometry, material);
+      const body = new CANNON.Body({mass: SPHERE_MASS, shape: shape});
+      const color = LOGO_COLORS[Math.floor(Math.random() * 4)];
+      mesh.material.color.setHex(color);
+      // Choose a random island to drop the sphere
+      const island = arena[Math.floor(Math.random() * 4)];
+      // Choose a random position on the island, but not too close to the boundary
+      const margin = SPHERE_RADIUS + 0.1; // some small margin to avoid clipping
+      const x = island.mesh.position.x + Math.random() * (ARENA_SIZE - 2 * margin) - (ARENA_SIZE / 2 - margin);
+      const z = island.mesh.position.z + Math.random() * (ARENA_SIZE - 2 * margin) - (ARENA_SIZE / 2 - margin);
+      mesh.position.set(x, 10, z);
+      body.position.copy(mesh.position);
+      scene.add(mesh);
+      world.addBody(body);
+      spheres.push({mesh, body, color});
+    }
+
+
+Version 4: (AI fix)
+Prompt:
+The checkCollision function has a problem. The sphere collides with the island even before it really touches. 
+Can you check the collision based only on the y axis of the sphere instead?
+
+Answer:
+There are a few possible ways to check the collision based only on the z axis of the sphere, but one simple way is to modify the checkCollision function as follows:
+
+    // Check the collision between spheres and arena
+    function checkCollision() {
+      for (let i = 0; i < spheres.length; i++) {
+        const sphere = spheres[i];
+        for (let j = 0; j < arena.length; j++) {
+          const island = arena[j];
+          // Use the z coordinate instead of the distance method
+          if (Math.abs(sphere.body.position.z - island.body.position.z) < SPHERE_RADIUS + ARENA_HEIGHT / 2) {
+            if (sphere.color === island.color) {
+              // Match the color, add score
+              score += SCORE_PER_MATCH;
+            } else {
+              // Mismatch the color, lose life
+              life--;
+              if (life === 0) {
+                // Game over
+                alert('Game over!');
+                location.reload();
+              }
+            }
+            // Remove the sphere
+            removeSphere(i);
+            // Update the info
+            updateInfo();
+            // Break the inner loop
+            break;
+          }
+        }
+      }
+    }
+
+
+Version 5: AI fix
+Prompt:
+To make the game easier, remove the sphere once the mouse passes through it.
+Tell me the instruction to modify it.
+
+Answer:
+There are different ways to implement this feature, but one possible instruction is:
+
+- Instead of using the 'click' event listener, use the 'mousemove' event listener to update the mouse position and the raycaster.
+- In the onMouseClick function, rename it to onMouseMove, and remove the event parameter, since we don't need it anymore.
+- In the onMouseMove function, check the intersection with the spheres as before, but instead of getting the first intersected sphere, loop through all the intersected spheres and remove them, adding score for each one.
+
+
+Version 6: AI fix
+Prompt:
+To improve the visual, when the mouse move, gives some visual like fruit ninja.
+Which function(s) should I fix? Give me the replacement(s).
+
+Answer:
+One possible way to improve the visual is to add a trail effect to the mouse cursor and a splash effect to the spheres when they are removed. To do this, we need to modify the following functions:
+
+- init: to add a trail object and a splash group to the scene
+- onMouseMove: to update the trail object and create a splash object when intersecting a sphere
+- animate: to update the splash objects and remove them when they are faded
+
+The modified functions are:
+
+// Initialize the scene, camera, renderer, world, clock, raycaster and mouse
+function init() {
+  scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x333333);
+
+  camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
+  camera.position.set(0, CAMERA_DISTANCE, CAMERA_DISTANCE);
+  camera.lookAt(0, 0, 0);
+
+  renderer = new THREE.WebGLRenderer();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  document.body.appendChild(renderer.domElement);
+
+  world = new CANNON.World();
+  world.gravity.set(0, GRAVITY, 0);
+  world.broadphase = new CANNON.NaiveBroadphase();
+
+  clock = new THREE.Clock();
+
+  raycaster = new THREE.Raycaster();
+  mouse = new THREE.Vector2();
+
+  // Add lights
+  const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+  scene.add(ambientLight);
+
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+  directionalLight.position.set(1, 1, 1);
+  scene.add(directionalLight);
+
+  // Add arena
+  createArena();
+
+  // Add trail
+  trail = new THREE.Mesh(
+    new THREE.PlaneGeometry(0.1, 0.1),
+    new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
+  );
+  trail.visible = false; // hide the trail initially
+  scene.add(trail);
+
+  // Add splash group
+  splashGroup = new THREE.Group();
+  scene.add(splashGroup);
+
+  // Add event listeners
+  window.addEventListener('resize', onWindowResize, false);
+  window.addEventListener('mousemove', onMouseMove, false);
+
+  // Start the game loop
+  animate();
+}
+
+// Handle the mouse move event
+function onMouseMove(event) {
+  // Convert the mouse position to normalized device coordinates
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+  // Update the raycaster with the camera and mouse position
+  raycaster.setFromCamera(mouse, camera);
+  // Check the intersection with the spheres
+  const intersects = raycaster.intersectObjects(spheres.map(s => s.mesh));
+  if (intersects.length > 0) {
+    // Get the first intersected sphere
+    const sphere = intersects[0].object;
+    // Find the index of the sphere in the spheres array
+    const index = spheres.findIndex(s => s.mesh === sphere);
+    // Remove the sphere
+    removeSphere(index);
+    // Add score
+    score += SCORE_PER_CLICK;
+    // Update the info
+    updateInfo();
+    // Create a splash
+    createSplash(sphere.position, sphere.material.color);
+  }
+  // Update the trail
+  updateTrail();
+}
+
+// Create a splash effect at the given position and color
+function createSplash(position, color) {
+  // Create a geometry with random points
+  const geometry = new THREE.BufferGeometry();
+  const vertices = [];
+  const count = 10; // number of points
+  for (let i = 0; i < count; i++) {
+    // Choose a random direction and speed
+    const theta = Math.random() * Math.PI * 2;
+    const phi = Math.random() * Math.PI / 4 - Math.PI / 8;
+    const speed = Math.random() * 2 + 1;
+    // Calculate the velocity vector
+    const vx = Math.cos(theta) * Math.sin(phi) * speed;
+    const vy = Math.cos(phi) * speed;
+    const vz = Math.sin(theta) * Math.sin(phi) * speed;
+    // Add the initial position and velocity to the vertices array
+    vertices.push(position.x, position.y, position.z, vx, vy, vz);
+  }
+  // Set the vertices as the attribute of the geometry
+  geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 6));
+  // Create a material with the given color and transparency
+  const material = new THREE.PointsMaterial({color: color, size: 0.2, transparent: true, opacity: 1});
+  // Create a points object with the geometry and material
+  const points = new THREE.Points(geometry, material);
+  // Add the points object to the splash group
+  splashGroup.add(points);
+}
+
+// Update the trail effect
+function updateTrail() {
+  // Get the mouse position in the world coordinates
+  const mouseWorld = raycaster.ray.at(1, new THREE.Vector3());
+  // Set the trail position to the mouse position
+  trail.position.copy(mouseWorld);
+  // Set the trail rotation to face the camera
+  trail.lookAt(camera.position);
+  // Set the trail scale to match the distance to the camera
+  const scale = mouseWorld.distanceTo(camera.position) / 10;
+  trail.scale.set(scale, scale, scale);
+  // Show the trail
+  trail.visible = true;
+}
+
+// Animate the scene
+function animate() {
+  requestAnimationFrame(animate);
+
+  // Get the elapsed time
+  const delta = clock.getDelta();
+
+  // Update the physics world
+  world.step(delta);
+
+  // Update the sphere positions
+  for (let i = 0; i < spheres.length; i++) {
+    spheres[i].mesh.position.copy(spheres[i].body.position);
+  }
+
+  // Check the collision
+  checkCollision();
+
+  // Update the splash objects
+  for (let i = 0; i < splashGroup.children.length; i++) {
+    const splash = splashGroup.children[i];
+    // Get the position and velocity attributes of the splash
+    const position = splash.geometry.attributes.position;
+    const count = position.count;
+    // Update the position and opacity of each point
+    for (let j = 0; j < count; j++) {
+      // Get the x, y, z, vx, vy, vz values of the point
+      const x = position.getX(j);
+      const y = position.getY(j);
+      const z = position.getZ(j);
+      const vx = position.getW(j);
+      const vy = position.getZ(j + 1);
+      const vz = position.getW(j + 1);
+      // Update the position with the velocity and gravity
+      position.setXYZ(j, x + vx * delta, y + vy * delta + GRAVITY * delta * delta / 2, z + vz * delta);
+      // Update the velocity with the gravity
+      position.setZ(j + 1, vy + GRAVITY * delta);
+    }
+    // Update the opacity with a decay factor
+    const decay = 0.95;
+    splash.material.opacity *= decay;
+    // Remove the splash if it is too faded
+    if (splash.material.opacity < 0.01) {
+      splashGroup.remove(splash);
+    }
+    // Update the geometry
+    splash.geometry.attributes.position.needsUpdate = true;
+  }
+
+  // Render the scene
+  renderer.render(scene, camera);
+}
+
+Version 7: AI fix
+Prompt:
+Make the following changes
+- make the start screen explaining the rules
+- make a game over screen showing the score
+- make the game run faster and faster over time
+Which function(s) should I fix? Give me the replacement(s) without using any unofficial package.
+
+Answer:
+
+One possible way to make the changes is:
+
+- To make the start screen explaining the rules, we can create a div element with some text and a button, and hide the game elements until the button is clicked. We can also use a flag variable to indicate whether the game is started or not, and only update the game logic if the flag is true. For example, we can add the following code at the beginning of the script:
+
+    // Create a start screen element
+    const startScreen = document.createElement('div');
+    startScreen.id = 'start-screen';
+    startScreen.style.position = 'absolute';
+    startScreen.style.top = '50%';
+    startScreen.style.left = '50%';
+    startScreen.style.transform = 'translate(-50%, -50%)';
+    startScreen.style.color = 'white';
+    startScreen.style.fontFamily = 'Arial, sans-serif';
+    startScreen.style.textAlign = 'center';
+    startScreen.innerHTML = `
+      <h1>Microsoft Logo Physics Game</h1>
+      <p>The rules are simple:</p>
+      <ul>
+        <li>From time to time, there is a colored sphere drop to the arena.</li>
+        <li>The color of the sphere is one of the colors in Microsoft logo.</li>
+        <li>The player starts with 5 life and 0 score.</li>
+        <li>When the sphere hits the arena, the sphere disappear.</li>
+        <li>If the color of the sphere does not match the arena it touches, lost 1 life. If it matches, add 10 scores.</li>
+        <li>User can remove the sphere passing mouse on it. It gives 1 score.</li>
+        <li>Gameover if 0 life.</li>
+      </ul>
+      <button id="start-button">Start Game</button>
+    `;
+    document.body.appendChild(startScreen);
+
+    // Create a flag variable to indicate whether the game is started or not
+    let gameStarted = false;
+
+    // Add an event listener to the start button
+    document.getElementById('start-button').addEventListener('click', function() {
+      // Hide the start screen
+      startScreen.style.display = 'none';
+      // Show the game elements
+      document.getElementById('info').style.display = 'block';
+      renderer.domElement.style.display = 'block';
+      // Set the flag to true
+      gameStarted = true;
+    });
+
+- To make a game over screen showing the score, we can create another div element with some text and a button, and show it when the life reaches 0. We can also use another flag variable to indicate whether the game is over or not, and stop updating the game logic if the flag is true. For example, we can add the following code after creating the start screen element:
+
+    // Create a game over screen element
+    const gameOverScreen = document.createElement('div');
+    gameOverScreen.id = 'game-over-screen';
+    gameOverScreen.style.position = 'absolute';
+    gameOverScreen.style.top = '50%';
+    gameOverScreen.style.left = '50%';
+    gameOverScreen.style.transform = 'translate(-50%, -50%)';
+    gameOverScreen.style.color = 'white';
+    gameOverScreen.style.fontFamily = 'Arial, sans-serif';
+    gameOverScreen.style.textAlign = 'center';
+    gameOverScreen.innerHTML = `
+      <h1>Game Over!</h1>
+      <p>Your score: <span id="final-score"></span></p>
+      <button id="restart-button">Restart Game</button>
+    `;
+    // Hide the game over screen initially
+    gameOverScreen.style.display = 'none';
+    document.body.appendChild(gameOverScreen);
+
+    // Create a flag variable to indicate whether the game is over or not
+    let gameOver = false;
+
+    // Add an event listener to the restart button
+    document.getElementById('restart-button').addEventListener('click', function() {
+      // Hide the game over screen
+      gameOverScreen.style.display = 'none';
+      // Reset the life and score
+      life = LIFE;
+      score = 0;
+      updateInfo();
+      // Remove all the spheres and splashes
+      for (let i = 0; i < spheres.length; i++) {
+        removeSphere(i);
+      }
+      for (let i = 0; i < splashGroup.children.length; i++) {
+        splashGroup.remove(splashGroup.children[i]);
+      }
+      // Set the flag to false
+      gameOver = false;
+    });
+
+- To make the game run faster and faster over time, we can use a variable to store the current drop interval, and decrease it by a factor every time a sphere is created, until it reaches a minimum value. For example, we can add the following code after defining the constants:
+
+    // Variable to store the current drop interval
+    let dropInterval = SPHERE_DROP_INTERVAL;
+    // Factor to decrease the drop interval
+    const DROP_FACTOR = 0.95;
+    // Minimum drop interval
+    const DROP_MIN = 500;
+
+- To use the new variables and elements, we need to modify some existing functions. For example, we can modify the animate function as follows:
+
+    // Animate the scene
+    function animate() {
+      requestAnimationFrame(animate);
+    
+      // Only update the game logic if the game is started and not over
+      if (gameStarted && !gameOver) {
+        // Get the elapsed time
+        const delta = clock.getDelta();
+      
+        // Update the physics world
+        world.step(delta);
+      
+        // Update the sphere positions
+        for (let i = 0; i < spheres.length; i++) {
+          spheres[i].mesh.position.copy(spheres[i].body.position);
+        }
+      
+        // Check the collision
+        checkCollision();
+      
+        // Update the splash objects
+        for (let i = 0; i < splashGroup.children.length; i++) {
+          const splash = splashGroup.children[i];
+          // Get the position and velocity attributes of the splash
+          const position = splash.geometry.attributes.position;
+          const count = position.count;
+          // Update the position and opacity of each point
+          for (let j = 0; j < count; j++) {
+            // Get the x, y, z, vx, vy, vz values of the point
+            const x = position.getX(j);
+            const y = position.getY(j);
+            const z = position.getZ(j);
+            const vx = position.getW(j);
+            const vy = position.getZ(j + 1);
+            const vz = position.getW(j + 1);
+            // Update the position with the velocity and gravity
+            position.setXYZ(j, x + vx * delta, y + vy * delta + GRAVITY * delta * delta / 2, z + vz * delta);
+            // Update the velocity with the gravity
+            position.setZ(j + 1, vy + GRAVITY * delta);
+          }
+          // Update the opacity with a decay factor
+          const decay = 0.95;
+          splash.material.opacity *= decay;
+          // Remove the splash if it is too faded
+          if (splash.material.opacity < 0.01) {
+            splashGroup.remove(splash);
+          }
+          // Update the geometry
+          splash.geometry.attributes.position.needsUpdate = true;
+        }
+      }
+    
+      // Render the scene
+      renderer.render(scene, camera);
+    }
+
+- We can also modify the checkCollision function as follows:
+
+    // Check the collision between spheres and arena
+    function checkCollision() {
+      for (let i = 0; i < spheres.length; i++) {
+        const sphere = spheres[i];
+        // Get the bounding box of the sphere
+        const sphereBox = new THREE.Box3().setFromObject(sphere.mesh);
+        for (let j = 0; j < arena.length; j++) {
+          const island = arena[j];
+          // Get the bounding box of the island
+          const islandBox = new THREE.Box3().setFromObject(island.mesh);
+          // Check the intersection only on the y axis
+          if (sphereBox.min.y <= islandBox.max.y && sphereBox.max.y >= islandBox.min.y) {
+            // Check the intersection on the x and z axes using the intersectsBox method
+            if (sphereBox.intersectsBox(islandBox)) {
+              if (sphere.color === island.color) {
+                // Match the color, add score
+                score += SCORE_PER_MATCH;
+              } else {
+                // Mismatch the color, lose life
+                life--;
+                if (life === 0) {
+                  // Game over
+                  // Set the flag to true
+                  gameOver = true;
+                  // Show the game over screen
+                  gameOverScreen.style.display = 'block';
+                  // Set the final score text
+                  document.getElementById('final-score').textContent = score;
+                }
+              }
+              // Remove the sphere
+              removeSphere(i);
+              // Update the info
+              updateInfo();
+              // Break the inner loop
+              break;
+            }
+          }
+        }
+      }
+    }
+
+- Finally, we can modify the createSphere function as follows:
+
+    // Create a sphere with a random color and drop it from a random position
+    function createSphere() {
+      const geometry = new THREE.SphereGeometry(SPHERE_RADIUS, 16, 16);
+      const material = new THREE.MeshLambertMaterial();
+      const shape = new CANNON.Sphere(SPHERE_RADIUS);
+      const mesh = new THREE.Mesh(geometry, material);
+      const body = new CANNON.Body({mass: SPHERE_MASS, shape: shape});
+      const color = LOGO_COLORS[Math.floor(Math.random() * 4)];
+      mesh.material.color.setHex(color);
+      // Choose a random island to drop the sphere
+      const island = arena[Math.floor(Math.random() * 4)];
+      // Choose a random position on the island, but not too close to the boundary
+      const margin = SPHERE_RADIUS + 0.1; // some small margin to avoid clipping
+      const x = island.mesh.position.x + Math.random() * (ARENA_SIZE - 2 * margin) - (ARENA_SIZE / 2 - margin);
+      const z = island.mesh.position.z + Math.random() * (ARENA_SIZE - 2 * margin) - (ARENA_SIZE / 2 - margin);
+      mesh.position.set(x, 10, z);
+      body.position.copy(mesh.position);
+      scene.add(mesh);
+      world.addBody(body);
+      spheres.push({mesh, body, color});
+      // Decrease the drop interval by the factor
+      dropInterval *= DROP_FACTOR;
+      // Clamp the drop interval to the minimum value
+      dropInterval = Math.max(dropInterval, DROP_MIN);
+      // Set the next drop timeout with the current drop interval
+      setTimeout(createSphere, dropInterval);
+    }
+
+- We can also remove the setInterval call at the end of the script, since we are using setTimeout instead.
+
+Ver 8: Human
+- Create ball after start
+- Stop creating ball after die
+-->
+
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    #info {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">Life: 5 Score: 0</div>
+  <script src="TrailRenderer.js"></script>
+  <script>
+    // Constants
+    const LOGO_COLORS = [0xF25022, 0x7FBA00, 0x00A4EF, 0xFFB900]; // red, green, blue, yellow
+    const SPHERE_RADIUS = 1.0;
+    const SPHERE_MASS = 1;
+    const SPHERE_DROP_INTERVAL = 3000; // milliseconds
+    const ARENA_SIZE = 10;
+    const ARENA_HEIGHT = 0.5;
+    const ARENA_MASS = 0;
+    const GRAVITY = -9.8;
+    const CAMERA_DISTANCE = 15;
+    const LIFE = 5;
+    const SCORE_PER_MATCH = 10;
+    const SCORE_PER_CLICK = 1;
+    const DROP_FACTOR = 0.95;
+    const DROP_MIN = 500;
+
+    // Variables
+    let life = LIFE;
+    let score = 0;
+    let spheres = []; // array of {mesh, body, color} objects
+    let arena = []; // array of {mesh, body, color} objects
+    let scene, camera, renderer, world, clock, raycaster, mouse;
+    let dropInterval = SPHERE_DROP_INTERVAL;
+
+    // Create a start screen element
+    const startScreen = document.createElement('div');
+    startScreen.id = 'start-screen';
+    startScreen.style.position = 'absolute';
+    startScreen.style.top = '50%';
+    startScreen.style.left = '50%';
+	startScreen.style.backgroundColor = 'black';
+    startScreen.style.transform = 'translate(-50%, -50%)';
+    startScreen.style.color = 'white';
+    startScreen.style.fontFamily = 'Arial, sans-serif';
+    startScreen.style.textAlign = 'left';
+	startScreen.style.padding = '2%';
+    startScreen.innerHTML = `
+      <center><h1>A game by DV3</h1></center><br/>
+      <p>The rules are simple:</p>
+      <ul>
+        <li>Colored spheres will fall from the sky randomly and land on the arena. The spheres can be red, green, blue, or yellow.</li>
+        <li>You start with 5 life and 0 score. You lose 1 life if a sphere lands on an island of a different color. You gain 10 score if a sphere lands on an island of the same color.</li>
+        <li>You can also remove a sphere by moving your mouse over it before it lands. You gain 1 score for each sphere you remove.</li>
+        <li>The game ends when you run out of life. Try to get the highest score possible.</li>
+      </ul><br/>
+      <center><button id="start-button">Start Game</button></center><br/>
+    `;
+    document.body.appendChild(startScreen);
+
+    // Create a flag variable to indicate whether the game is started or not
+    let gameStarted = false;
+
+    // Add an event listener to the start button
+    document.getElementById('start-button').addEventListener('click', function() {
+      // Hide the start screen
+      startScreen.style.display = 'none';
+      // Show the game elements
+      document.getElementById('info').style.display = 'block';
+      renderer.domElement.style.display = 'block';
+      // Set the flag to true
+      gameStarted = true;
+	  
+      // Drop spheres periodically
+	  dropInterval = SPHERE_DROP_INTERVAL;
+      setTimeout(createSphere, SPHERE_DROP_INTERVAL);
+    });
+	
+    // Create a game over screen element
+    const gameOverScreen = document.createElement('div');
+    gameOverScreen.id = 'game-over-screen';
+    gameOverScreen.style.position = 'absolute';
+    gameOverScreen.style.top = '50%';
+    gameOverScreen.style.left = '50%';
+    gameOverScreen.style.transform = 'translate(-50%, -50%)';
+    gameOverScreen.style.color = 'white';
+    gameOverScreen.style.fontFamily = 'Arial, sans-serif';
+    gameOverScreen.style.textAlign = 'center';
+    gameOverScreen.innerHTML = `
+      <h1>Game Over!</h1>
+      <p>Your score: <span id="final-score"></span></p>
+      <button id="restart-button">Restart Game</button>
+    `;
+    // Hide the game over screen initially
+    gameOverScreen.style.display = 'none';
+    document.body.appendChild(gameOverScreen);
+
+    // Create a flag variable to indicate whether the game is over or not
+    let gameOver = false;
+
+    // Add an event listener to the restart button
+    document.getElementById('restart-button').addEventListener('click', function() {
+      // Hide the game over screen
+      gameOverScreen.style.display = 'none';
+      // Reset the life and score
+      life = LIFE;
+      score = 0;
+      updateInfo();
+      // Remove all the spheres and splashes
+      for (let i = 0; i < spheres.length; i++) {
+        removeSphere(i);
+      }
+      for (let i = 0; i < splashGroup.children.length; i++) {
+        splashGroup.remove(splashGroup.children[i]);
+      }
+      // Set the flag to false
+      gameOver = false;
+	  
+      // Drop spheres periodically
+	  dropInterval = SPHERE_DROP_INTERVAL;
+      setTimeout(createSphere, SPHERE_DROP_INTERVAL);
+    });
+
+    // Initialize the scene, camera, renderer, world, clock, raycaster and mouse
+    function init() {
+      scene = new THREE.Scene();
+      scene.background = new THREE.Color(0x333333);
+    
+      camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
+      camera.position.set(0, CAMERA_DISTANCE, CAMERA_DISTANCE);
+      camera.lookAt(0, 0, 0);
+    
+      renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+    
+      world = new CANNON.World();
+      world.gravity.set(0, GRAVITY, 0);
+      world.broadphase = new CANNON.NaiveBroadphase();
+    
+      clock = new THREE.Clock();
+    
+      raycaster = new THREE.Raycaster();
+      mouse = new THREE.Vector2();
+    
+      // Add lights
+      const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+      scene.add(ambientLight);
+    
+      const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5);
+      directionalLight.position.set(1, 1, 1);
+      scene.add(directionalLight);
+    
+      // Add arena
+      createArena();
+    
+      // Add trail
+      trail = new THREE.Mesh(
+        new THREE.PlaneGeometry(0.5, 0.5),
+        new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
+      );
+      trail.visible = false; // hide the trail initially
+      scene.add(trail);
+    
+      // Add splash group
+      splashGroup = new THREE.Group();
+      scene.add(splashGroup);
+    
+      // Add event listeners
+      window.addEventListener('resize', onWindowResize, false);
+      window.addEventListener('mousemove', onMouseMove, false);
+    
+      // Start the game loop
+      animate();
+    }
+
+
+    // Create the arena with 4 islands with appropriate colors
+    function createArena() {
+      const geometry = new THREE.BoxGeometry(ARENA_SIZE, ARENA_HEIGHT, ARENA_SIZE);
+      const material = new THREE.MeshLambertMaterial();
+      const shape = new CANNON.Box(new CANNON.Vec3(ARENA_SIZE / 2, ARENA_HEIGHT / 2, ARENA_SIZE / 2));
+      const offset = ARENA_SIZE / 2 + ARENA_HEIGHT / 2;
+
+      for (let i = 0; i < 4; i++) {
+        const mesh = new THREE.Mesh(geometry, material.clone());
+        const body = new CANNON.Body({mass: ARENA_MASS, shape: shape});
+        const color = LOGO_COLORS[i];
+        mesh.material.color.setHex(color);
+        mesh.position.set(offset * (i % 2 ? 1 : -1), 0, offset * (i < 2 ? 1 : -1));
+        body.position.copy(mesh.position);
+        scene.add(mesh);
+        world.addBody(body);
+        arena.push({mesh, body, color});
+      }
+    }
+
+    // Create a sphere with a random color and drop it from a random position
+    function createSphere() {
+      const geometry = new THREE.SphereGeometry(SPHERE_RADIUS, 16, 16);
+      const material = new THREE.MeshLambertMaterial();
+      const shape = new CANNON.Sphere(SPHERE_RADIUS);
+      const mesh = new THREE.Mesh(geometry, material);
+      const body = new CANNON.Body({mass: SPHERE_MASS, shape: shape});
+      const color = LOGO_COLORS[Math.floor(Math.random() * 4)];
+      mesh.material.color.setHex(color);
+      // Choose a random island to drop the sphere
+      const island = arena[Math.floor(Math.random() * 4)];
+      // Choose a random position on the island, but not too close to the boundary
+      const margin = SPHERE_RADIUS + 0.1; // some small margin to avoid clipping
+      const x = island.mesh.position.x + Math.random() * (ARENA_SIZE - 2 * margin) - (ARENA_SIZE / 2 - margin);
+      const z = island.mesh.position.z + Math.random() * (ARENA_SIZE - 2 * margin) - (ARENA_SIZE / 2 - margin);
+      mesh.position.set(x, 10, z);
+      body.position.copy(mesh.position);
+      scene.add(mesh);
+      world.addBody(body);
+      spheres.push({mesh, body, color});
+      // Decrease the drop interval by the factor
+      dropInterval *= DROP_FACTOR;
+      // Clamp the drop interval to the minimum value
+      dropInterval = Math.max(dropInterval, DROP_MIN);
+      // Set the next drop timeout with the current drop interval
+      setTimeout(createSphere, dropInterval);
+    }
+
+    // Remove a sphere from the scene and the world
+    function removeSphere(index) {
+      const sphere = spheres[index];
+      scene.remove(sphere.mesh);
+      world.removeBody(sphere.body);
+      spheres.splice(index, 1);
+    }
+
+    // Update the life and score display
+    function updateInfo() {
+      document.getElementById('info').textContent = `Life: ${life} Score: ${score}`;
+    }
+
+
+    // Check the collision between spheres and arena
+    function checkCollision() {
+      for (let i = 0; i < spheres.length; i++) {
+        const sphere = spheres[i];
+        // Get the bounding box of the sphere
+        const sphereBox = new THREE.Box3().setFromObject(sphere.mesh);
+        for (let j = 0; j < arena.length; j++) {
+          const island = arena[j];
+          // Get the bounding box of the island
+          const islandBox = new THREE.Box3().setFromObject(island.mesh);
+          // Check the intersection only on the y axis
+          if (sphereBox.min.y <= islandBox.max.y && sphereBox.max.y >= islandBox.min.y) {
+            // Check the intersection on the x and z axes using the intersectsBox method
+            if (sphereBox.intersectsBox(islandBox)) {
+              if (sphere.color === island.color) {
+                // Match the color, add score
+                score += SCORE_PER_MATCH;
+              } else {
+                // Mismatch the color, lose life
+                life--;
+                if (life === 0) {
+                  // Game over
+                  // Set the flag to true
+                  gameOver = true;
+                  // Show the game over screen
+                  gameOverScreen.style.display = 'block';
+                  // Set the final score text
+                  document.getElementById('final-score').textContent = score;
+				  dropInterval = 3600*24;
+                }
+              }
+              // Remove the sphere
+              removeSphere(i);
+              // Update the info
+              updateInfo();
+              // Break the inner loop
+              break;
+            }
+          }
+        }
+      }
+    }
+
+
+    // Handle the window resize event
+    function onWindowResize() {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    }
+
+    // Handle the mouse move event
+    function onMouseMove(event) {
+      // Convert the mouse position to normalized device coordinates
+      mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+      // Update the raycaster with the camera and mouse position
+      raycaster.setFromCamera(mouse, camera);
+      // Check the intersection with the spheres
+      const intersects = raycaster.intersectObjects(spheres.map(s => s.mesh));
+      if (intersects.length > 0) {
+        // Get the first intersected sphere
+        const sphere = intersects[0].object;
+        // Find the index of the sphere in the spheres array
+        const index = spheres.findIndex(s => s.mesh === sphere);
+        // Remove the sphere
+        removeSphere(index);
+        // Add score
+        score += SCORE_PER_CLICK;
+        // Update the info
+        updateInfo();
+        // Create a splash
+        createSplash(sphere.position, sphere.material.color);
+      }
+      // Update the trail
+      updateTrail();
+    }
+
+    // Create a splash effect at the given position and color
+    function createSplash(position, color) {
+      // Create a geometry with random points
+      const geometry = new THREE.BufferGeometry();
+      const vertices = [];
+      const count = 10; // number of points
+      for (let i = 0; i < count; i++) {
+        // Choose a random direction and speed
+        const theta = Math.random() * Math.PI * 2;
+        const phi = Math.random() * Math.PI / 4 - Math.PI / 8;
+        const speed = Math.random() * 2 + 1;
+        // Calculate the velocity vector
+        const vx = Math.cos(theta) * Math.sin(phi) * speed;
+        const vy = Math.cos(phi) * speed;
+        const vz = Math.sin(theta) * Math.sin(phi) * speed;
+        // Add the initial position and velocity to the vertices array
+        vertices.push(position.x, position.y, position.z, vx, vy, vz);
+      }
+      // Set the vertices as the attribute of the geometry
+      geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 6));
+      // Create a material with the given color and transparency
+      const material = new THREE.PointsMaterial({color: color, size: 0.2, transparent: true, opacity: 1});
+      // Create a points object with the geometry and material
+      const points = new THREE.Points(geometry, material);
+      // Add the points object to the splash group
+      splashGroup.add(points);
+    }
+    
+    // Update the trail effect
+    function updateTrail() {
+      // Get the mouse position in the world coordinates
+      const mouseWorld = raycaster.ray.at(1, new THREE.Vector3());
+      // Set the trail position to the mouse position
+      trail.position.copy(mouseWorld);
+      // Set the trail rotation to face the camera
+      trail.lookAt(camera.position);
+      // Set the trail scale to match the distance to the camera
+      const scale = mouseWorld.distanceTo(camera.position) / 10;
+      trail.scale.set(scale, scale, scale);
+      // Show the trail
+      trail.visible = true;
+    }
+    
+    // Animate the scene
+    function animate() {
+      requestAnimationFrame(animate);
+    
+      // Only update the game logic if the game is started and not over
+      if (gameStarted && !gameOver) {
+        // Get the elapsed time
+        const delta = clock.getDelta();
+      
+        // Update the physics world
+        world.step(delta);
+      
+        // Update the sphere positions
+        for (let i = 0; i < spheres.length; i++) {
+          spheres[i].mesh.position.copy(spheres[i].body.position);
+        }
+      
+        // Check the collision
+        checkCollision();
+      
+        // Update the splash objects
+        for (let i = 0; i < splashGroup.children.length; i++) {
+          const splash = splashGroup.children[i];
+          // Get the position and velocity attributes of the splash
+          const position = splash.geometry.attributes.position;
+          const count = position.count;
+          // Update the position and opacity of each point
+          for (let j = 0; j < count; j++) {
+            // Get the x, y, z, vx, vy, vz values of the point
+            const x = position.getX(j);
+            const y = position.getY(j);
+            const z = position.getZ(j);
+            const vx = position.getW(j);
+            const vy = position.getZ(j + 1);
+            const vz = position.getW(j + 1);
+            // Update the position with the velocity and gravity
+            position.setXYZ(j, x + vx * delta, y + vy * delta + GRAVITY * delta * delta / 2, z + vz * delta);
+            // Update the velocity with the gravity
+            position.setZ(j + 1, vy + GRAVITY * delta);
+          }
+          // Update the opacity with a decay factor
+          const decay = 0.95;
+          splash.material.opacity *= decay;
+          // Remove the splash if it is too faded
+          if (splash.material.opacity < 0.01) {
+            splashGroup.remove(splash);
+          }
+          // Update the geometry
+          splash.geometry.attributes.position.needsUpdate = true;
+        }
+      }
+    
+      // Render the scene
+      renderer.render(scene, camera);
+    }
+
+    // Start the game
+    init();
+  </script>
+</body>
+</html>
