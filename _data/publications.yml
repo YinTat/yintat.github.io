@@ -1,3 +1,102 @@
+- id: DBLP:conf/nips/KookLSV22
+  authors: Yunbum Kook, Ruoqi Shen and Santosh Vempala
+  url: https://arxiv.org/pdf/2202.01908.pdf
+  venue: NeurIPS 2022
+  year: 2022
+  title: |
+    Sampling with Riemannian Hamiltonian Monte Carlo in a Constrained Space
+  bib: |
+    @inproceedings{DBLP:conf/nips/KookLSV22,
+      author       = {Yunbum Kook and
+                      Yin Tat Lee and
+                      Ruoqi Shen and
+                      Santosh S. Vempala},
+      title        = {Sampling with Riemannian Hamiltonian Monte Carlo in a Constrained
+                      Space},
+      booktitle    = {NeurIPS},
+      year         = {2022},
+      url          = {http://papers.nips.cc/paper\_files/paper/2022/hash/cdaa7f07b0c5a7803927d20aa717132e-Abstract-Conference.html},
+      timestamp    = {Thu, 11 May 2023 17:08:22 +0200},
+      biburl       = {https://dblp.org/rec/conf/nips/KookLSV22.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/nips/DongJLPY22
+  authors: Sally Dong, Haotian Jiang, Swati Padmanabhan and Guanghao Ye
+  url: https://arxiv.org/pdf/2208.03811.pdf
+  venue: NeurIPS 2022
+  year: 2022
+  title: |
+    Decomposable Non-Smooth Convex Optimization with Nearly-Linear Gradient Oracle Complexity
+  bib: |
+    @inproceedings{DBLP:conf/nips/DongJLPY22,
+      author       = {Sally Dong and
+                      Haotian Jiang and
+                      Yin Tat Lee and
+                      Swati Padmanabhan and
+                      Guanghao Ye},
+      title        = {Decomposable Non-Smooth Convex Optimization with Nearly-Linear Gradient
+                      Oracle Complexity},
+      booktitle    = {NeurIPS},
+      year         = {2022},
+      url          = {http://papers.nips.cc/paper\_files/paper/2022/hash/c6a79e139ec4f371701ea8cc9e06018e-Abstract-Conference.html},
+      timestamp    = {Thu, 11 May 2023 17:08:22 +0200},
+      biburl       = {https://dblp.org/rec/conf/nips/DongJLPY22.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/nips/DavisDLPY22
+  authors: Damek Davis, Dmitriy Drusvyatskiy, Swati Padmanabhan and Guanghao Ye
+  url: https://arxiv.org/pdf/2112.06969.pdf
+  venue: NeurIPS 2022
+  year: 2022
+  title: |
+    A gradient sampling method with complexity guarantees for Lipschitz functions in high and low dimensions
+  bib: |
+    @inproceedings{DBLP:conf/nips/DavisDLPY22,
+      author       = {Damek Davis and
+                      Dmitriy Drusvyatskiy and
+                      Yin Tat Lee and
+                      Swati Padmanabhan and
+                      Guanghao Ye},
+      title        = {A gradient sampling method with complexity guarantees for Lipschitz
+                      functions in high and low dimensions},
+      booktitle    = {NeurIPS},
+      year         = {2022},
+      url          = {http://papers.nips.cc/paper\_files/paper/2022/hash/2c8d9636f74d0207ff4f65956010f450-Abstract-Conference.html},
+      timestamp    = {Thu, 11 May 2023 17:08:21 +0200},
+      biburl       = {https://dblp.org/rec/conf/nips/DavisDLPY22.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/iclr/YuNBGI0KLMWYZ22
+  authors: Da Yu, Saurabh Naik, Arturs Backurs, Sivakanth Gopi, etc
+  url: https://arxiv.org/pdf/2110.06500.pdf
+  venue: NeurIPS 2022
+  year: 2022
+  title: |
+    Differentially Private Fine-tuning of Language Models
+  bib: |
+    @inproceedings{DBLP:conf/iclr/YuNBGI0KLMWYZ22,
+      author       = {Da Yu and
+                      Saurabh Naik and
+                      Arturs Backurs and
+                      Sivakanth Gopi and
+                      Huseyin A. Inan and
+                      Gautam Kamath and
+                      Janardhan Kulkarni and
+                      Yin Tat Lee and
+                      Andre Manoel and
+                      Lukas Wutschitz and
+                      Sergey Yekhanin and
+                      Huishuai Zhang},
+      title        = {Differentially Private Fine-tuning of Language Models},
+      booktitle    = {The Tenth International Conference on Learning Representations, {ICLR}
+                      2022, Virtual Event, April 25-29, 2022},
+      publisher    = {OpenReview.net},
+      year         = {2022},
+      url          = {https://openreview.net/forum?id=Q42f0dfjECO},
+      timestamp    = {Sat, 20 Aug 2022 01:15:42 +0200},
+      biburl       = {https://dblp.org/rec/conf/iclr/YuNBGI0KLMWYZ22.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
 - id: DBLP:conf/colt/GopiLL22
   authors: Sivakanth Gopi and Daogao Liu
   url: https://arxiv.org/pdf/2203.00263.pdf
