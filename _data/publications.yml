@@ -4,7 +4,7 @@
   venue: OpenAI
   year: 2025
   title: |
-    GPT-5 System Card
+    GPT-5
   bib: |
     @techreport{OAI:gpt-5-system-card,
       author       = {OpenAI},
