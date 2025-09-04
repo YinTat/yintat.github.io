@@ -165,7 +165,7 @@
   venue: arXiv
   year: 2024
   title: |
-    Phi-3 Technical Report: {A} Highly Capable Language Model Locally on Your Phone
+    Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
   bib: |
     @article{DBLP:journals/corr/abs-2404-14219,
       author       = {Marah I Abdin and
