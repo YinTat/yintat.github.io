@@ -1,3 +1,788 @@
+- id: DBLP:journals/corr/abs-2504-18454
+  authors: Hiroki Naganuma, Xinzhi Zhang, Man Chung Yue, Ioannis Mitliagkas, Philipp A. Witte and Russell J. Hewett
+  url: https://arxiv.org/pdf/2504.18454.pdf
+  venue: arXiv
+  year: 2025
+  title: |
+    Pseudo-Asynchronous Local SGD: Robust and Efficient Data-Parallel Training
+  bib: |
+    @article{DBLP:journals/corr/abs-2504-18454,
+      author       = {Hiroki Naganuma and
+                      Xinzhi Zhang and
+                      Man{-}Chung Yue and
+                      Ioannis Mitliagkas and
+                      Philipp A. Witte and
+                      Russell J. Hewett and
+                      Yin Tat Lee},
+      title        = {Pseudo-Asynchronous Local {SGD:} Robust and Efficient Data-Parallel
+                      Training},
+      journal      = {CoRR},
+      volume       = {abs/2504.18454},
+      year         = {2025},
+      url          = {https://doi.org/10.48550/arXiv.2504.18454},
+      doi          = {10.48550/ARXIV.2504.18454},
+      eprinttype    = {arXiv},
+      eprint       = {2504.18454},
+      timestamp    = {Tue, 27 May 2025 16:30:57 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2504-18454.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/mp/ZongLY24
+  authors: Manru Zong and Man Chung Yue
+  url: https://arxiv.org/pdf/2201.02768.pdf
+  venue: arXiv
+  year: 2024
+  title: |
+    Short-step methods are not strongly polynomial-time
+  bib: |
+    @article{DBLP:journals/mp/ZongLY24,
+      author       = {Manru Zong and
+                      Yin Tat Lee and
+                      Man{-}Chung Yue},
+      title        = {Short-step methods are not strongly polynomial-time},
+      journal      = {Math. Program.},
+      volume       = {207},
+      number       = {1},
+      pages        = {733--746},
+      year         = {2024},
+      url          = {https://doi.org/10.1007/s10107-023-02002-x},
+      doi          = {10.1007/S10107-023-02002-X},
+      timestamp    = {Thu, 22 Aug 2024 20:25:25 +0200},
+      biburl       = {https://dblp.org/rec/journals/mp/ZongLY24.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/icml/Xie0BGYINJZL0Y24
+  authors: XLBGYINJZLY
+  url: https://arxiv.org/pdf/2403.01749.pdf
+  venue: ICML 2024
+  year: 2024
+  title: |
+    Differentially Private Synthetic Data via Foundation Model APIs 2: Text
+  bib: |
+    @inproceedings{DBLP:conf/icml/Xie0BGYINJZL0Y24,
+      author       = {Chulin Xie and
+                      Zinan Lin and
+                      Arturs Backurs and
+                      Sivakanth Gopi and
+                      Da Yu and
+                      Huseyin A. Inan and
+                      Harsha Nori and
+                      Haotian Jiang and
+                      Huishuai Zhang and
+                      Yin Tat Lee and
+                      Bo Li and
+                      Sergey Yekhanin},
+      title        = {Differentially Private Synthetic Data via Foundation Model APIs 2:
+                      Text},
+      booktitle    = {Forty-first International Conference on Machine Learning, {ICML} 2024,
+                      Vienna, Austria, July 21-27, 2024},
+      publisher    = {OpenReview.net},
+      year         = {2024},
+      url          = {https://openreview.net/forum?id=LWD7upg1ob},
+      timestamp    = {Mon, 02 Sep 2024 16:55:25 +0200},
+      biburl       = {https://dblp.org/rec/conf/icml/Xie0BGYINJZL0Y24.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/soda/JiangLSZ24
+  authors: Haotian Jiang, Zhao Song and Lichen Zhang
+  url: https://arxiv.org/pdf/2304.03426.pdf
+  venue: SODA 2024
+  year: 2024
+  title: |
+    Convex Minimization with Integer Minima in $O(n^4)$ Time
+  bib: |
+    @inproceedings{DBLP:conf/soda/JiangLSZ24,
+      author       = {Haotian Jiang and
+                      Yin Tat Lee and
+                      Zhao Song and
+                      Lichen Zhang},
+      editor       = {David P. Woodruff},
+      title        = {Convex Minimization with Integer Minima in \emph{{\~{O}}}(\emph{n}\({}^{\mbox{4}}\))
+                      Time},
+      booktitle    = {Proceedings of the 2024 {ACM-SIAM} Symposium on Discrete Algorithms,
+                      {SODA} 2024, Alexandria, VA, USA, January 7-10, 2024},
+      pages        = {3659--3684},
+      publisher    = {{SIAM}},
+      year         = {2024},
+      url          = {https://doi.org/10.1137/1.9781611977912.129},
+      doi          = {10.1137/1.9781611977912.129},
+      timestamp    = {Thu, 04 Apr 2024 19:38:10 +0200},
+      biburl       = {https://dblp.org/rec/conf/soda/JiangLSZ24.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/stoc/GhadiriLPSWY24
+  authors: Mehrdad Ghadiri, Swati Padmanabhan, William Swartworth, David P. Woodruff and Guanghao Ye
+  url: https://arxiv.org/pdf/2403.19146.pdf
+  venue: STOC 2024
+  year: 2024
+  title: |
+    Improving the Bit Complexity of Communication for Distributed Convex Optimization
+  bib: |
+    @inproceedings{DBLP:conf/stoc/GhadiriLPSWY24,
+      author       = {Mehrdad Ghadiri and
+                      Yin Tat Lee and
+                      Swati Padmanabhan and
+                      William Swartworth and
+                      David P. Woodruff and
+                      Guanghao Ye},
+      editor       = {Bojan Mohar and
+                      Igor Shinkar and
+                      Ryan O'Donnell},
+      title        = {Improving the Bit Complexity of Communication for Distributed Convex
+                      Optimization},
+      booktitle    = {Proceedings of the 56th Annual {ACM} Symposium on Theory of Computing,
+                      {STOC} 2024, Vancouver, BC, Canada, June 24-28, 2024},
+      pages        = {1130--1140},
+      publisher    = {{ACM}},
+      year         = {2024},
+      url          = {https://doi.org/10.1145/3618260.3649787},
+      doi          = {10.1145/3618260.3649787},
+      timestamp    = {Sun, 19 Jan 2025 13:28:34 +0100},
+      biburl       = {https://dblp.org/rec/conf/stoc/GhadiriLPSWY24.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2404-14219
+  authors: colleagues in Microsoft
+  url: https://arxiv.org/pdf/2404.14219.pdf
+  venue: arXiv
+  year: 2024
+  title: |
+    Phi-3 Technical Report: {A} Highly Capable Language Model Locally on Your Phone
+  bib: |
+    @article{DBLP:journals/corr/abs-2404-14219,
+      author       = {Marah I Abdin and
+                      Sam Ade Jacobs and
+                      Ammar Ahmad Awan and
+                      Jyoti Aneja and
+                      Ahmed Awadallah and
+                      Hany Awadalla and
+                      Nguyen Bach and
+                      Amit Bahree and
+                      Arash Bakhtiari and
+                      Harkirat S. Behl and
+                      Alon Benhaim and
+                      Misha Bilenko and
+                      Johan Bjorck and
+                      S{\'{e}}bastien Bubeck and
+                      Martin Cai and
+                      Caio C{\'{e}}sar Teodoro Mendes and
+                      Weizhu Chen and
+                      Vishrav Chaudhary and
+                      Parul Chopra and
+                      Allie Del Giorno and
+                      Gustavo de Rosa and
+                      Matthew Dixon and
+                      Ronen Eldan and
+                      Dan Iter and
+                      Amit Garg and
+                      Abhishek Goswami and
+                      Suriya Gunasekar and
+                      Emman Haider and
+                      Junheng Hao and
+                      Russell J. Hewett and
+                      Jamie Huynh and
+                      Mojan Javaheripi and
+                      Xin Jin and
+                      Piero Kauffmann and
+                      Nikos Karampatziakis and
+                      Dongwoo Kim and
+                      Mahoud Khademi and
+                      Lev Kurilenko and
+                      James R. Lee and
+                      Yin Tat Lee and
+                      Yuanzhi Li and
+                      Chen Liang and
+                      Weishung Liu and
+                      Eric Lin and
+                      Zeqi Lin and
+                      Piyush Madan and
+                      Arindam Mitra and
+                      Hardik Modi and
+                      Anh Nguyen and
+                      Brandon Norick and
+                      Barun Patra and
+                      Daniel Perez{-}Becker and
+                      Thomas Portet and
+                      Reid Pryzant and
+                      Heyang Qin and
+                      Marko Radmilac and
+                      Corby Rosset and
+                      Sambudha Roy and
+                      Olatunji Ruwase and
+                      Olli Saarikivi and
+                      Amin Saied and
+                      Adil Salim and
+                      Michael Santacroce and
+                      Shital Shah and
+                      Ning Shang and
+                      Hiteshi Sharma and
+                      Xia Song and
+                      Masahiro Tanaka and
+                      Xin Wang and
+                      Rachel Ward and
+                      Guanhua Wang and
+                      Philipp A. Witte and
+                      Michael Wyatt and
+                      Can Xu and
+                      Jiahang Xu and
+                      Sonali Yadav and
+                      Fan Yang and
+                      Ziyi Yang and
+                      Donghan Yu and
+                      Chengruidong Zhang and
+                      Cyril Zhang and
+                      Jianwen Zhang and
+                      Li Lyna Zhang and
+                      Yi Zhang and
+                      Yue Zhang and
+                      Yunan Zhang and
+                      Xiren Zhou},
+      title        = {Phi-3 Technical Report: {A} Highly Capable Language Model Locally
+                      on Your Phone},
+      journal      = {CoRR},
+      volume       = {abs/2404.14219},
+      year         = {2024},
+      url          = {https://doi.org/10.48550/arXiv.2404.14219},
+      doi          = {10.48550/ARXIV.2404.14219},
+      eprinttype    = {arXiv},
+      eprint       = {2404.14219},
+      timestamp    = {Fri, 23 May 2025 21:08:47 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2404-14219.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2412-08905
+  authors: colleagues in Microsoft
+  url: https://arxiv.org/pdf/2412.08905.pdf
+  venue: arXiv
+  year: 2024
+  title: |
+    Phi-4 Technical Report
+  bib: |
+    @article{DBLP:journals/corr/abs-2412-08905,
+      author       = {Marah I Abdin and
+                      Jyoti Aneja and
+                      Harkirat S. Behl and
+                      S{\'{e}}bastien Bubeck and
+                      Ronen Eldan and
+                      Suriya Gunasekar and
+                      Michael Harrison and
+                      Russell J. Hewett and
+                      Mojan Javaheripi and
+                      Piero Kauffmann and
+                      James R. Lee and
+                      Yin Tat Lee and
+                      Yuanzhi Li and
+                      Weishung Liu and
+                      Caio C. T. Mendes and
+                      Anh Nguyen and
+                      Eric Price and
+                      Gustavo de Rosa and
+                      Olli Saarikivi and
+                      Adil Salim and
+                      Shital Shah and
+                      Xin Wang and
+                      Rachel Ward and
+                      Yue Wu and
+                      Dingli Yu and
+                      Cyril Zhang and
+                      Yi Zhang},
+      title        = {Phi-4 Technical Report},
+      journal      = {CoRR},
+      volume       = {abs/2412.08905},
+      year         = {2024},
+      url          = {https://doi.org/10.48550/arXiv.2412.08905},
+      doi          = {10.48550/ARXIV.2412.08905},
+      eprinttype    = {arXiv},
+      eprint       = {2412.08905},
+      timestamp    = {Thu, 23 Jan 2025 08:12:46 +0100},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2412-08905.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/colt/GopiLLST23
+  authors: Sivakanth Gopi, Daogao Liu, Ruoqi Shen and Kevin Tian
+  url: https://arxiv.org/pdf/2302.06085.pdf
+  venue: COLT 2023
+  year: 2023
+  title: |
+    Algorithmic Aspects of the Log-Laplace Transform and a Non-Euclidean Proximal Sampler
+  bib: |
+    @inproceedings{DBLP:conf/colt/GopiLLST23,
+      author       = {Sivakanth Gopi and
+                      Yin Tat Lee and
+                      Daogao Liu and
+                      Ruoqi Shen and
+                      Kevin Tian},
+      editor       = {Gergely Neu and
+                      Lorenzo Rosasco},
+      title        = {Algorithmic Aspects of the Log-Laplace Transform and a Non-Euclidean
+                      Proximal Sampler},
+      booktitle    = {The Thirty Sixth Annual Conference on Learning Theory, {COLT} 2023,
+                      12-15 July 2023, Bangalore, India},
+      series       = {Proceedings of Machine Learning Research},
+      volume       = {195},
+      pages        = {2399--2439},
+      publisher    = {{PMLR}},
+      year         = {2023},
+      url          = {https://proceedings.mlr.press/v195/gopi23a.html},
+      timestamp    = {Wed, 06 Sep 2023 17:49:05 +0200},
+      biburl       = {https://dblp.org/rec/conf/colt/GopiLLST23.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/colt/KookLSV23
+  authors: Yunbum Kook, Ruoqi Shen and Santosh Vempala
+  url: https://arxiv.org/pdf/2210.07219.pdf
+  venue: PMLR
+  year: 2023
+  title: |
+    Condition-number-independent Convergence Rate of Riemannian Hamiltonian Monte Carlo with Numerical Integrators
+  bib: |
+    @inproceedings{DBLP:conf/colt/KookLSV23,
+      author       = {Yunbum Kook and
+                      Yin Tat Lee and
+                      Ruoqi Shen and
+                      Santosh S. Vempala},
+      editor       = {Gergely Neu and
+                      Lorenzo Rosasco},
+      title        = {Condition-number-independent Convergence Rate of Riemannian Hamiltonian
+                      Monte Carlo with Numerical Integrators},
+      booktitle    = {The Thirty Sixth Annual Conference on Learning Theory, {COLT} 2023,
+                      12-15 July 2023, Bangalore, India},
+      series       = {Proceedings of Machine Learning Research},
+      volume       = {195},
+      pages        = {4504--4569},
+      publisher    = {{PMLR}},
+      year         = {2023},
+      url          = {https://proceedings.mlr.press/v195/kook23a.html},
+      timestamp    = {Wed, 06 Sep 2023 17:49:05 +0200},
+      biburl       = {https://dblp.org/rec/conf/colt/KookLSV23.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/emnlp/PryzantI0L0023
+  authors: Reid Pryzant, Dan Iter, Jerry Li, Chenguang Zhu and Michael Zeng
+  url: https://arxiv.org/pdf/2305.03495.pdf
+  venue: EMNLP 2023
+  year: 2023
+  title: |
+    Automatic Prompt Optimization with "Gradient Descent" and Beam Search
+  bib: |
+    @inproceedings{DBLP:conf/emnlp/PryzantI0L0023,
+      author       = {Reid Pryzant and
+                      Dan Iter and
+                      Jerry Li and
+                      Yin Tat Lee and
+                      Chenguang Zhu and
+                      Michael Zeng},
+      editor       = {Houda Bouamor and
+                      Juan Pino and
+                      Kalika Bali},
+      title        = {Automatic Prompt Optimization with "Gradient Descent" and Beam Search},
+      booktitle    = {Proceedings of the 2023 Conference on Empirical Methods in Natural
+                      Language Processing, {EMNLP} 2023, Singapore, December 6-10, 2023},
+      pages        = {7957--7968},
+      publisher    = {Association for Computational Linguistics},
+      year         = {2023},
+      url          = {https://doi.org/10.18653/v1/2023.emnlp-main.494},
+      doi          = {10.18653/V1/2023.EMNLP-MAIN.494},
+      timestamp    = {Fri, 12 Apr 2024 13:11:41 +0200},
+      biburl       = {https://dblp.org/rec/conf/emnlp/PryzantI0L0023.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/focs/CarmonJJLLST23
+  authors: Yair Carmon, Arun Jambulapati, Yujia Jin, Daogao Liu, Aaron Sidford and Kevin Tian
+  url: https://arxiv.org/pdf/2301.00457.pdf
+  venue: FOCS 2023
+  year: 2023
+  title: |
+    ReSQueing Parallel and Private Stochastic Convex Optimization
+  bib: |
+    @inproceedings{DBLP:conf/focs/CarmonJJLLST23,
+      author       = {Yair Carmon and
+                      Arun Jambulapati and
+                      Yujia Jin and
+                      Yin Tat Lee and
+                      Daogao Liu and
+                      Aaron Sidford and
+                      Kevin Tian},
+      title        = {ReSQueing Parallel and Private Stochastic Convex Optimization},
+      booktitle    = {64th {IEEE} Annual Symposium on Foundations of Computer Science, {FOCS}
+                      2023, Santa Cruz, CA, USA, November 6-9, 2023},
+      pages        = {2031--2058},
+      publisher    = {{IEEE}},
+      year         = {2023},
+      url          = {https://doi.org/10.1109/FOCS57990.2023.00124},
+      doi          = {10.1109/FOCS57990.2023.00124},
+      timestamp    = {Tue, 08 Jul 2025 16:39:40 +0200},
+      biburl       = {https://dblp.org/rec/conf/focs/CarmonJJLLST23.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/iclr/HeLYZKLBY023
+  authors: Jiyan He, Xuechen Li, Da Yu, Huishuai Zhang, Janardhan Kulkarni, Arturs Backurs, Nenghai Yu and Jiang Bian
+  url: https://arxiv.org/pdf/2212.01539.pdf
+  venue: ICLR 2023
+  year: 2023
+  title: |
+    Exploring the Limits of Differentially Private Deep Learning with Group-wise Clipping
+  bib: |
+    @inproceedings{DBLP:conf/iclr/HeLYZKLBY023,
+      author       = {Jiyan He and
+                      Xuechen Li and
+                      Da Yu and
+                      Huishuai Zhang and
+                      Janardhan Kulkarni and
+                      Yin Tat Lee and
+                      Arturs Backurs and
+                      Nenghai Yu and
+                      Jiang Bian},
+      title        = {Exploring the Limits of Differentially Private Deep Learning with
+                      Group-wise Clipping},
+      booktitle    = {The Eleventh International Conference on Learning Representations,
+                      {ICLR} 2023, Kigali, Rwanda, May 1-5, 2023},
+      publisher    = {OpenReview.net},
+      year         = {2023},
+      url          = {https://openreview.net/forum?id=oze0clVGPeX},
+      timestamp    = {Wed, 24 Jul 2024 16:50:33 +0200},
+      biburl       = {https://dblp.org/rec/conf/iclr/HeLYZKLBY023.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/nips/AhnBCLSZ23
+  authors: Kwangjun Ahn, Sebastien Bubeck, Sinho Chewi, Felipe Suarez and Yi Zhang
+  url: https://arxiv.org/pdf/2212.07469.pdf
+  venue: NeurIPS 2023
+  year: 2023
+  title: |
+    Learning threshold neurons via edge of stability
+  bib: |
+    @inproceedings{DBLP:conf/nips/AhnBCLSZ23,
+      author       = {Kwangjun Ahn and
+                      S{\'{e}}bastien Bubeck and
+                      Sinho Chewi and
+                      Yin Tat Lee and
+                      Felipe Suarez and
+                      Yi Zhang},
+      editor       = {Alice Oh and
+                      Tristan Naumann and
+                      Amir Globerson and
+                      Kate Saenko and
+                      Moritz Hardt and
+                      Sergey Levine},
+      title        = {Learning threshold neurons via edge of stability},
+      booktitle    = {Advances in Neural Information Processing Systems 36: Annual Conference
+                      on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans,
+                      LA, USA, December 10 - 16, 2023},
+      year         = {2023},
+      url          = {http://papers.nips.cc/paper\_files/paper/2023/hash/3e592c571de69a43d7a870ea89c7e33a-Abstract-Conference.html},
+      timestamp    = {Fri, 01 Mar 2024 16:26:20 +0100},
+      biburl       = {https://dblp.org/rec/conf/nips/AhnBCLSZ23.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/soda/GopiLLST23
+  authors: Sivakanth Gopi, Daogao Liu, Ruoqi Shen and Kevin Tian
+  url: https://arxiv.org/pdf/2207.08347.pdf
+  venue: SODA 2023
+  year: 2023
+  title: |
+    Private Convex Optimization in General Norms
+  bib: |
+    @inproceedings{DBLP:conf/soda/GopiLLST23,
+      author       = {Sivakanth Gopi and
+                      Yin Tat Lee and
+                      Daogao Liu and
+                      Ruoqi Shen and
+                      Kevin Tian},
+      editor       = {Nikhil Bansal and
+                      Viswanath Nagarajan},
+      title        = {Private Convex Optimization in General Norms},
+      booktitle    = {Proceedings of the 2023 {ACM-SIAM} Symposium on Discrete Algorithms,
+                      {SODA} 2023, Florence, Italy, January 22-25, 2023},
+      pages        = {5068--5089},
+      publisher    = {{SIAM}},
+      year         = {2023},
+      url          = {https://doi.org/10.1137/1.9781611977554.ch185},
+      doi          = {10.1137/1.9781611977554.CH185},
+      timestamp    = {Fri, 17 Feb 2023 09:28:57 +0100},
+      biburl       = {https://dblp.org/rec/conf/soda/GopiLLST23.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/stoc/HuibertsL023
+  authors: Sophie Huiberts and Xinzhi Zhang
+  url: https://arxiv.org/pdf/2211.11860.pdf
+  venue: STOC 2023
+  year: 2023
+  title: |
+    Upper and Lower Bounds on the Smoothed Complexity of the Simplex Method
+  bib: |
+    @inproceedings{DBLP:conf/stoc/HuibertsL023,
+      author       = {Sophie Huiberts and
+                      Yin Tat Lee and
+                      Xinzhi Zhang},
+      editor       = {Barna Saha and
+                      Rocco A. Servedio},
+      title        = {Upper and Lower Bounds on the Smoothed Complexity of the Simplex Method},
+      booktitle    = {Proceedings of the 55th Annual {ACM} Symposium on Theory of Computing,
+                      {STOC} 2023, Orlando, FL, USA, June 20-23, 2023},
+      pages        = {1904--1917},
+      publisher    = {{ACM}},
+      year         = {2023},
+      url          = {https://doi.org/10.1145/3564246.3585124},
+      doi          = {10.1145/3564246.3585124},
+      timestamp    = {Mon, 22 May 2023 13:15:17 +0200},
+      biburl       = {https://dblp.org/rec/conf/stoc/HuibertsL023.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2302-10879
+  authors: Yangsibo Huang, Daogao Liu, Zexuan Zhong and Weijia Shi
+  url: https://arxiv.org/pdf/2302.10879.pdf
+  venue: arXiv
+  year: 2023
+  title: |
+    kNN-Adapter: Efficient Domain Adaptation for Black-Box Language Models
+  bib: |
+    @article{DBLP:journals/corr/abs-2302-10879,
+      author       = {Yangsibo Huang and
+                      Daogao Liu and
+                      Zexuan Zhong and
+                      Weijia Shi and
+                      Yin Tat Lee},
+      title        = {kNN-Adapter: Efficient Domain Adaptation for Black-Box Language Models},
+      journal      = {CoRR},
+      volume       = {abs/2302.10879},
+      year         = {2023},
+      url          = {https://doi.org/10.48550/arXiv.2302.10879},
+      doi          = {10.48550/ARXIV.2302.10879},
+      eprinttype    = {arXiv},
+      eprint       = {2302.10879},
+      timestamp    = {Fri, 24 Feb 2023 11:55:23 +0100},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2302-10879.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2303-12712
+  authors: colleagues in Microsoft
+  url: https://arxiv.org/pdf/2303.12712.pdf
+  venue: arXiv
+  type: selected
+  year: 2023
+  title: |
+    Sparks of Artificial General Intelligence: Early experiments with GPT-4
+  bib: |
+    @article{DBLP:journals/corr/abs-2303-12712,
+      author       = {S{\'{e}}bastien Bubeck and
+                      Varun Chandrasekaran and
+                      Ronen Eldan and
+                      Johannes Gehrke and
+                      Eric Horvitz and
+                      Ece Kamar and
+                      Peter Lee and
+                      Yin Tat Lee and
+                      Yuanzhi Li and
+                      Scott M. Lundberg and
+                      Harsha Nori and
+                      Hamid Palangi and
+                      Marco T{\'{u}}lio Ribeiro and
+                      Yi Zhang},
+      title        = {Sparks of Artificial General Intelligence: Early experiments with
+                      {GPT-4}},
+      journal      = {CoRR},
+      volume       = {abs/2303.12712},
+      year         = {2023},
+      url          = {https://doi.org/10.48550/arXiv.2303.12712},
+      doi          = {10.48550/ARXIV.2303.12712},
+      eprinttype    = {arXiv},
+      eprint       = {2303.12712},
+      timestamp    = {Mon, 28 Aug 2023 21:26:19 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2303-12712.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2306-11644
+  authors: colleagues in Microsoft
+  url: https://arxiv.org/pdf/2306.11644.pdf
+  venue: arXiv
+  type: selected
+  year: 2023
+  title: |
+    Textbooks Are All You Need
+  bib: |
+    @article{DBLP:journals/corr/abs-2306-11644,
+      author       = {Suriya Gunasekar and
+                      Yi Zhang and
+                      Jyoti Aneja and
+                      Caio C{\'{e}}sar Teodoro Mendes and
+                      Allie Del Giorno and
+                      Sivakanth Gopi and
+                      Mojan Javaheripi and
+                      Piero Kauffmann and
+                      Gustavo de Rosa and
+                      Olli Saarikivi and
+                      Adil Salim and
+                      Shital Shah and
+                      Harkirat Singh Behl and
+                      Xin Wang and
+                      S{\'{e}}bastien Bubeck and
+                      Ronen Eldan and
+                      Adam Tauman Kalai and
+                      Yin Tat Lee and
+                      Yuanzhi Li},
+      title        = {Textbooks Are All You Need},
+      journal      = {CoRR},
+      volume       = {abs/2306.11644},
+      year         = {2023},
+      url          = {https://doi.org/10.48550/arXiv.2306.11644},
+      doi          = {10.48550/ARXIV.2306.11644},
+      eprinttype    = {arXiv},
+      eprint       = {2306.11644},
+      timestamp    = {Tue, 06 Aug 2024 08:09:46 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2306-11644.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2309-05463
+  authors: Sivakanth Gopi, Daogao Liu, Ruoqi Shen and Kevin Tian
+  url: https://arxiv.org/pdf/2309.05463.pdf
+  venue: arXiv
+  year: 2023
+  title: |
+    Textbooks Are All You Need II: phi-1.5 technical report
+  bib: |
+    @article{DBLP:journals/corr/abs-2309-05463,
+      author       = {Yuanzhi Li and
+                      S{\'{e}}bastien Bubeck and
+                      Ronen Eldan and
+                      Allie Del Giorno and
+                      Suriya Gunasekar and
+                      Yin Tat Lee},
+      title        = {Textbooks Are All You Need {II:} phi-1.5 technical report},
+      journal      = {CoRR},
+      volume       = {abs/2309.05463},
+      year         = {2023},
+      url          = {https://doi.org/10.48550/arXiv.2309.05463},
+      doi          = {10.48550/ARXIV.2309.05463},
+      eprinttype    = {arXiv},
+      eprint       = {2309.05463},
+      timestamp    = {Fri, 15 Sep 2023 12:26:52 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2309-05463.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2311-14737
+  authors: Ruoqi Shen, Sebastien Bubeck, Ronen Eldan, Yuanzhi Li and Yi Zhang
+  url: https://arxiv.org/pdf/2311.14737.pdf
+  venue: arXiv
+  year: 2023
+  title: |
+    Positional Description Matters for Transformers Arithmetic
+  bib: |
+    @article{DBLP:journals/corr/abs-2311-14737,
+      author       = {Ruoqi Shen and
+                      S{\'{e}}bastien Bubeck and
+                      Ronen Eldan and
+                      Yin Tat Lee and
+                      Yuanzhi Li and
+                      Yi Zhang},
+      title        = {Positional Description Matters for Transformers Arithmetic},
+      journal      = {CoRR},
+      volume       = {abs/2311.14737},
+      year         = {2023},
+      url          = {https://doi.org/10.48550/arXiv.2311.14737},
+      doi          = {10.48550/ARXIV.2311.14737},
+      eprinttype    = {arXiv},
+      eprint       = {2311.14737},
+      timestamp    = {Thu, 30 Nov 2023 15:14:59 +0100},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2311-14737.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2311-16452
+  authors: colleagues in Microsoft
+  url: https://arxiv.org/pdf/2311.16452.pdf
+  venue: arXiv
+  year: 2023
+  title: |
+    Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+  bib: |
+    @article{DBLP:journals/corr/abs-2311-16452,
+      author       = {Harsha Nori and
+                      Yin Tat Lee and
+                      Sheng Zhang and
+                      Dean Carignan and
+                      Richard Edgar and
+                      Nicol{\`{o}} Fusi and
+                      Nicholas King and
+                      Jonathan Larson and
+                      Yuanzhi Li and
+                      Weishung Liu and
+                      Renqian Luo and
+                      Scott Mayer McKinney and
+                      Robert Osazuwa Ness and
+                      Hoifung Poon and
+                      Tao Qin and
+                      Naoto Usuyama and
+                      Christopher M. White and
+                      Eric Horvitz},
+      title        = {Can Generalist Foundation Models Outcompete Special-Purpose Tuning?
+                      Case Study in Medicine},
+      journal      = {CoRR},
+      volume       = {abs/2311.16452},
+      year         = {2023},
+      url          = {https://doi.org/10.48550/arXiv.2311.16452},
+      doi          = {10.48550/ARXIV.2311.16452},
+      eprinttype    = {arXiv},
+      eprint       = {2311.16452},
+      timestamp    = {Thu, 01 May 2025 20:28:05 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2311-16452.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:conf/nips/LiLHIKLT22
+  authors: Xuechen Li, Daogao Liu, Tatsunori B. Hashimoto, Huseyin A. Inan, Janardhan Kulkarni and Abhradeep Guha Thakurta
+  url: https://arxiv.org/pdf/2207.00160.pdf
+  venue: NeurIPS 2022
+  year: 2022
+  title: |
+    When Does Differentially Private Learning Not Suffer in High Dimensions?
+  bib: |
+    @inproceedings{DBLP:conf/nips/LiLHIKLT22,
+      author       = {Xuechen Li and
+                      Daogao Liu and
+                      Tatsunori B. Hashimoto and
+                      Huseyin A. Inan and
+                      Janardhan Kulkarni and
+                      Yin Tat Lee and
+                      Abhradeep Guha Thakurta},
+      editor       = {Sanmi Koyejo and
+                      S. Mohamed and
+                      A. Agarwal and
+                      Danielle Belgrave and
+                      K. Cho and
+                      A. Oh},
+      title        = {When Does Differentially Private Learning Not Suffer in High Dimensions?},
+      booktitle    = {Advances in Neural Information Processing Systems 35: Annual Conference
+                      on Neural Information Processing Systems 2022, NeurIPS 2022, New Orleans,
+                      LA, USA, November 28 - December 9, 2022},
+      year         = {2022},
+      url          = {http://papers.nips.cc/paper\_files/paper/2022/hash/b75ce884441c983f7357a312ffa02a3c-Abstract-Conference.html},
+      timestamp    = {Thu, 15 May 2025 13:54:53 +0200},
+      biburl       = {https://dblp.org/rec/conf/nips/LiLHIKLT22.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
+- id: DBLP:journals/corr/abs-2208-11644
+  authors: Arun Jambulapati and Santosh Vempala
+  url: https://arxiv.org/pdf/2208.11644.pdf
+  venue: arXiv
+  year: 2022
+  title: |
+    A Slightly Improved Bound for the KLS Constant
+  bib: |
+    @article{DBLP:journals/corr/abs-2208-11644,
+      author       = {Arun Jambulapati and
+                      Yin Tat Lee and
+                      Santosh S. Vempala},
+      title        = {A Slightly Improved Bound for the {KLS} Constant},
+      journal      = {CoRR},
+      volume       = {abs/2208.11644},
+      year         = {2022},
+      url          = {https://doi.org/10.48550/arXiv.2208.11644},
+      doi          = {10.48550/ARXIV.2208.11644},
+      eprinttype    = {arXiv},
+      eprint       = {2208.11644},
+      timestamp    = {Mon, 29 Aug 2022 15:51:41 +0200},
+      biburl       = {https://dblp.org/rec/journals/corr/abs-2208-11644.bib},
+      bibsource    = {dblp computer science bibliography, https://dblp.org}
+    }
 - id: DBLP:conf/nips/KookLSV22
   authors: Yunbum Kook, Ruoqi Shen and Santosh Vempala
   url: https://arxiv.org/pdf/2202.01908.pdf
